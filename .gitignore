@@ -1,2 +1,4 @@
 covers/
 banners/
+test.py
+.env
