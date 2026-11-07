@@ -3,35 +3,49 @@
 Kitsu + AniList cover/banner downloader
 =======================================
 
-Reads every anime from anime.db (table `anime`) and looks it up on:
+Reads every anime from anime.db (table `anime`) and looks it up on BOTH:
 
     1. Kitsu    (free API, no key)
-    2. AniList  (free API, no key) - ONLY used for whatever Kitsu is
-                                     missing (cover, banner, or both)
+    2. AniList  (free API, no key)
 
-An anime is saved only when BOTH a cover and a banner were found:
+For every anime it downloads
 
-    covers/<mal_id>.jpg
-    banners/<mal_id>.jpg
+    covers/<mal_id>.jpg     MUST be found (that is the main goal)
+    banners/<mal_id>.jpg    nice to have - fine when no API has one
 
-If, after Kitsu AND AniList, one (or both) is still missing, NOTHING is
-downloaded for that anime.
+If BOTH APIs have an image for the same slot, the bigger file (more bytes =
+higher resolution / quality) wins. Sizes are compared with a cheap HEAD
+request first; if a server does not report a size, both files are
+downloaded and the larger one is kept.
 
 Result databases
-    bover.db     table `bover`     fully OK anime (cover + banner saved)
-    no_bover.db  table `no_bover`  partial / not found (nothing saved)
+    bover.db     table `bover`     cover saved (banner_file is NULL when no
+                                   banner exists anywhere)
+    no_bover.db  table `no_bover`  NO cover could be saved
+                                   (status: no_cover | no_match | partial)
+
+Start menu
+    1. Scrape new     anime in anime.db that were never processed
+    2. Find skipped   tallies the file names in covers/ against the ids in
+                      anime.db, then downloads every anime whose cover
+                      file is missing
+
+Every run (and the end of every run) prints how many banners / covers are
+on disk and how many are still left according to anime.db.
 
 Resume
-    progress.jsonl gets one line per finished mal_id. Press Ctrl+C (or
-    lose power) and run again: finished IDs are skipped. Images are
-    written to temp files and renamed only when the whole pair is ready.
+    progress.jsonl gets one line per finished mal_id. Ctrl+C (or a power
+    cut) is safe: images are written to .part files and renamed only when
+    complete.
 
 Usage
-    python kitsu_images.py
-    python kitsu_images.py --db anime.db
-    python kitsu_images.py --retry-incomplete   # retry partial/no_match
-    python kitsu_images.py --names-only         # skip exact MAL ID lookups
-    python kitsu_images.py --scroll             # one line per anime
+    python kitsu_part.py                      # shows the menu
+    python kitsu_part.py --mode scrape        # option 1, no menu
+    python kitsu_part.py --mode skipped       # option 2, no menu
+    python kitsu_part.py --db anime.db
+    python kitsu_part.py --retry-incomplete   # (1) retry no_cover/no_match
+    python kitsu_part.py --names-only         # skip MAL ID lookups
+    python kitsu_part.py --scroll             # one line per anime
 """
 
 import argparse
@@ -86,13 +100,13 @@ SOURCE_COLORS = {"kitsu": MAGENTA, "anilist": BLUE, "disk": DIM}
 KITSU_API = "https://kitsu.io/api/edge"
 KITSU_HEADERS = {
     "Accept": "application/vnd.api+json",
-    "User-Agent": "AnimeImageDownloader/2.0",
+    "User-Agent": "AnimeImageDownloader/3.0",
 }
 ANILIST_API = "https://graphql.anilist.co"
 ANILIST_HEADERS = {
     "Content-Type": "application/json",
     "Accept": "application/json",
-    "User-Agent": "AnimeImageDownloader/2.0",
+    "User-Agent": "AnimeImageDownloader/3.0",
 }
 
 DEFAULT_DB = "anime.db"
@@ -107,10 +121,21 @@ ANILIST_MIN_DELAY = 0.7  # AniList allows ~90 requests / minute
 MAX_RETRIES = 5  # per API request
 MAX_CONSECUTIVE_ERRORS = 5  # stop if the network seems to be down
 MATCH_THRESHOLD = 0.85  # minimum title similarity (0-1) for name matches
+MIN_IMAGE_BYTES = 1024  # anything smaller is treated as a broken download
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp", ".gif")
 
-PROGRESS_VERSION = 2
-FINAL_STATUSES = {"ok", "partial", "no_match"}
+PROGRESS_VERSION = 2  # unchanged: old progress lines stay valid
+# Statuses that mean "this anime was handled, do not look it up again"
+FINAL_STATUSES = {
+    "ok",  # cover + banner saved
+    "cover_only",  # cover saved, no banner exists on either API
+    "no_cover",  # no cover found (a banner may have been saved)
+    "no_match",  # nothing found
+    "partial",  # old versions
+    "partial_saved",  # old versions
+}
+# Statuses that live in bover.db (cover saved)
+SAVED_STATUSES = {"ok", "cover_only", "partial_saved"}
 
 ANILIST_BY_MAL_ID = """
 query ($idMal: Int) {
@@ -189,6 +214,16 @@ def format_eta(seconds):
     return f"{secs}s"
 
 
+def format_size(num_bytes):
+    if not num_bytes:
+        return "?"
+
+    if num_bytes >= 1024 * 1024:
+        return f"{num_bytes / 1024 / 1024:.1f}MB"
+
+    return f"{num_bytes / 1024:.0f}KB"
+
+
 class UI:
     """
     live=True  -> ONE line that is rewritten in place for every step.
@@ -201,8 +236,15 @@ class UI:
         self.index = 0
         self.mal_id = 0
         self.name = ""
-        self.counts = {"ok": 0, "partial": 0, "no_match": 0, "error": 0}
-        self.overall = {"ok": 0, "partial": 0, "no_match": 0}
+        self.counts = {
+            "ok": 0,
+            "cover_only": 0,
+            "no_cover": 0,
+            "no_match": 0,
+            "error": 0,
+        }
+        # all-time numbers straight from the DBs: both / cover only / miss
+        self.overall = {"both": 0, "cover": 0, "miss": 0}
         self.started = time.time()
         self.on_screen = False
 
@@ -219,6 +261,13 @@ class UI:
 
         segments = [
             (f"[{self.index}/{self.total}] ", CYAN, False),
+            ("(", DIM, False),
+            (f"C+B:{o['both']}", GREEN, False),
+            ("  ", DIM, False),
+            (f"C:{o['cover']}", YELLOW, False),
+            ("  ", DIM, False),
+            (f"none:{o['miss']}", RED, False),
+            (") ", DIM, False),
         ]
 
         if eta:
@@ -231,15 +280,6 @@ class UI:
             (" | ", DIM, False),
         ]
         segments += [(text, color, False) for text, color in parts]
-        segments += [
-            (" (", DIM, False),
-            (f"A:{o['ok']}", GREEN, False),
-            ("  ", DIM, False),
-            (f"P:{o['partial']}", YELLOW, False),
-            ("  ", DIM, False),
-            (f"N:{o['no_match']}", RED, False),
-            (")", DIM, False),
-        ]
         return segments
 
     @staticmethod
@@ -295,39 +335,48 @@ class UI:
         self.on_screen = False
 
 
-def source_parts(label, source):
+def source_parts(label, source, size):
+    text = source or "-"
+
+    if source and source != "disk" and size:
+        text += f" {format_size(size)}"
+
     return [
         (f"{label}=", DIM),
-        (source or "-", SOURCE_COLORS.get(source, RED)),
+        (text, SOURCE_COLORS.get(source, RED)),
     ]
 
 
 def result_parts(record):
     status = record["status"]
-    cover, banner = record["has_cover"], record["has_banner"]
+    cover = source_parts(
+        "cover", record["cover_source"], record.get("cover_size")
+    )
+    banner = source_parts(
+        "banner", record["banner_source"], record.get("banner_size")
+    )
 
     if status == "ok":
+        return [("OK ", GREEN + BOLD)] + cover + [("  ", DIM)] + banner
+
+    if status == "cover_only":
         return (
-            [("OK ", GREEN + BOLD)]
-            + source_parts("cover", record["cover_source"])
-            + [("  ", DIM)]
-            + source_parts("banner", record["banner_source"])
-            + [("  saved", DIM)]
+            [("COVER ", YELLOW + BOLD)]
+            + cover
+            + [("  no banner anywhere", DIM)]
         )
 
-    if status == "partial":
-        found = "cover" if cover else "banner"
-        lacking = "banner" if cover else "cover"
+    if status == "no_cover":
         return [
-            ("PARTIAL ", YELLOW + BOLD),
-            (f"{found} only, no {lacking}", WHITE),
-            (" - skipped", DIM),
+            ("NO COVER ", RED + BOLD),
+            ("not on Kitsu or AniList", WHITE),
+            (f" - kept in {NO_BOVER_DB}", DIM),
         ]
 
     return [
         ("NO MATCH ", RED + BOLD),
         ("nothing found", WHITE),
-        (" - skipped", DIM),
+        (f" - kept in {NO_BOVER_DB}", DIM),
     ]
 
 
@@ -351,12 +400,15 @@ def extension_from_url(url):
 
 
 def existing_image(folder, mal_id):
-    """Path of an already-saved image for this ID, or None."""
+    """Path of an already-saved (non-empty) image for this ID, or None."""
     for ext in IMAGE_EXTENSIONS:
         path = os.path.join(folder, f"{mal_id}{ext}")
 
-        if os.path.exists(path):
-            return path
+        try:
+            if os.path.getsize(path) > 0:
+                return path
+        except OSError:
+            continue
 
     return None
 
@@ -375,6 +427,73 @@ def clean_leftover_temp_files():
             for name in os.listdir(folder):
                 if name.endswith(".part"):
                     remove_file(os.path.join(folder, name))
+
+
+# ============================================================
+# FILE <-> DATABASE TALLY
+# ============================================================
+
+
+def scan_ids(folder):
+    """mal_ids of all non-empty image files named <mal_id>.<ext>."""
+    ids = set()
+
+    if not os.path.isdir(folder):
+        return ids
+
+    for name in os.listdir(folder):
+        stem, ext = os.path.splitext(name)
+
+        if ext.lower() not in IMAGE_EXTENSIONS or not stem.isdigit():
+            continue
+
+        try:
+            if os.path.getsize(os.path.join(folder, name)) > 0:
+                ids.add(int(stem))
+        except OSError:
+            continue
+
+    return ids
+
+
+def library_stats(anime_list):
+    """Compares covers/ and banners/ with the ids in anime.db."""
+    db_ids = {a.mal_id for a in anime_list}
+    covers = scan_ids(COVERS_DIR)
+    banners = scan_ids(BANNERS_DIR)
+
+    return {
+        "total": len(db_ids),
+        "covers": len(covers & db_ids),
+        "banners": len(banners & db_ids),
+        "covers_left": len(db_ids - covers),
+        "banners_left": len(db_ids - banners),
+        "orphan_covers": len(covers - db_ids),
+        "orphan_banners": len(banners - db_ids),
+        "missing_covers": sorted(db_ids - covers),
+    }
+
+
+def print_library(stats, title):
+    print(f"{CYAN}{BOLD}{title}{RESET}  {DIM}(anime in db: {stats['total']}){RESET}")
+    print(
+        f"  {GREEN}covers  downloaded {stats['covers']:<7}{RESET}"
+        f"{YELLOW}left {stats['covers_left']}{RESET}"
+    )
+    print(
+        f"  {GREEN}banners downloaded {stats['banners']:<7}{RESET}"
+        f"{YELLOW}left {stats['banners_left']}{RESET}"
+        f"  {DIM}(some anime have no banner at all){RESET}"
+    )
+
+    if stats["orphan_covers"] or stats["orphan_banners"]:
+        print(
+            f"  {DIM}files not in anime.db: "
+            f"{stats['orphan_covers']} covers, "
+            f"{stats['orphan_banners']} banners{RESET}"
+        )
+
+    print(f"{CYAN}{'=' * 60}{RESET}")
 
 
 # ============================================================
@@ -410,8 +529,6 @@ def load_progress(path, retry_incomplete):
             try:
                 entry = json.loads(line)
 
-                # Lines from the old single-source version are ignored,
-                # so those anime get the AniList second chance too.
                 if entry.get("v") == PROGRESS_VERSION:
                     last[int(entry["mal_id"])] = entry["status"]
             except (ValueError, KeyError, TypeError):
@@ -420,7 +537,7 @@ def load_progress(path, retry_incomplete):
     done = set()
 
     for mal_id, status in last.items():
-        if status == "ok" or (
+        if status in SAVED_STATUSES or (
             status in FINAL_STATUSES and not retry_incomplete
         ):
             done.add(mal_id)
@@ -514,7 +631,7 @@ def open_result_dbs():
         CREATE TABLE IF NOT EXISTS no_bover (
             mal_id        INTEGER PRIMARY KEY,
             name          TEXT NOT NULL,
-            status        TEXT NOT NULL,   -- partial | no_match
+            status        TEXT NOT NULL,   -- no_cover | no_match | partial
             has_cover     INTEGER NOT NULL,
             has_banner    INTEGER NOT NULL,
             cover_source  TEXT,
@@ -529,15 +646,19 @@ def open_result_dbs():
 
 
 def count_totals(bover, no_bover):
-    """All-time A / P / N numbers straight from the two databases."""
+    """All-time numbers straight from the two databases."""
     return {
-        "ok": bover.execute("SELECT COUNT(*) FROM bover").fetchone()[0],
-        "partial": no_bover.execute(
-            "SELECT COUNT(*) FROM no_bover WHERE status = 'partial'"
+        "both": bover.execute(
+            "SELECT COUNT(*) FROM bover "
+            "WHERE cover_file IS NOT NULL AND banner_file IS NOT NULL"
         ).fetchone()[0],
-        "no_match": no_bover.execute(
-            "SELECT COUNT(*) FROM no_bover WHERE status = 'no_match'"
+        "cover": bover.execute(
+            "SELECT COUNT(*) FROM bover "
+            "WHERE cover_file IS NOT NULL AND banner_file IS NULL"
         ).fetchone()[0],
+        "miss": no_bover.execute("SELECT COUNT(*) FROM no_bover").fetchone()[
+            0
+        ],
     }
 
 
@@ -545,7 +666,7 @@ def save_result(bover, no_bover, record):
     """Writes the record to the right DB and removes it from the other."""
     mal_id = record["mal_id"]
 
-    if record["status"] == "ok":
+    if record["status"] in SAVED_STATUSES:
         bover.execute(
             "INSERT OR REPLACE INTO bover VALUES (?,?,?,?,?,?,?,?,?)",
             (
@@ -825,7 +946,7 @@ class AniList(Api):
 
 
 # ============================================================
-# IMAGE DOWNLOAD (all-or-nothing)
+# IMAGE DOWNLOAD (biggest file wins)
 # ============================================================
 
 
@@ -859,38 +980,111 @@ def fetch_to(session, url, temp_path):
     raise RuntimeError(f"Image download failed: {str(last_error)[:60]}")
 
 
-def download_images(session, jobs, mal_id, ui):
-    """
-    jobs: [(kind, url, folder)]. Every file goes to a temp name first and
-    is renamed only when ALL of them arrived. Returns failed kinds.
-    """
-    staged = []
-    failed = []
-
+def head_size(session, url):
+    """File size in bytes from a HEAD request, None if not reported."""
     try:
-        for kind, url, folder in jobs:
-            ui.step([("downloading ", DIM), (kind, CYAN)])
-            os.makedirs(folder, exist_ok=True)
-            final = os.path.join(folder, f"{mal_id}{extension_from_url(url)}")
+        response = session.head(url, allow_redirects=True, timeout=15)
+
+        if response.status_code == 200:
+            length = response.headers.get("Content-Length", "")
+            return int(length) if length.isdigit() else None
+    except requests.RequestException:
+        pass
+
+    return None
+
+
+def acquire(session, kind, mal_id, folder, candidates, ui):
+    """
+    candidates: [(source, url), ...] for ONE slot (cover or banner).
+    Saves the largest working image to folder/<mal_id>.<ext>.
+    Returns (source, size_in_bytes), or (None, 0) when nothing worked.
+    Raises RuntimeError only if nothing worked AND a network error hit.
+    """
+    if not candidates:
+        return None, 0
+
+    os.makedirs(folder, exist_ok=True)
+    last_error = None
+
+    def final_path(url):
+        return os.path.join(folder, f"{mal_id}{extension_from_url(url)}")
+
+    sizes = [None] * len(candidates)
+
+    if len(candidates) > 1:
+        ui.step([("comparing ", DIM), (kind, CYAN), (" sizes", DIM)])
+        sizes = [head_size(session, url) for _, url in candidates]
+
+    if len(candidates) == 1 or all(s is not None for s in sizes):
+        # Sizes known: try the biggest first, fall back to the next.
+        ranked = sorted(
+            zip(candidates, sizes), key=lambda pair: -(pair[1] or 0)
+        )
+
+        for (source, url), _ in ranked:
+            ui.step(
+                [
+                    ("downloading ", DIM),
+                    (kind, CYAN),
+                    (f" from {source}", DIM),
+                ]
+            )
+            final = final_path(url)
             temp = final + ".part"
 
-            if fetch_to(session, url, temp):
-                staged.append((temp, final))
-            else:
-                failed.append(kind)
+            try:
+                ok = fetch_to(session, url, temp)
+            except RuntimeError as error:
+                last_error = error
+                continue
 
-        if failed:
-            return failed
+            if ok and os.path.getsize(temp) >= MIN_IMAGE_BYTES:
+                size = os.path.getsize(temp)
+                os.replace(temp, final)
+                return source, size
 
-        for temp, final in staged:
-            os.replace(temp, final)
-
-        staged = []
-        return []
-
-    finally:
-        for temp, _ in staged:
             remove_file(temp)
+
+    else:
+        # A server did not report its size: download all, keep the biggest.
+        staged = []
+
+        for source, url in candidates:
+            ui.step(
+                [
+                    ("downloading ", DIM),
+                    (kind, CYAN),
+                    (f" from {source} (to compare)", DIM),
+                ]
+            )
+            temp = final_path(url) + f".{source}.part"
+
+            try:
+                ok = fetch_to(session, url, temp)
+            except RuntimeError as error:
+                last_error = error
+                continue
+
+            if ok and os.path.getsize(temp) >= MIN_IMAGE_BYTES:
+                staged.append((os.path.getsize(temp), source, url, temp))
+            else:
+                remove_file(temp)
+
+        if staged:
+            staged.sort(key=lambda s: -s[0])
+            size, source, url, temp = staged[0]
+            os.replace(temp, final_path(url))
+
+            for _, _, _, other in staged[1:]:
+                remove_file(other)
+
+            return source, size
+
+    if last_error:
+        raise last_error
+
+    return None, 0
 
 
 # ============================================================
@@ -903,13 +1097,16 @@ def new_record(anime):
         "v": PROGRESS_VERSION,
         "mal_id": anime.mal_id,
         "name": anime.title,
-        "status": "no_match",  # ok | partial | no_match
-        "has_cover": False,  # found (and saved only when status == ok)
+        # ok | cover_only | no_cover | no_match
+        "status": "no_match",
+        "has_cover": False,
         "has_banner": False,
         "cover_source": None,  # kitsu | anilist | disk
         "banner_source": None,
         "cover_file": None,
         "banner_file": None,
+        "cover_size": 0,
+        "banner_size": 0,
         "kitsu_id": None,
         "kitsu_match": None,
         "anilist_id": None,
@@ -919,192 +1116,160 @@ def new_record(anime):
 
 
 def process_one(anime, kitsu, anilist, img_session, names_only, ui):
+    """
+    Looks the anime up on Kitsu AND AniList, collects every cover / banner
+    URL, and downloads the biggest file for each slot.
+    """
     mal_id = anime.mal_id
     record = new_record(anime)
     folders = {"cover": COVERS_DIR, "banner": BANNERS_DIR}
 
-    urls = {"cover": None, "banner": None}
     source = {
         kind: "disk" if existing_image(folder, mal_id) else None
         for kind, folder in folders.items()
     }
+    need = [kind for kind in folders if not source[kind]]
+    candidates = {"cover": [], "banner": []}
+    api_errors = []
 
-    def missing():
-        return [kind for kind in folders if not source[kind]]
+    if need:
+        # ---- Kitsu ---------------------------------------------
+        try:
+            item, method, _ = kitsu.find(anime, names_only)
 
-    # ---- 1. Kitsu ---------------------------------------------
-    if missing():
-        item, method, _ = kitsu.find(anime, names_only)
+            if item:
+                record["kitsu_id"] = item.get("id")
+                record["kitsu_match"] = method
+                attrs = item.get("attributes", {})
+                found = {
+                    "cover": pick_url(attrs.get("posterImage")),
+                    "banner": pick_url(attrs.get("coverImage")),
+                }
 
-        if item:
-            record["kitsu_id"] = item.get("id")
-            record["kitsu_match"] = method
-            attrs = item.get("attributes", {})
-            found = {
-                "cover": pick_url(attrs.get("posterImage")),
-                "banner": pick_url(attrs.get("coverImage")),
-            }
+                for kind in need:
+                    if found[kind]:
+                        candidates[kind].append(("kitsu", found[kind]))
+        except RuntimeError as error:
+            api_errors.append(error)
 
-            for kind in missing():
-                if found[kind]:
-                    urls[kind], source[kind] = found[kind], "kitsu"
+        # ---- AniList (always, so the two can be compared) -------
+        try:
+            media, method, _ = anilist.find(anime, names_only)
 
-    # ---- 2. AniList, only for what Kitsu did not give ---------
-    if missing():
-        ui.step(
-            [
-                ("AniList", BLUE),
-                (": filling missing ", WHITE),
-                ("+".join(missing()), YELLOW),
-            ]
-        )
-        media, method, _ = anilist.find(anime, names_only)
+            if media:
+                record["anilist_id"] = media.get("id")
+                record["anilist_match"] = method
+                cover = media.get("coverImage") or {}
+                found = {
+                    "cover": cover.get("extraLarge") or cover.get("large"),
+                    "banner": media.get("bannerImage"),
+                }
 
-        if media:
-            record["anilist_id"] = media.get("id")
-            record["anilist_match"] = method
-            cover = media.get("coverImage") or {}
-            found = {
-                "cover": cover.get("extraLarge") or cover.get("large"),
-                "banner": media.get("bannerImage"),
-            }
+                for kind in need:
+                    if found[kind]:
+                        candidates[kind].append(("anilist", found[kind]))
+        except RuntimeError as error:
+            api_errors.append(error)
 
-            for kind in missing():
-                if found[kind]:
-                    urls[kind], source[kind] = found[kind], "anilist"
+        # ---- Download the biggest of each slot -------------------
+        for kind in need:
+            src, size = acquire(
+                img_session,
+                kind,
+                mal_id,
+                folders[kind],
+                candidates[kind],
+                ui,
+            )
 
-    # ---- 3. Download only when the pair is complete -----------
-    if not missing():
-        jobs = [
-            (kind, urls[kind], folders[kind])
-            for kind in folders
-            if urls[kind]  # anything already on disk needs no download
-        ]
-        failed = download_images(img_session, jobs, mal_id, ui) if jobs else []
+            if src:
+                source[kind] = src
+                record[f"{kind}_size"] = size
 
-        for kind in failed:  # image URL turned out to be dead
-            source[kind] = None
+    # An API was down and the cover is still missing: do not store a
+    # final "not found" - raise so it is retried on the next run.
+    if not source["cover"] and api_errors:
+        raise api_errors[0]
 
     record["has_cover"] = bool(source["cover"])
     record["has_banner"] = bool(source["banner"])
     record["cover_source"] = source["cover"]
     record["banner_source"] = source["banner"]
 
+    for kind, folder in folders.items():
+        path = existing_image(folder, mal_id) if source[kind] else None
+        record[f"{kind}_file"] = os.path.basename(path) if path else None
+
     if record["has_cover"] and record["has_banner"]:
         record["status"] = "ok"
-        record["cover_file"] = os.path.basename(
-            existing_image(COVERS_DIR, mal_id)
-        )
-        record["banner_file"] = os.path.basename(
-            existing_image(BANNERS_DIR, mal_id)
-        )
-    elif record["has_cover"] or record["has_banner"]:
-        record["status"] = "partial"
+    elif record["has_cover"]:
+        record["status"] = "cover_only"
+    elif record["has_banner"]:
+        record["status"] = "no_cover"
+    elif record["kitsu_id"] or record["anilist_id"]:
+        record["status"] = "no_cover"  # matched, but no image on either
+    else:
+        record["status"] = "no_match"
 
     return record
 
 
-def print_summary(ui):
+# ============================================================
+# RUNNING
+# ============================================================
+
+
+def print_summary(ui, anime_list):
     try:
         bover = sqlite3.connect(BOVER_DB)
         no_bover = sqlite3.connect(NO_BOVER_DB)
-        ok = bover.execute("SELECT COUNT(*) FROM bover").fetchone()[0]
-        partial = no_bover.execute(
-            "SELECT COUNT(*) FROM no_bover WHERE status = 'partial'"
-        ).fetchone()[0]
-        none = no_bover.execute(
-            "SELECT COUNT(*) FROM no_bover WHERE status = 'no_match'"
-        ).fetchone()[0]
+        totals = count_totals(bover, no_bover)
         bover.close()
         no_bover.close()
     except sqlite3.Error:
-        return
+        totals = None
 
     c = ui.counts
     print(f"{DIM}{'-' * 60}{RESET}")
     print(f"{CYAN}{BOLD}This run{RESET}")
-    print(f"  {GREEN}ok       {c['ok']}{RESET}")
-    print(f"  {YELLOW}partial  {c['partial']}{RESET}")
-    print(f"  {RED}no match {c['no_match']}{RESET}")
+    print(f"  {GREEN}cover + banner  {c['ok']}{RESET}")
+    print(f"  {YELLOW}cover only      {c['cover_only']}{RESET}")
+    print(f"  {RED}no cover        {c['no_cover']}{RESET}")
+    print(f"  {RED}no match        {c['no_match']}{RESET}")
     print(
-        f"  {MAGENTA}errors   {c['error']}{RESET} "
+        f"  {MAGENTA}errors          {c['error']}{RESET} "
         f"{DIM}(retried next run){RESET}"
     )
-    print(f"{CYAN}{BOLD}All time{RESET}")
-    print(f"  {GREEN}{BOVER_DB:<12}{ok}  (cover + banner saved){RESET}")
-    print(
-        f"  {YELLOW}{NO_BOVER_DB:<12}{partial} partial{RESET}, "
-        f"{RED}{none} not found{RESET}"
-    )
+
+    if totals:
+        print(f"{CYAN}{BOLD}All time{RESET}")
+        print(
+            f"  {GREEN}{BOVER_DB:<12}{totals['both'] + totals['cover']}  "
+            f"({totals['both']} cover + banner, "
+            f"{totals['cover']} cover only){RESET}"
+        )
+        print(
+            f"  {RED}{NO_BOVER_DB:<12}{totals['miss']} "
+            f"without a cover{RESET}"
+        )
+
     print(f"{DIM}{'-' * 60}{RESET}")
+    print_library(library_stats(anime_list), "After this run")
 
 
-def main():
-    parser = argparse.ArgumentParser(
-        description="Download Kitsu/AniList covers + banners for anime.db"
-    )
-    parser.add_argument("--db", default=DEFAULT_DB, help="SQLite database")
-    parser.add_argument(
-        "--progress", default=DEFAULT_PROGRESS, help="JSONL progress file"
-    )
-    parser.add_argument(
-        "--delay",
-        type=float,
-        default=DEFAULT_DELAY,
-        help="seconds between API calls (default: %(default)s)",
-    )
-    parser.add_argument(
-        "--retry-incomplete",
-        action="store_true",
-        help="try the partial / no_match IDs again",
-    )
-    parser.add_argument(
-        "--names-only",
-        action="store_true",
-        help="match by name only (skip exact MAL ID lookups)",
-    )
-    parser.add_argument(
-        "--scroll",
-        action="store_true",
-        help="print one line per anime instead of one refreshing line",
-    )
-    args = parser.parse_args()
-
-    clean_leftover_temp_files()
-
-    anime_list = load_anime(args.db)
-    done = load_progress(args.progress, args.retry_incomplete)
-    todo = [a for a in anime_list if a.mal_id not in done]
-
-    print(f"{CYAN}{'=' * 60}{RESET}")
-    print(f"{CYAN}{BOLD}KITSU + ANILIST COVER / BANNER DOWNLOADER{RESET}")
-    print(f"{CYAN}{'=' * 60}{RESET}")
-    print(f"  Anime in {args.db}: {WHITE}{len(anime_list)}{RESET}")
-    print(f"  Already finished:  {GREEN}{len(done)}{RESET}")
-    print(f"  To do now:         {YELLOW}{len(todo)}{RESET}")
-    print(f"{CYAN}{'=' * 60}{RESET}")
-
-    if not todo:
-        print(f"{GREEN}Nothing to do. Everything is up to date.{RESET}")
-        return
-
-    ui = UI(live=IS_TTY and not args.scroll, total=len(todo))
-    kitsu = Kitsu(args.delay, ui)
-    anilist = AniList(args.delay, ui)
-    img_session = requests.Session()
-    img_session.headers["User-Agent"] = KITSU_HEADERS["User-Agent"]
-    bover, no_bover = open_result_dbs()
-    ui.overall = count_totals(bover, no_bover)
+def execute(items, ui, work, persist, bover, no_bover):
+    """
+    Shared loop for both modes. work(item) -> record, persist(record)
+    stores it. Ctrl+C and network trouble stop cleanly; progress is kept.
+    """
     consecutive_errors = 0
 
     try:
-        for index, anime in enumerate(todo, 1):
-            ui.begin(index, anime.mal_id, anime.title)
+        for index, item in enumerate(items, 1):
+            ui.begin(index, item.mal_id, item.title)
 
             try:
-                record = process_one(
-                    anime, kitsu, anilist, img_session, args.names_only, ui
-                )
+                record = work(item)
                 consecutive_errors = 0
             except (RuntimeError, requests.RequestException) as error:
                 consecutive_errors += 1
@@ -1127,11 +1292,7 @@ def main():
 
                 continue
 
-            # DBs first, progress line last: a crash in between only
-            # means this ID is processed once more (the writes repeat).
-            save_result(bover, no_bover, record)
-            append_progress(args.progress, record)
-            ui.overall = count_totals(bover, no_bover)
+            persist(record)
             ui.finish(record["status"], result_parts(record))
 
     except KeyboardInterrupt:
@@ -1145,7 +1306,197 @@ def main():
         bover.close()
         no_bover.close()
 
-    print_summary(ui)
+
+def make_image_session():
+    session = requests.Session()
+    session.headers["User-Agent"] = KITSU_HEADERS["User-Agent"]
+    return session
+
+
+def run_batch(args, anime_list, todo):
+    ui = UI(live=IS_TTY and not args.scroll, total=len(todo))
+    kitsu = Kitsu(args.delay, ui)
+    anilist = AniList(args.delay, ui)
+    img_session = make_image_session()
+    bover, no_bover = open_result_dbs()
+    ui.overall = count_totals(bover, no_bover)
+
+    def work(anime):
+        return process_one(
+            anime, kitsu, anilist, img_session, args.names_only, ui
+        )
+
+    def persist(record):
+        # DBs first, progress line last: a crash in between only
+        # means this ID is processed once more (the writes repeat).
+        save_result(bover, no_bover, record)
+        append_progress(args.progress, record)
+        ui.overall = count_totals(bover, no_bover)
+
+    execute(todo, ui, work, persist, bover, no_bover)
+    print_summary(ui, anime_list)
+
+
+def run_scrape(args, anime_list):
+    """Menu option 1: scrape anime that were never processed."""
+    done = load_progress(args.progress, args.retry_incomplete)
+    todo = [a for a in anime_list if a.mal_id not in done]
+
+    print(f"  Anime in {args.db}: {WHITE}{len(anime_list)}{RESET}")
+    print(f"  Already processed: {GREEN}{len(done)}{RESET}")
+    print(f"  New to scrape:     {YELLOW}{len(todo)}{RESET}")
+    print(f"{CYAN}{'=' * 60}{RESET}")
+
+    if not todo:
+        print(f"{GREEN}Nothing new. Try option 2 to find skipped.{RESET}")
+        return
+
+    run_batch(args, anime_list, todo)
+
+
+def run_skipped(args, anime_list):
+    """Menu option 2: tally covers/ against anime.db, fetch what is missing."""
+    stats = library_stats(anime_list)
+    missing = set(stats["missing_covers"])
+    todo = [a for a in anime_list if a.mal_id in missing]
+
+    print(f"  Ids in {args.db}:           {WHITE}{stats['total']}{RESET}")
+    print(
+        f"  Cover files matching db:  "
+        f"{GREEN}{stats['covers']}{RESET}"
+    )
+    print(f"  Skipped (no cover file):  {YELLOW}{len(todo)}{RESET}")
+
+    if todo:
+        preview = ", ".join(str(a.mal_id) for a in todo[:10])
+        more = " ..." if len(todo) > 10 else ""
+        print(f"  {DIM}first ids: {preview}{more}{RESET}")
+
+    print(f"{CYAN}{'=' * 60}{RESET}")
+
+    if not todo:
+        print(f"{GREEN}No skipped anime. Every id has a cover.{RESET}")
+        return
+
+    run_batch(args, anime_list, todo)
+
+
+# ============================================================
+# START MENU
+# ============================================================
+
+
+def print_header():
+    print(f"{CYAN}{'=' * 60}{RESET}")
+    print(f"{CYAN}{BOLD}KITSU + ANILIST COVER / BANNER DOWNLOADER{RESET}")
+    print(f"{CYAN}{'=' * 60}{RESET}")
+
+
+def choose_mode(new_count, skipped_count):
+    """Shows the start menu. Returns 'scrape', 'skipped' or None (quit)."""
+    print(
+        f"  {WHITE}{BOLD}1.{RESET} Scrape new "
+        f"{YELLOW}({new_count} not processed yet){RESET}"
+    )
+    print(
+        f"     {DIM}look up new anime in anime.db on Kitsu + AniList "
+        f"and download cover + banner{RESET}"
+    )
+    print(
+        f"  {WHITE}{BOLD}2.{RESET} Find skipped "
+        f"{YELLOW}({skipped_count} without a cover file){RESET}"
+    )
+    print(
+        f"     {DIM}tally covers/ file names with anime.db ids and "
+        f"download the missing ones{RESET}"
+    )
+    print(f"  {WHITE}{BOLD}q.{RESET} Quit")
+    print(f"{CYAN}{'=' * 60}{RESET}")
+
+    while True:
+        try:
+            choice = input("Choose [1/2/q]: ").strip().lower()
+        except (EOFError, KeyboardInterrupt):
+            print()
+            return None
+
+        if choice in ("1", "s", "scrape", "new"):
+            mode = "scrape"
+            break
+
+        if choice in ("2", "f", "skipped", "find"):
+            mode = "skipped"
+            break
+
+        if choice in ("q", "quit", "exit"):
+            return None
+
+        print(f"{RED}Please type 1, 2 or q.{RESET}")
+
+    print(f"{CYAN}{'=' * 60}{RESET}")
+    return mode
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Download Kitsu/AniList covers + banners for anime.db"
+    )
+    parser.add_argument(
+        "--mode",
+        choices=("scrape", "skipped"),
+        help="skip the start menu (scrape = option 1, skipped = option 2)",
+    )
+    parser.add_argument("--db", default=DEFAULT_DB, help="SQLite database")
+    parser.add_argument(
+        "--progress", default=DEFAULT_PROGRESS, help="JSONL progress file"
+    )
+    parser.add_argument(
+        "--delay",
+        type=float,
+        default=DEFAULT_DELAY,
+        help="seconds between API calls (default: %(default)s)",
+    )
+    parser.add_argument(
+        "--retry-incomplete",
+        action="store_true",
+        help="(option 1) try the no_cover / no_match IDs again",
+    )
+    parser.add_argument(
+        "--names-only",
+        action="store_true",
+        help="match by name only (skip exact MAL ID lookups)",
+    )
+    parser.add_argument(
+        "--scroll",
+        action="store_true",
+        help="print one line per anime instead of one refreshing line",
+    )
+    args = parser.parse_args()
+
+    clean_leftover_temp_files()
+    print_header()
+
+    anime_list = load_anime(args.db)
+    stats = library_stats(anime_list)
+    print_library(stats, "Before this run")
+
+    mode = args.mode
+
+    if mode is None:
+        if sys.stdin.isatty():
+            done = load_progress(args.progress, args.retry_incomplete)
+            new_count = sum(1 for a in anime_list if a.mal_id not in done)
+            mode = choose_mode(new_count, stats["covers_left"])
+        else:
+            mode = "scrape"  # no keyboard (pipe / scheduler)
+
+    if mode is None:
+        return
+
+    if mode == "skipped":
+        run_skipped(args, anime_list)
+    else:
+        run_scrape(args, anime_list)
 
 
 if __name__ == "__main__":

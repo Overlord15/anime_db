@@ -2,3 +2,6 @@ covers/
 banners/
 test.py
 .env
+.vscode
+__pycache__
+.git
