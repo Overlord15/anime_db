@@ -37,7 +37,7 @@ import signal
 import sqlite3
 import logging
 from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import requests
 from bs4 import BeautifulSoup, NavigableString, Comment
@@ -83,6 +83,16 @@ CURL_IMPERSONATE = (
 USER_AGENT = os.environ.get("USER_AGENT", "").strip()
 STAGGER_DELAY = float(os.environ.get("STAGGER_DELAY", "0.4"))
 HTML_DIR = os.environ.get("HTML_DIR", "curl_html")
+
+# Refresh option [4]: rows scraped more recently than this are skipped, so a
+# refresh can be stopped and resumed. Raise these if you do not want rows that
+# never get a "premiered" season (old movies, OVAs...) re-fetched every run.
+REFRESH_NOT_AIRED_MIN_HOURS = float(
+    os.environ.get("REFRESH_NOT_AIRED_MIN_HOURS", "12")
+)
+REFRESH_NO_PREMIERED_MIN_HOURS = float(
+    os.environ.get("REFRESH_NO_PREMIERED_MIN_HOURS", "12")
+)
 
 # Retry & Error Handling
 PAGE_ERROR_MAX_RETRIES = int(os.environ["PAGE_ERROR_MAX_RETRIES"])
@@ -510,6 +520,68 @@ def legacy_row_ids():
         WHERE votes = 'AutoRec' OR mal_id = recommended_id
     """).fetchall()
     return {r[0] for r in rows}
+
+
+def refresh_candidates(not_aired=True, no_premiered=True):
+    """
+    Already-scraped anime that should be fetched again:
+      * status is 'Not yet aired'   (release info changes over time)
+      * premiered season is empty   (filled in once the season is known)
+    A row matching EITHER condition is returned. Rows scraped within the
+    refresh age window are skipped (see REFRESH_* settings).
+    """
+    now = datetime.now(timezone.utc)
+    cut_na = (now - timedelta(hours=REFRESH_NOT_AIRED_MIN_HOURS)).isoformat()
+    cut_pm = (now - timedelta(hours=REFRESH_NO_PREMIERED_MIN_HOURS)).isoformat()
+
+    conditions = []
+    params = []
+
+    if not_aired:
+        conditions.append(
+            "(LOWER(TRIM(status)) = 'not yet aired' AND scraped_at < ?)"
+        )
+        params.append(cut_na)
+
+    if no_premiered:
+        conditions.append(
+            "((premiered IS NULL OR TRIM(premiered) = '') AND scraped_at < ?)"
+        )
+        params.append(cut_pm)
+
+    if not conditions:
+        return []
+
+    rows = db.execute(
+        f"SELECT mal_id FROM anime WHERE {' OR '.join(conditions)} "
+        "ORDER BY mal_id",
+        params,
+    ).fetchall()
+    return [r[0] for r in rows]
+
+
+def diff_anime_row(anime_id, new_row):
+    """
+    Compares the stored anime row with the freshly scraped one (ignoring
+    scraped_at). Returns {column: (old, new)} for every changed column.
+    """
+    old = db.execute(
+        "SELECT * FROM anime WHERE mal_id = ?", (anime_id,)
+    ).fetchone()
+
+    if old is None:
+        return {}
+
+    changes = {}
+
+    for column in new_row.keys():
+        if column == "scraped_at":
+            continue
+
+        if old[column] != new_row[column]:
+            changes[column] = (old[column], new_row[column])
+
+    return changes
 
 
 def save_anime(anime_id, details, cast):
@@ -2091,15 +2163,24 @@ def print_statistics():
 # ============================================================
 
 
-async def run_scrape(highest_id, repair_ids):
+async def run_scrape(highest_id, repair_ids, refresh_ids=None):
+    # refresh_ids (menu option [4]): scrape exactly these already-stored IDs
+    # again and overwrite their rows. Otherwise normal Scrape / Resume.
+    refresh_mode = refresh_ids is not None
+
     # Resume: everything registered in done.jsonl is skipped.
     # Old-format rows are re-scraped only when the user chose to repair.
     registered = load_done_ids()
     skip = (registered - repair_ids) if repair_ids else registered
 
-    todo = [i for i in range(START_ID, highest_id + 1) if i not in skip]
+    if refresh_mode:
+        todo = sorted(refresh_ids)
+    else:
+        todo = [i for i in range(START_ID, highest_id + 1) if i not in skip]
 
     print("=" * 62)
+    if refresh_mode:
+        print(f"{CYAN}REFRESH MODE: re-scraping stored anime{RESET}")
     print(f"Highest ID:        {highest_id}")
     print(f"In {DONE_FILE}:".ljust(19) + f"{len(registered)}")
     print(f"Missing pages:     {len(missing_ids())}")
@@ -2119,6 +2200,12 @@ async def run_scrape(highest_id, repair_ids):
 
     stop_error = None
     tally = {"ok": 0, "missing": 0, "denied": 0, "error": 0}
+    refresh_stats = {
+        "updated": 0,
+        "unchanged": 0,
+        "status_changed": 0,
+        "premiered_filled": 0,
+    }
     started = time.monotonic()
 
     async with new_session() as session:
@@ -2156,7 +2243,63 @@ async def run_scrape(highest_id, repair_ids):
                     tally[result.status] = tally.get(result.status, 0) + 1
 
                     if result.status == "ok":
+                        changes = (
+                            diff_anime_row(anime_id, result.details["anime"])
+                            if refresh_mode
+                            else {}
+                        )
                         save_anime(anime_id, result.details, result.cast)
+
+                        if refresh_mode:
+                            if changes:
+                                refresh_stats["updated"] += 1
+                                parts = []
+
+                                for column in ("status", "premiered"):
+                                    if column in changes:
+                                        old_v, new_v = changes[column]
+                                        parts.append(
+                                            f"{column}: {old_v} -> {new_v}"
+                                        )
+
+                                if "status" in changes:
+                                    refresh_stats["status_changed"] += 1
+
+                                if "premiered" in changes and not changes[
+                                    "premiered"
+                                ][0]:
+                                    refresh_stats["premiered_filled"] += 1
+
+                                other = [
+                                    c
+                                    for c in changes
+                                    if c not in ("status", "premiered")
+                                ]
+
+                                if other:
+                                    parts.append(
+                                        f"{len(other)} other field(s)"
+                                    )
+
+                                print(
+                                    f"{GREEN}[UPDATED] {anime_id} - "
+                                    f"{', '.join(parts)}{RESET}"
+                                )
+                            else:
+                                refresh_stats["unchanged"] += 1
+                                print(
+                                    f"{CYAN}[UNCHANGED] {anime_id} - "
+                                    f"{result.details['anime']['title']}"
+                                    f"{RESET}"
+                                )
+
+                            register_done(
+                                anime_id,
+                                "ok",
+                                result.details["anime"]["title"],
+                            )
+                            continue
+
                         register_done(
                             anime_id,
                             "ok",
@@ -2170,6 +2313,13 @@ async def run_scrape(highest_id, repair_ids):
                             f"{len(result.details['songs'])} songs){RESET}"
                         )
                         logging.info("Scraped ID %s", anime_id)
+
+                    elif result.status == "missing" and refresh_mode:
+                        # Keep the stored row; do not mark it as missing.
+                        print(
+                            f"{YELLOW}[NO PAGE] ID {anime_id} no longer "
+                            f"loads. Stored row left unchanged.{RESET}"
+                        )
 
                     elif result.status == "missing":
                         save_missing_id(anime_id)
@@ -2219,6 +2369,21 @@ async def run_scrape(highest_id, repair_ids):
                 f"{tally['error'] + tally['denied']} failed "
                 f"in {elapsed:.0f}s ({done_now / elapsed:.2f} IDs/s){RESET}"
             )
+
+            if refresh_mode:
+                print(
+                    f"{GREEN}Refresh result: {refresh_stats['updated']} "
+                    f"updated, {refresh_stats['unchanged']} unchanged "
+                    f"(of {tally['ok']} re-scraped){RESET}"
+                )
+                print(
+                    f"{GREEN}  status changed:   "
+                    f"{refresh_stats['status_changed']}{RESET}"
+                )
+                print(
+                    f"{GREEN}  premiered filled: "
+                    f"{refresh_stats['premiered_filled']}{RESET}"
+                )
 
 
 def scrape_menu_action():
@@ -2275,6 +2440,81 @@ def scrape_menu_action():
             print(f"{RED}Export error: {error}{RESET}")
 
 
+def refresh_menu_action():
+    """Re-scrape 'Not yet aired' anime and anime with no premiered season."""
+    initialize_databases()
+
+    all_na = len(refresh_candidates(True, False))
+    all_pm = len(refresh_candidates(False, True))
+    both = len(refresh_candidates(True, True))
+
+    print("\n" + "=" * 62)
+    print("REFRESH STORED ANIME")
+    print("=" * 62)
+    print(f"  Status 'Not yet aired':       {all_na}")
+    print(f"  No premiered season:          {all_pm}")
+    print(f"  Either (will be scraped):     {both}")
+    print(
+        f"{CYAN}  (rows already scraped within the last "
+        f"{REFRESH_NOT_AIRED_MIN_HOURS:g}h are skipped, so a refresh can "
+        f"be resumed){RESET}"
+    )
+    print("\n  [1] Both  (not yet aired OR no premiered season)  [default]")
+    print("  [2] Only 'Not yet aired'")
+    print("  [3] Only 'no premiered season'")
+    print("  [b] Back")
+
+    mode = input("\nSelect: ").strip().lower() or "1"
+
+    if mode not in ("1", "2", "3"):
+        print("Cancelled.")
+        return
+
+    ids = refresh_candidates(
+        not_aired=mode in ("1", "2"),
+        no_premiered=mode in ("1", "3"),
+    )
+
+    if not ids:
+        print(f"{GREEN}Nothing to refresh.{RESET}")
+        return
+
+    answer = input(f"Re-scrape {len(ids)} anime now? [Y/n]: ")
+
+    if answer.strip().lower() in ("n", "no"):
+        print("Cancelled.")
+        return
+
+    global STOP_REQUESTED
+    STOP_REQUESTED = False
+    previous_handler = signal.signal(signal.SIGINT, _graceful_sigint)
+
+    try:
+        highest = to_int(get_state("highest_id")) or max(ids)
+        run_async(run_scrape(highest, set(), refresh_ids=ids))
+
+    except KeyboardInterrupt:
+        print(f"\n{YELLOW}Interrupted by user.{RESET}")
+
+    except StopScraper as error:
+        logging.error("Scraper stopped: %s", error)
+        print(f"\n{RED}[SHUT OFF] {error}{RESET}")
+        print(
+            f"{YELLOW}Progress is saved. Wait a while, then run Refresh "
+            f"again (already refreshed rows are skipped).{RESET}"
+        )
+
+    finally:
+        signal.signal(signal.SIGINT, previous_handler)
+        print(f"\n{CYAN}Saving final data...{RESET}")
+
+        try:
+            export_csv()
+            print_statistics()
+        except Exception as error:
+            print(f"{RED}Export error: {error}{RESET}")
+
+
 def main():
     initialize_databases()
 
@@ -2284,6 +2524,7 @@ def main():
     print("  [1] Scrape / Resume")
     print("  [2] Show stats")
     print("  [3] Check page components (what does curl receive?)")
+    print("  [4] Refresh: re-scrape 'Not yet aired' / no premiered season")
     print("  [q] Quit")
 
     try:
@@ -2295,6 +2536,8 @@ def main():
             print_statistics()
         elif choice == "3":
             check_components_action()
+        elif choice == "4":
+            refresh_menu_action()
         else:
             print("Bye.")
 

@@ -21257,8 +21257,6 @@
 10633,genre,4,Comedy
 10638,genre,4,Comedy
 10638,genre,24,Sci-Fi
-10639,genre,1,Action
-10639,genre,10,Fantasy
 10643,genre,1,Action
 10643,genre,4,Comedy
 10643,theme,20,Parody
@@ -40322,10 +40320,6 @@
 36411,demographic,27,Shounen
 36418,genre,36,Slice of Life
 36418,theme,71,Pets
-36419,genre,1,Action
-36419,genre,10,Fantasy
-36419,theme,51,Anthropomorphic
-36419,theme,21,Samurai
 36423,genre,1,Action
 36423,demographic,15,Kids
 36424,genre,1,Action
@@ -44176,11 +44170,6 @@
 38716,theme,18,Mecha
 38716,theme,38,Military
 38716,theme,29,Space
-38717,genre,8,Drama
-38717,genre,24,Sci-Fi
-38717,theme,18,Mecha
-38717,theme,38,Military
-38717,theme,29,Space
 38719,genre,24,Sci-Fi
 38719,theme,18,Mecha
 38720,genre,1,Action
@@ -44893,9 +44882,6 @@
 39168,theme,52,CGDCT
 39168,theme,38,Military
 39168,theme,23,School
-39169,theme,52,CGDCT
-39169,theme,38,Military
-39169,theme,23,School
 39170,theme,19,Music
 39171,theme,19,Music
 39172,theme,19,Music
@@ -46567,8 +46553,6 @@
 40239,genre,10,Fantasy
 40239,theme,35,Harem
 40239,theme,62,Isekai
-40242,genre,2,Adventure
-40242,genre,10,Fantasy
 40244,genre,2,Adventure
 40244,genre,10,Fantasy
 40244,theme,51,Anthropomorphic
@@ -48133,10 +48117,6 @@
 41286,genre,10,Fantasy
 41286,theme,6,Mythology
 41286,theme,23,School
-41289,genre,28,Boys Love
-41289,genre,8,Drama
-41289,genre,49,Erotica
-41289,theme,68,Organized Crime
 41290,genre,28,Boys Love
 41290,genre,8,Drama
 41290,theme,50,Adult Cast
@@ -48800,8 +48780,6 @@
 41917,genre,41,Suspense
 41918,genre,1,Action
 41918,genre,10,Fantasy
-41919,genre,8,Drama
-41919,genre,7,Mystery
 41920,genre,1,Action
 41923,genre,1,Action
 41923,genre,2,Adventure
@@ -50205,9 +50183,6 @@
 43433,genre,10,Fantasy
 43433,theme,19,Music
 43433,demographic,15,Kids
-43434,genre,1,Action
-43434,genre,2,Adventure
-43434,theme,13,Historical
 43435,theme,19,Music
 43438,genre,10,Fantasy
 43438,theme,19,Music
@@ -50412,9 +50387,6 @@
 43627,demographic,15,Kids
 43628,theme,19,Music
 43628,demographic,15,Kids
-43629,genre,8,Drama
-43629,genre,37,Supernatural
-43629,demographic,25,Shoujo
 43632,demographic,15,Kids
 43633,demographic,15,Kids
 43634,demographic,15,Kids
@@ -51031,9 +51003,6 @@
 44055,theme,23,School
 44056,genre,36,Slice of Life
 44059,genre,5,Avant Garde
-44060,genre,1,Action
-44060,genre,10,Fantasy
-44060,genre,22,Romance
 44061,genre,1,Action
 44061,genre,10,Fantasy
 44061,genre,24,Sci-Fi
@@ -54961,8 +54930,6 @@
 46797,demographic,15,Kids
 46806,demographic,15,Kids
 46807,demographic,15,Kids
-46808,genre,4,Comedy
-46808,theme,66,Mahou Shoujo
 46810,genre,4,Comedy
 46810,demographic,15,Kids
 46811,genre,4,Comedy
@@ -57299,8 +57266,6 @@
 48495,genre,4,Comedy
 48495,theme,48,Workplace
 48495,demographic,42,Seinen
-48502,genre,8,Drama
-48502,genre,10,Fantasy
 48505,genre,1,Action
 48505,genre,2,Adventure
 48505,genre,10,Fantasy
@@ -57330,10 +57295,6 @@
 48531,theme,61,Idols (Male)
 48531,theme,19,Music
 48533,theme,19,Music
-48536,genre,4,Comedy
-48536,genre,30,Sports
-48536,theme,23,School
-48536,theme,77,Team Sports
 48537,genre,22,Romance
 48537,theme,13,Historical
 48538,theme,61,Idols (Male)
@@ -57964,8 +57925,6 @@
 49123,theme,19,Music
 49124,genre,8,Drama
 49124,theme,23,School
-49125,genre,4,Comedy
-49125,genre,10,Fantasy
 49126,theme,61,Idols (Male)
 49126,theme,19,Music
 49127,theme,19,Music
@@ -58551,8 +58510,6 @@
 49701,genre,10,Fantasy
 49701,theme,13,Historical
 49701,theme,17,Martial Arts
-49703,genre,1,Action
-49703,theme,66,Mahou Shoujo
 49708,genre,4,Comedy
 49709,genre,2,Adventure
 49709,genre,8,Drama
@@ -59164,8 +59121,6 @@
 50232,theme,38,Military
 50233,genre,1,Action
 50233,genre,8,Drama
-50234,genre,10,Fantasy
-50235,genre,10,Fantasy
 50237,genre,12,Hentai
 50238,genre,5,Avant Garde
 50238,theme,19,Music
@@ -59410,13 +59365,6 @@
 50404,genre,4,Comedy
 50404,genre,10,Fantasy
 50404,theme,23,School
-50405,genre,1,Action
-50405,genre,2,Adventure
-50405,genre,4,Comedy
-50405,genre,10,Fantasy
-50405,genre,7,Mystery
-50405,theme,13,Historical
-50405,theme,6,Mythology
 50406,genre,1,Action
 50406,genre,2,Adventure
 50406,genre,10,Fantasy
@@ -59485,7 +59433,6 @@
 50438,theme,23,School
 50438,demographic,27,Shounen
 50439,genre,24,Sci-Fi
-50440,genre,1,Action
 50441,genre,1,Action
 50441,genre,10,Fantasy
 50441,genre,24,Sci-Fi
@@ -59759,8 +59706,6 @@
 50667,genre,22,Romance
 50667,theme,13,Historical
 50667,theme,17,Martial Arts
-50668,genre,7,Mystery
-50668,genre,37,Supernatural
 50669,theme,19,Music
 50672,genre,28,Boys Love
 50672,theme,69,Otaku Culture
@@ -60488,12 +60433,6 @@
 51385,genre,4,Comedy
 51385,genre,10,Fantasy
 51385,theme,62,Isekai
-51387,genre,1,Action
-51387,genre,2,Adventure
-51387,genre,4,Comedy
-51387,genre,10,Fantasy
-51389,genre,1,Action
-51389,genre,24,Sci-Fi
 51390,genre,1,Action
 51390,genre,10,Fantasy
 51390,genre,24,Sci-Fi
@@ -61187,9 +61126,6 @@
 51901,genre,4,Comedy
 51901,theme,20,Parody
 51901,theme,31,Super Power
-51903,genre,1,Action
-51903,genre,2,Adventure
-51903,genre,24,Sci-Fi
 51910,theme,60,Idols (Female)
 51910,theme,19,Music
 51911,theme,60,Idols (Female)
@@ -61258,8 +61194,6 @@
 51966,theme,13,Historical
 51967,genre,8,Drama
 51967,theme,13,Historical
-51974,genre,30,Sports
-51974,theme,77,Team Sports
 51986,genre,4,Comedy
 51986,theme,51,Anthropomorphic
 51986,demographic,15,Kids
@@ -62220,8 +62154,6 @@
 52748,theme,60,Idols (Female)
 52748,theme,38,Military
 52748,theme,19,Music
-52750,genre,30,Sports
-52750,theme,3,Racing
 52751,genre,4,Comedy
 52751,theme,51,Anthropomorphic
 52752,genre,12,Hentai
@@ -62776,8 +62708,6 @@
 53129,genre,22,Romance
 53129,genre,37,Supernatural
 53129,theme,23,School
-53130,genre,10,Fantasy
-53130,theme,38,Military
 53131,genre,1,Action
 53131,genre,37,Supernatural
 53131,theme,40,Psychological
@@ -63210,11 +63140,6 @@
 53526,theme,51,Anthropomorphic
 53526,theme,3,Racing
 53526,theme,23,School
-53529,genre,1,Action
-53529,genre,2,Adventure
-53529,genre,10,Fantasy
-53529,genre,22,Romance
-53529,theme,79,Video Game
 53530,genre,37,Supernatural
 53530,theme,19,Music
 53534,theme,60,Idols (Female)
@@ -63338,10 +63263,6 @@
 53645,genre,22,Romance
 53645,theme,19,Music
 53645,theme,78,Time Travel
-53646,genre,1,Action
-53646,genre,24,Sci-Fi
-53646,theme,60,Idols (Female)
-53646,theme,19,Music
 53648,theme,60,Idols (Female)
 53648,theme,19,Music
 53649,theme,19,Music
@@ -64713,7 +64634,6 @@
 54437,genre,10,Fantasy
 54437,theme,13,Historical
 54437,theme,17,Martial Arts
-54440,genre,1,Action
 54441,genre,5,Avant Garde
 54442,genre,47,Gourmet
 54444,genre,1,Action
@@ -64966,16 +64886,6 @@
 54684,genre,2,Adventure
 54684,genre,4,Comedy
 54684,genre,10,Fantasy
-54687,genre,1,Action
-54687,genre,2,Adventure
-54687,genre,10,Fantasy
-54687,theme,17,Martial Arts
-54687,demographic,27,Shounen
-54688,genre,1,Action
-54688,genre,2,Adventure
-54688,genre,10,Fantasy
-54688,theme,17,Martial Arts
-54688,demographic,27,Shounen
 54692,genre,28,Boys Love
 54692,genre,4,Comedy
 54693,genre,10,Fantasy
@@ -65184,9 +65094,6 @@
 54832,genre,24,Sci-Fi
 54832,theme,29,Space
 54832,demographic,15,Kids
-54833,genre,7,Mystery
-54833,genre,24,Sci-Fi
-54833,theme,39,Detective
 54834,genre,5,Avant Garde
 54834,theme,19,Music
 54835,genre,2,Adventure
@@ -65359,11 +65266,6 @@
 54915,theme,35,Harem
 54915,theme,23,School
 54915,demographic,27,Shounen
-54916,genre,2,Adventure
-54916,genre,4,Comedy
-54916,genre,22,Romance
-54916,theme,66,Mahou Shoujo
-54916,demographic,25,Shoujo
 54917,genre,1,Action
 54917,genre,2,Adventure
 54917,genre,10,Fantasy
@@ -65478,10 +65380,6 @@
 55027,theme,19,Music
 55032,genre,4,Comedy
 55033,genre,4,Comedy
-55034,genre,1,Action
-55034,genre,2,Adventure
-55034,theme,13,Historical
-55034,theme,17,Martial Arts
 55041,genre,2,Adventure
 55041,genre,37,Supernatural
 55041,theme,6,Mythology
@@ -65536,7 +65434,6 @@
 55072,genre,36,Slice of Life
 55074,genre,2,Adventure
 55074,demographic,15,Kids
-55075,demographic,42,Seinen
 55076,genre,4,Comedy
 55076,genre,24,Sci-Fi
 55076,theme,29,Space
@@ -65634,9 +65531,6 @@
 55141,theme,19,Music
 55141,theme,29,Space
 55142,theme,19,Music
-55143,genre,1,Action
-55143,theme,13,Historical
-55143,theme,21,Samurai
 55145,genre,12,Hentai
 55146,genre,12,Hentai
 55147,theme,19,Music
@@ -65944,7 +65838,6 @@
 55358,genre,37,Supernatural
 55358,theme,55,Delinquents
 55358,theme,23,School
-55359,theme,13,Historical
 55360,genre,5,Avant Garde
 55360,theme,19,Music
 55362,genre,4,Comedy
@@ -66159,18 +66052,11 @@
 55564,theme,55,Delinquents
 55564,theme,71,Pets
 55565,genre,4,Comedy
-55566,genre,47,Gourmet
 55568,theme,19,Music
 55569,theme,19,Music
 55570,genre,30,Sports
 55570,theme,23,School
 55570,demographic,27,Shounen
-55571,genre,22,Romance
-55571,genre,24,Sci-Fi
-55571,theme,18,Mecha
-55571,theme,38,Military
-55571,theme,19,Music
-55571,theme,29,Space
 55572,genre,4,Comedy
 55574,theme,19,Music
 55578,genre,1,Action
@@ -66415,8 +66301,6 @@
 55742,theme,23,School
 55742,theme,82,Urban Fantasy
 55742,demographic,27,Shounen
-55744,genre,2,Adventure
-55744,genre,10,Fantasy
 55745,genre,1,Action
 55745,genre,2,Adventure
 55745,genre,10,Fantasy
@@ -66572,8 +66456,6 @@
 55842,genre,22,Romance
 55842,theme,64,Love Polygon
 55842,theme,23,School
-55843,genre,1,Action
-55843,genre,24,Sci-Fi
 55844,genre,28,Boys Love
 55844,theme,23,School
 55845,genre,24,Sci-Fi
@@ -66849,10 +66731,6 @@
 56006,genre,22,Romance
 56006,theme,19,Music
 56007,genre,1,Action
-56008,genre,1,Action
-56008,genre,2,Adventure
-56008,genre,10,Fantasy
-56008,genre,24,Sci-Fi
 56009,genre,1,Action
 56009,genre,2,Adventure
 56009,genre,10,Fantasy
@@ -68002,18 +67880,9 @@
 56725,theme,19,Music
 56728,genre,36,Slice of Life
 56728,theme,51,Anthropomorphic
-56729,genre,2,Adventure
-56729,theme,51,Anthropomorphic
 56730,theme,51,Anthropomorphic
 56731,genre,24,Sci-Fi
 56731,theme,18,Mecha
-56732,genre,1,Action
-56732,genre,8,Drama
-56732,genre,10,Fantasy
-56732,genre,7,Mystery
-56732,genre,22,Romance
-56732,theme,62,Isekai
-56732,theme,72,Reincarnation
 56733,genre,2,Adventure
 56733,genre,4,Comedy
 56733,genre,9,Ecchi
@@ -68186,13 +68055,6 @@
 56835,theme,18,Mecha
 56835,theme,38,Military
 56835,theme,31,Super Power
-56836,genre,1,Action
-56836,genre,24,Sci-Fi
-56836,theme,58,Gore
-56836,theme,31,Super Power
-56836,demographic,42,Seinen
-56837,genre,1,Action
-56837,genre,24,Sci-Fi
 56838,genre,4,Comedy
 56838,genre,22,Romance
 56838,genre,37,Supernatural
@@ -68330,9 +68192,6 @@
 56923,theme,62,Isekai
 56927,genre,2,Adventure
 56927,genre,10,Fantasy
-56929,genre,2,Adventure
-56929,genre,22,Romance
-56929,genre,24,Sci-Fi
 56930,genre,1,Action
 56930,genre,2,Adventure
 56930,genre,10,Fantasy
@@ -68470,8 +68329,6 @@
 57003,genre,4,Comedy
 57003,genre,10,Fantasy
 57003,demographic,15,Kids
-57005,genre,10,Fantasy
-57005,theme,72,Reincarnation
 57006,genre,10,Fantasy
 57006,demographic,15,Kids
 57007,genre,2,Adventure
@@ -68573,11 +68430,6 @@
 57069,theme,19,Music
 57070,genre,10,Fantasy
 57070,theme,19,Music
-57071,genre,8,Drama
-57071,genre,24,Sci-Fi
-57071,theme,50,Adult Cast
-57071,theme,38,Military
-57071,theme,29,Space
 57072,genre,36,Slice of Life
 57073,theme,40,Psychological
 57074,theme,19,Music
@@ -68604,12 +68456,6 @@
 57093,genre,1,Action
 57093,genre,7,Mystery
 57093,theme,13,Historical
-57094,genre,1,Action
-57094,genre,7,Mystery
-57094,theme,13,Historical
-57095,genre,1,Action
-57095,genre,7,Mystery
-57095,theme,13,Historical
 57096,genre,1,Action
 57096,genre,2,Adventure
 57096,genre,10,Fantasy
@@ -68734,9 +68580,6 @@
 57148,demographic,15,Kids
 57149,theme,19,Music
 57149,demographic,15,Kids
-57150,genre,2,Adventure
-57150,theme,18,Mecha
-57150,demographic,15,Kids
 57152,genre,10,Fantasy
 57152,theme,62,Isekai
 57155,genre,5,Avant Garde
@@ -68952,9 +68795,6 @@
 57301,theme,19,Music
 57302,genre,4,Comedy
 57302,theme,19,Music
-57303,genre,1,Action
-57303,genre,24,Sci-Fi
-57303,theme,31,Super Power
 57304,theme,19,Music
 57305,genre,2,Adventure
 57305,genre,24,Sci-Fi
@@ -69312,10 +69152,6 @@
 57524,genre,4,Comedy
 57524,genre,22,Romance
 57524,theme,23,School
-57528,genre,8,Drama
-57528,genre,10,Fantasy
-57528,genre,22,Romance
-57528,theme,62,Isekai
 57532,genre,1,Action
 57532,genre,4,Comedy
 57532,theme,55,Delinquents
@@ -69362,10 +69198,6 @@
 57556,genre,4,Comedy
 57556,genre,10,Fantasy
 57556,demographic,27,Shounen
-57557,genre,1,Action
-57557,genre,2,Adventure
-57557,genre,10,Fantasy
-57557,demographic,27,Shounen
 57559,genre,8,Drama
 57559,theme,3,Racing
 57559,demographic,42,Seinen
@@ -69396,11 +69228,6 @@
 57579,genre,8,Drama
 57579,genre,24,Sci-Fi
 57579,theme,19,Music
-57584,genre,1,Action
-57584,genre,4,Comedy
-57584,genre,10,Fantasy
-57584,theme,62,Isekai
-57584,theme,72,Reincarnation
 57586,theme,19,Music
 57587,genre,5,Avant Garde
 57587,theme,19,Music
@@ -69736,7 +69563,6 @@
 57796,theme,40,Psychological
 57796,theme,11,Strategy Game
 57796,demographic,42,Seinen
-57797,genre,14,Horror
 57798,genre,24,Sci-Fi
 57798,theme,18,Mecha
 57798,theme,23,School
@@ -69775,9 +69601,6 @@
 57818,theme,19,Music
 57820,genre,24,Sci-Fi
 57820,theme,19,Music
-57821,genre,4,Comedy
-57821,theme,51,Anthropomorphic
-57821,theme,13,Historical
 57822,genre,4,Comedy
 57825,genre,4,Comedy
 57825,demographic,15,Kids
@@ -70001,8 +69824,6 @@
 57957,theme,19,Music
 57960,theme,66,Mahou Shoujo
 57960,demographic,15,Kids
-57961,genre,24,Sci-Fi
-57961,theme,18,Mecha
 57962,theme,19,Music
 57967,genre,37,Supernatural
 57967,theme,19,Music
@@ -70022,9 +69843,6 @@
 57979,theme,77,Team Sports
 57979,demographic,27,Shounen
 57980,genre,47,Gourmet
-57990,genre,14,Horror
-57990,genre,49,Erotica
-57990,demographic,42,Seinen
 57993,genre,4,Comedy
 57993,genre,26,Girls Love
 57993,theme,52,CGDCT
@@ -70303,7 +70121,6 @@
 58226,theme,23,School
 58229,genre,2,Adventure
 58229,genre,36,Slice of Life
-58230,genre,8,Drama
 58231,theme,19,Music
 58231,demographic,15,Kids
 58232,theme,19,Music
@@ -71026,9 +70843,6 @@
 58755,theme,35,Harem
 58755,theme,23,School
 58755,demographic,27,Shounen
-58756,genre,1,Action
-58756,genre,10,Fantasy
-58756,theme,82,Urban Fantasy
 58758,theme,51,Anthropomorphic
 58758,theme,70,Performing Arts
 58759,genre,47,Gourmet
@@ -71144,7 +70958,6 @@
 58844,theme,51,Anthropomorphic
 58844,theme,63,Iyashikei
 58845,genre,10,Fantasy
-58849,genre,1,Action
 58850,genre,4,Comedy
 58850,demographic,15,Kids
 58853,genre,4,Comedy
@@ -71289,13 +71102,6 @@
 58933,genre,24,Sci-Fi
 58933,theme,18,Mecha
 58933,demographic,15,Kids
-58934,genre,1,Action
-58934,genre,4,Comedy
-58934,genre,10,Fantasy
-58934,theme,57,Gag Humor
-58934,theme,20,Parody
-58934,theme,23,School
-58934,demographic,27,Shounen
 58935,genre,4,Comedy
 58939,genre,1,Action
 58939,genre,4,Comedy
@@ -71350,10 +71156,6 @@
 58966,genre,2,Adventure
 58966,genre,24,Sci-Fi
 58966,theme,18,Mecha
-58967,genre,30,Sports
-58967,theme,23,School
-58967,theme,77,Team Sports
-58967,demographic,27,Shounen
 58972,genre,4,Comedy
 58974,theme,50,Adult Cast
 58974,demographic,42,Seinen
@@ -71539,11 +71341,6 @@
 59065,demographic,15,Kids
 59066,theme,19,Music
 59066,demographic,15,Kids
-59068,genre,2,Adventure
-59068,genre,4,Comedy
-59068,genre,10,Fantasy
-59068,genre,47,Gourmet
-59068,demographic,42,Seinen
 59069,theme,19,Music
 59070,genre,1,Action
 59070,genre,10,Fantasy
@@ -71632,11 +71429,6 @@
 59136,genre,7,Mystery
 59138,genre,4,Comedy
 59138,demographic,27,Shounen
-59139,genre,1,Action
-59139,genre,2,Adventure
-59139,genre,4,Comedy
-59139,genre,10,Fantasy
-59139,theme,62,Isekai
 59140,genre,24,Sci-Fi
 59140,theme,18,Mecha
 59140,demographic,15,Kids
@@ -71830,18 +71622,10 @@
 59229,genre,24,Sci-Fi
 59229,theme,82,Urban Fantasy
 59229,demographic,27,Shounen
-59230,genre,1,Action
-59230,genre,2,Adventure
-59230,genre,10,Fantasy
-59230,theme,82,Urban Fantasy
 59231,genre,8,Drama
 59232,theme,19,Music
 59232,demographic,15,Kids
 59233,theme,19,Music
-59235,genre,4,Comedy
-59235,theme,52,CGDCT
-59235,theme,23,School
-59235,demographic,42,Seinen
 59236,genre,2,Adventure
 59236,genre,10,Fantasy
 59236,theme,13,Historical
@@ -71896,9 +71680,6 @@
 59265,genre,10,Fantasy
 59265,theme,62,Isekai
 59265,theme,72,Reincarnation
-59266,genre,2,Adventure
-59266,genre,36,Slice of Life
-59266,theme,50,Adult Cast
 59267,genre,1,Action
 59267,genre,7,Mystery
 59267,theme,23,School
@@ -72153,9 +71934,6 @@
 59415,theme,79,Video Game
 59418,genre,4,Comedy
 59419,theme,19,Music
-59420,genre,8,Drama
-59420,genre,14,Horror
-59420,demographic,42,Seinen
 59421,genre,8,Drama
 59421,genre,22,Romance
 59421,demographic,43,Josei
@@ -72226,10 +72004,6 @@
 59466,theme,74,Love Status Quo
 59466,theme,23,School
 59466,demographic,27,Shounen
-59467,genre,1,Action
-59467,genre,2,Adventure
-59467,genre,10,Fantasy
-59467,theme,62,Isekai
 59468,genre,4,Comedy
 59468,genre,10,Fantasy
 59469,genre,4,Comedy
@@ -72510,8 +72284,6 @@
 59629,genre,10,Fantasy
 59629,theme,62,Isekai
 59629,theme,72,Reincarnation
-59631,genre,1,Action
-59631,genre,10,Fantasy
 59632,genre,4,Comedy
 59632,genre,7,Mystery
 59632,theme,39,Detective
@@ -72528,10 +72300,6 @@
 59636,theme,3,Racing
 59636,theme,23,School
 59636,demographic,42,Seinen
-59637,genre,1,Action
-59637,genre,2,Adventure
-59637,genre,10,Fantasy
-59637,genre,14,Horror
 59640,genre,4,Comedy
 59640,genre,24,Sci-Fi
 59641,theme,19,Music
@@ -72881,9 +72649,6 @@
 59865,genre,1,Action
 59868,genre,36,Slice of Life
 59868,theme,23,School
-59873,genre,4,Comedy
-59873,genre,22,Romance
-59873,theme,23,School
 59874,theme,66,Mahou Shoujo
 59875,genre,10,Fantasy
 59875,demographic,15,Kids
@@ -72935,9 +72700,6 @@
 59892,genre,41,Suspense
 59893,genre,36,Slice of Life
 59894,theme,66,Mahou Shoujo
-59895,genre,2,Adventure
-59895,genre,10,Fantasy
-59895,demographic,15,Kids
 59896,genre,8,Drama
 59896,genre,10,Fantasy
 59896,theme,51,Anthropomorphic
@@ -72984,11 +72746,6 @@
 59925,theme,13,Historical
 59927,genre,1,Action
 59927,genre,10,Fantasy
-59928,genre,2,Adventure
-59928,genre,8,Drama
-59928,genre,22,Romance
-59928,genre,37,Supernatural
-59928,theme,50,Adult Cast
 59930,genre,10,Fantasy
 59930,theme,13,Historical
 59933,genre,47,Gourmet
@@ -73009,7 +72766,6 @@
 59939,genre,10,Fantasy
 59939,genre,24,Sci-Fi
 59939,theme,17,Martial Arts
-59940,genre,24,Sci-Fi
 59944,genre,2,Adventure
 59944,genre,4,Comedy
 59944,demographic,15,Kids
@@ -73205,11 +72961,6 @@
 60044,genre,12,Hentai
 60045,theme,60,Idols (Female)
 60045,theme,19,Music
-60046,genre,1,Action
-60046,genre,4,Comedy
-60046,genre,26,Girls Love
-60046,genre,9,Ecchi
-60046,theme,66,Mahou Shoujo
 60048,genre,1,Action
 60048,genre,37,Supernatural
 60048,demographic,27,Shounen
@@ -73355,9 +73106,6 @@
 60151,genre,7,Mystery
 60151,genre,37,Supernatural
 60151,theme,83,Villainess
-60152,genre,1,Action
-60152,genre,2,Adventure
-60152,genre,10,Fantasy
 60153,genre,36,Slice of Life
 60153,theme,51,Anthropomorphic
 60153,theme,63,Iyashikei
@@ -73378,16 +73126,11 @@
 60159,theme,60,Idols (Female)
 60159,theme,19,Music
 60159,theme,23,School
-60160,genre,36,Slice of Life
-60160,theme,60,Idols (Female)
-60160,theme,19,Music
-60160,theme,23,School
 60162,genre,10,Fantasy
 60162,genre,47,Gourmet
 60162,genre,22,Romance
 60163,genre,4,Comedy
 60163,genre,10,Fantasy
-60164,genre,2,Adventure
 60165,genre,5,Avant Garde
 60165,theme,19,Music
 60167,genre,22,Romance
@@ -73425,8 +73168,6 @@
 60184,genre,8,Drama
 60185,genre,4,Comedy
 60185,genre,10,Fantasy
-60186,genre,30,Sports
-60186,theme,79,Video Game
 60187,theme,19,Music
 60190,genre,5,Avant Garde
 60190,genre,8,Drama
@@ -73453,10 +73194,6 @@
 60208,theme,13,Historical
 60208,theme,38,Military
 60208,demographic,15,Kids
-60214,genre,1,Action
-60214,genre,2,Adventure
-60214,genre,10,Fantasy
-60214,theme,62,Isekai
 60216,genre,12,Hentai
 60219,genre,5,Avant Garde
 60219,theme,19,Music
@@ -73479,11 +73216,6 @@
 60226,theme,62,Isekai
 60229,theme,51,Anthropomorphic
 60229,demographic,15,Kids
-60230,genre,8,Drama
-60230,genre,24,Sci-Fi
-60230,theme,18,Mecha
-60230,theme,38,Military
-60230,theme,29,Space
 60231,theme,51,Anthropomorphic
 60231,demographic,15,Kids
 60232,theme,51,Anthropomorphic
@@ -73525,11 +73257,6 @@
 60252,genre,10,Fantasy
 60252,genre,24,Sci-Fi
 60252,theme,19,Music
-60253,genre,1,Action
-60253,genre,2,Adventure
-60253,genre,10,Fantasy
-60253,theme,62,Isekai
-60253,theme,72,Reincarnation
 60254,genre,4,Comedy
 60254,genre,22,Romance
 60254,theme,23,School
@@ -73548,18 +73275,10 @@
 60263,genre,1,Action
 60263,theme,58,Gore
 60264,genre,5,Avant Garde
-60267,genre,36,Slice of Life
-60267,theme,52,CGDCT
-60267,theme,63,Iyashikei
 60272,genre,5,Avant Garde
 60273,genre,24,Sci-Fi
 60273,theme,50,Adult Cast
 60273,theme,19,Music
-60275,genre,4,Comedy
-60275,genre,30,Sports
-60275,theme,23,School
-60275,theme,77,Team Sports
-60275,demographic,27,Shounen
 60277,genre,24,Sci-Fi
 60277,genre,49,Erotica
 60277,theme,40,Psychological
@@ -73598,9 +73317,6 @@
 60298,genre,24,Sci-Fi
 60298,theme,19,Music
 60298,theme,29,Space
-60301,genre,8,Drama
-60301,genre,26,Girls Love
-60301,theme,23,School
 60302,genre,36,Slice of Life
 60302,genre,37,Supernatural
 60302,theme,63,Iyashikei
@@ -73698,14 +73414,6 @@
 60347,genre,7,Mystery
 60347,genre,22,Romance
 60347,demographic,27,Shounen
-60348,genre,10,Fantasy
-60348,theme,62,Isekai
-60348,theme,23,School
-60348,demographic,27,Shounen
-60349,genre,10,Fantasy
-60349,theme,62,Isekai
-60349,theme,23,School
-60349,demographic,27,Shounen
 60351,genre,12,Hentai
 60355,genre,4,Comedy
 60355,genre,24,Sci-Fi
@@ -73818,9 +73526,6 @@
 60410,genre,5,Avant Garde
 60410,genre,14,Horror
 60410,genre,37,Supernatural
-60411,genre,4,Comedy
-60411,theme,51,Anthropomorphic
-60411,demographic,15,Kids
 60412,theme,19,Music
 60414,genre,4,Comedy
 60414,genre,24,Sci-Fi
@@ -74052,12 +73757,6 @@
 60509,genre,8,Drama
 60509,genre,10,Fantasy
 60509,genre,22,Romance
-60510,genre,4,Comedy
-60510,genre,9,Ecchi
-60510,theme,35,Harem
-60510,theme,69,Otaku Culture
-60510,theme,23,School
-60510,demographic,27,Shounen
 60512,genre,12,Hentai
 60513,genre,4,Comedy
 60513,genre,30,Sports
@@ -74078,9 +73777,6 @@
 60523,genre,10,Fantasy
 60523,genre,47,Gourmet
 60524,theme,19,Music
-60525,genre,1,Action
-60525,genre,2,Adventure
-60525,genre,10,Fantasy
 60526,genre,1,Action
 60526,genre,10,Fantasy
 60526,theme,17,Martial Arts
@@ -74135,9 +73831,6 @@
 60546,demographic,27,Shounen
 60547,genre,4,Comedy
 60547,theme,51,Anthropomorphic
-60548,genre,8,Drama
-60548,theme,23,School
-60548,demographic,42,Seinen
 60550,theme,19,Music
 60551,genre,4,Comedy
 60551,demographic,25,Shoujo
@@ -74149,10 +73842,6 @@
 60553,genre,12,Hentai
 60554,genre,10,Fantasy
 60554,demographic,15,Kids
-60555,genre,4,Comedy
-60555,theme,51,Anthropomorphic
-60555,theme,48,Workplace
-60555,demographic,27,Shounen
 60556,genre,5,Avant Garde
 60556,genre,9,Ecchi
 60557,genre,1,Action
@@ -74178,11 +73867,6 @@
 60562,genre,7,Mystery
 60562,genre,37,Supernatural
 60562,theme,13,Historical
-60563,genre,1,Action
-60563,genre,2,Adventure
-60563,genre,7,Mystery
-60563,genre,24,Sci-Fi
-60563,theme,62,Isekai
 60564,genre,1,Action
 60564,genre,4,Comedy
 60564,genre,22,Romance
@@ -74194,8 +73878,6 @@
 60565,genre,10,Fantasy
 60565,genre,22,Romance
 60565,theme,13,Historical
-60566,genre,22,Romance
-60566,theme,50,Adult Cast
 60567,genre,1,Action
 60567,genre,2,Adventure
 60567,genre,8,Drama
@@ -74226,7 +73908,6 @@
 60577,genre,8,Drama
 60577,genre,22,Romance
 60577,theme,13,Historical
-60578,genre,41,Suspense
 60579,genre,1,Action
 60579,genre,2,Adventure
 60579,genre,4,Comedy
@@ -74417,10 +74098,6 @@
 60678,theme,23,School
 60680,theme,19,Music
 60681,theme,19,Music
-60684,genre,4,Comedy
-60684,genre,8,Drama
-60684,genre,22,Romance
-60684,theme,64,Love Polygon
 60687,theme,19,Music
 60689,genre,10,Fantasy
 60689,demographic,15,Kids
@@ -74478,9 +74155,6 @@
 60713,genre,2,Adventure
 60713,genre,4,Comedy
 60713,demographic,15,Kids
-60714,genre,1,Action
-60714,theme,13,Historical
-60714,theme,21,Samurai
 60715,theme,19,Music
 60718,genre,5,Avant Garde
 60718,theme,19,Music
@@ -74510,9 +74184,6 @@
 60737,genre,24,Sci-Fi
 60737,theme,18,Mecha
 60737,demographic,15,Kids
-60739,genre,1,Action
-60739,genre,2,Adventure
-60739,genre,10,Fantasy
 60741,genre,5,Avant Garde
 60741,theme,19,Music
 60742,theme,19,Music
@@ -74677,11 +74348,6 @@
 60828,genre,22,Romance
 60828,theme,13,Historical
 60828,theme,17,Martial Arts
-60829,genre,8,Drama
-60829,theme,61,Idols (Male)
-60829,theme,19,Music
-60830,theme,61,Idols (Male)
-60830,theme,19,Music
 60831,genre,8,Drama
 60831,theme,61,Idols (Male)
 60831,theme,19,Music
@@ -74803,9 +74469,6 @@
 60916,genre,1,Action
 60916,genre,2,Adventure
 60916,genre,24,Sci-Fi
-60917,genre,10,Fantasy
-60917,genre,14,Horror
-60917,genre,41,Suspense
 60919,genre,5,Avant Garde
 60920,genre,5,Avant Garde
 60921,theme,19,Music
@@ -74943,17 +74606,9 @@
 61004,genre,8,Drama
 61005,genre,4,Comedy
 61005,theme,19,Music
-61006,genre,4,Comedy
-61006,theme,52,CGDCT
-61006,theme,19,Music
 61009,theme,19,Music
 61011,theme,61,Idols (Male)
 61011,theme,19,Music
-61012,genre,1,Action
-61012,genre,10,Fantasy
-61012,genre,24,Sci-Fi
-61012,theme,31,Super Power
-61012,theme,82,Urban Fantasy
 61013,genre,8,Drama
 61013,genre,22,Romance
 61013,genre,37,Supernatural
@@ -74963,9 +74618,6 @@
 61014,genre,24,Sci-Fi
 61014,theme,31,Super Power
 61014,theme,82,Urban Fantasy
-61015,genre,1,Action
-61015,genre,2,Adventure
-61015,genre,10,Fantasy
 61016,genre,4,Comedy
 61016,theme,57,Gag Humor
 61016,theme,20,Parody
@@ -74998,8 +74650,6 @@
 61032,genre,5,Avant Garde
 61033,genre,8,Drama
 61033,theme,19,Music
-61035,genre,26,Girls Love
-61035,theme,19,Music
 61037,genre,2,Adventure
 61037,theme,19,Music
 61038,genre,8,Drama
@@ -75052,7 +74702,6 @@
 61072,genre,24,Sci-Fi
 61072,genre,36,Slice of Life
 61072,demographic,42,Seinen
-61073,theme,19,Music
 61074,theme,56,Educational
 61075,theme,56,Educational
 61075,demographic,15,Kids
@@ -75096,10 +74745,6 @@
 61114,theme,51,Anthropomorphic
 61114,theme,40,Psychological
 61114,demographic,27,Shounen
-61115,genre,36,Slice of Life
-61115,theme,52,CGDCT
-61115,theme,63,Iyashikei
-61115,theme,48,Workplace
 61119,genre,1,Action
 61119,genre,37,Supernatural
 61119,theme,11,Strategy Game
@@ -75110,10 +74755,6 @@
 61122,theme,29,Space
 61124,theme,19,Music
 61124,theme,29,Space
-61125,genre,30,Sports
-61125,theme,23,School
-61125,theme,77,Team Sports
-61125,demographic,27,Shounen
 61126,genre,8,Drama
 61126,genre,10,Fantasy
 61126,genre,26,Girls Love
@@ -75131,9 +74772,6 @@
 61134,genre,10,Fantasy
 61134,genre,26,Girls Love
 61134,theme,23,School
-61135,genre,1,Action
-61135,genre,4,Comedy
-61135,genre,9,Ecchi
 61137,genre,5,Avant Garde
 61137,theme,19,Music
 61139,genre,24,Sci-Fi
@@ -75234,10 +74872,6 @@
 61198,genre,10,Fantasy
 61198,theme,51,Anthropomorphic
 61198,demographic,15,Kids
-61199,genre,22,Romance
-61199,theme,74,Love Status Quo
-61199,theme,23,School
-61199,demographic,42,Seinen
 61200,genre,1,Action
 61200,genre,8,Drama
 61200,genre,10,Fantasy
@@ -75254,11 +74888,6 @@
 61202,theme,13,Historical
 61202,theme,6,Mythology
 61202,theme,40,Psychological
-61203,genre,2,Adventure
-61203,genre,4,Comedy
-61203,genre,10,Fantasy
-61203,theme,62,Isekai
-61203,theme,20,Parody
 61204,genre,36,Slice of Life
 61204,theme,51,Anthropomorphic
 61204,theme,56,Educational
@@ -75393,7 +75022,6 @@
 61280,theme,52,CGDCT
 61280,theme,69,Otaku Culture
 61280,demographic,27,Shounen
-61282,genre,28,Boys Love
 61286,genre,1,Action
 61286,genre,2,Adventure
 61286,theme,62,Isekai
@@ -75406,10 +75034,6 @@
 61290,demographic,15,Kids
 61291,genre,36,Slice of Life
 61291,theme,56,Educational
-61292,genre,1,Action
-61292,theme,13,Historical
-61292,theme,21,Samurai
-61292,demographic,27,Shounen
 61293,genre,4,Comedy
 61293,genre,22,Romance
 61293,theme,20,Parody
@@ -75423,11 +75047,6 @@
 61297,theme,51,Anthropomorphic
 61300,genre,36,Slice of Life
 61300,theme,51,Anthropomorphic
-61301,genre,4,Comedy
-61301,genre,10,Fantasy
-61301,genre,9,Ecchi
-61301,theme,57,Gag Humor
-61301,theme,48,Workplace
 61302,genre,1,Action
 61302,genre,10,Fantasy
 61303,genre,1,Action
@@ -75436,11 +75055,6 @@
 61303,genre,14,Horror
 61303,genre,7,Mystery
 61303,genre,41,Suspense
-61304,genre,4,Comedy
-61304,genre,22,Romance
-61304,theme,74,Love Status Quo
-61304,theme,23,School
-61304,demographic,27,Shounen
 61310,demographic,15,Kids
 61311,theme,19,Music
 61313,genre,4,Comedy
@@ -75467,8 +75081,6 @@
 61323,theme,23,School
 61323,theme,77,Team Sports
 61323,demographic,27,Shounen
-61324,genre,8,Drama
-61324,theme,19,Music
 61325,genre,8,Drama
 61325,genre,22,Romance
 61325,theme,73,Reverse Harem
@@ -75499,11 +75111,6 @@
 61335,theme,70,Performing Arts
 61335,demographic,42,Seinen
 61336,theme,19,Music
-61338,genre,1,Action
-61338,genre,2,Adventure
-61338,genre,10,Fantasy
-61338,theme,79,Video Game
-61338,demographic,27,Shounen
 61339,genre,37,Supernatural
 61339,theme,23,School
 61339,demographic,27,Shounen
@@ -75564,9 +75171,6 @@
 61393,demographic,27,Shounen
 61395,genre,5,Avant Garde
 61396,genre,5,Avant Garde
-61398,genre,4,Comedy
-61398,genre,22,Romance
-61398,theme,23,School
 61408,genre,9,Ecchi
 61408,theme,19,Music
 61409,genre,5,Avant Garde
@@ -75613,11 +75217,6 @@
 61458,theme,19,Music
 61459,genre,5,Avant Garde
 61459,theme,19,Music
-61461,genre,1,Action
-61461,theme,13,Historical
-61461,theme,17,Martial Arts
-61461,theme,21,Samurai
-61461,demographic,42,Seinen
 61462,genre,4,Comedy
 61462,genre,47,Gourmet
 61462,theme,51,Anthropomorphic
@@ -75694,8 +75293,6 @@
 61528,demographic,15,Kids
 61534,genre,4,Comedy
 61534,genre,10,Fantasy
-61535,genre,8,Drama
-61535,demographic,42,Seinen
 61537,genre,24,Sci-Fi
 61537,theme,19,Music
 61538,genre,12,Hentai
@@ -75753,9 +75350,6 @@
 61562,genre,10,Fantasy
 61562,theme,13,Historical
 61562,theme,17,Martial Arts
-61563,genre,1,Action
-61563,genre,2,Adventure
-61563,genre,10,Fantasy
 61564,genre,1,Action
 61564,genre,2,Adventure
 61564,genre,10,Fantasy
@@ -75776,9 +75370,6 @@
 61567,genre,10,Fantasy
 61567,theme,13,Historical
 61567,theme,17,Martial Arts
-61568,genre,1,Action
-61568,genre,10,Fantasy
-61568,theme,82,Urban Fantasy
 61569,genre,1,Action
 61569,genre,2,Adventure
 61569,genre,8,Drama
@@ -75857,26 +75448,7 @@
 61609,genre,1,Action
 61609,genre,10,Fantasy
 61609,theme,79,Video Game
-61610,genre,1,Action
-61610,genre,2,Adventure
-61610,genre,10,Fantasy
-61610,theme,13,Historical
-61610,theme,17,Martial Arts
-61611,genre,1,Action
-61611,genre,2,Adventure
-61611,genre,10,Fantasy
-61612,genre,1,Action
-61612,genre,2,Adventure
-61612,genre,10,Fantasy
-61613,genre,1,Action
-61613,genre,2,Adventure
-61613,genre,10,Fantasy
-61613,theme,13,Historical
-61613,theme,17,Martial Arts
 61614,theme,19,Music
-61615,genre,1,Action
-61615,genre,2,Adventure
-61615,genre,24,Sci-Fi
 61616,genre,1,Action
 61616,genre,2,Adventure
 61616,genre,4,Comedy
@@ -75920,8 +75492,6 @@
 61634,genre,22,Romance
 61634,theme,23,School
 61634,theme,79,Video Game
-61635,genre,1,Action
-61635,genre,24,Sci-Fi
 61636,genre,5,Avant Garde
 61636,genre,47,Gourmet
 61636,theme,19,Music
@@ -75944,17 +75514,6 @@
 61642,genre,1,Action
 61642,genre,2,Adventure
 61642,genre,10,Fantasy
-61643,genre,1,Action
-61643,genre,10,Fantasy
-61643,theme,13,Historical
-61644,genre,1,Action
-61644,genre,10,Fantasy
-61644,theme,13,Historical
-61645,genre,10,Fantasy
-61645,genre,47,Gourmet
-61646,genre,1,Action
-61646,genre,10,Fantasy
-61646,theme,50,Adult Cast
 61647,genre,5,Avant Garde
 61647,genre,24,Sci-Fi
 61647,theme,19,Music
@@ -75966,19 +75525,6 @@
 61649,theme,58,Gore
 61649,theme,13,Historical
 61649,theme,40,Psychological
-61650,genre,1,Action
-61650,genre,2,Adventure
-61650,genre,10,Fantasy
-61651,genre,24,Sci-Fi
-61651,theme,18,Mecha
-61652,genre,2,Adventure
-61652,genre,7,Mystery
-61652,genre,37,Supernatural
-61653,genre,1,Action
-61653,genre,2,Adventure
-61653,genre,10,Fantasy
-61653,theme,13,Historical
-61653,theme,17,Martial Arts
 61654,genre,36,Slice of Life
 61654,demographic,15,Kids
 61655,theme,19,Music
@@ -75990,12 +75536,6 @@
 61657,genre,10,Fantasy
 61657,theme,13,Historical
 61657,theme,17,Martial Arts
-61658,genre,1,Action
-61658,genre,2,Adventure
-61658,genre,10,Fantasy
-61659,genre,1,Action
-61659,genre,10,Fantasy
-61659,genre,24,Sci-Fi
 61660,genre,5,Avant Garde
 61660,genre,24,Sci-Fi
 61660,theme,19,Music
@@ -76093,14 +75633,6 @@
 61753,genre,10,Fantasy
 61753,theme,13,Historical
 61753,theme,17,Martial Arts
-61754,genre,2,Adventure
-61754,genre,10,Fantasy
-61756,genre,1,Action
-61756,genre,2,Adventure
-61756,genre,10,Fantasy
-61756,theme,62,Isekai
-61758,genre,10,Fantasy
-61758,theme,83,Villainess
 61761,genre,36,Slice of Life
 61761,theme,19,Music
 61764,genre,28,Boys Love
@@ -76265,8 +75797,6 @@
 61871,genre,24,Sci-Fi
 61871,theme,19,Music
 61871,theme,29,Space
-61872,genre,1,Action
-61872,theme,23,School
 61873,theme,19,Music
 61873,theme,23,School
 61874,theme,19,Music
@@ -76352,11 +75882,6 @@
 61923,theme,19,Music
 61924,genre,36,Slice of Life
 61924,theme,51,Anthropomorphic
-61925,genre,1,Action
-61925,genre,2,Adventure
-61925,genre,10,Fantasy
-61925,genre,22,Romance
-61925,theme,35,Harem
 61926,genre,22,Romance
 61927,theme,60,Idols (Female)
 61927,theme,19,Music
@@ -76387,8 +75912,6 @@
 61943,genre,22,Romance
 61943,theme,23,School
 61943,theme,78,Time Travel
-61944,genre,1,Action
-61944,theme,31,Super Power
 61945,theme,19,Music
 61946,theme,60,Idols (Female)
 61946,theme,19,Music
@@ -76434,17 +75957,9 @@
 61963,genre,10,Fantasy
 61963,demographic,15,Kids
 61964,genre,24,Sci-Fi
-61966,genre,8,Drama
-61966,genre,22,Romance
-61966,theme,64,Love Polygon
-61966,theme,23,School
 61967,genre,1,Action
 61967,genre,10,Fantasy
 61967,demographic,27,Shounen
-61968,genre,4,Comedy
-61968,genre,7,Mystery
-61968,genre,37,Supernatural
-61968,theme,32,Vampire
 61969,genre,28,Boys Love
 61969,genre,10,Fantasy
 61969,theme,62,Isekai
@@ -76454,11 +75969,6 @@
 61972,genre,4,Comedy
 61972,genre,24,Sci-Fi
 61972,theme,29,Space
-61973,genre,1,Action
-61973,genre,2,Adventure
-61973,genre,10,Fantasy
-61973,theme,62,Isekai
-61973,theme,38,Military
 61978,genre,1,Action
 61979,genre,2,Adventure
 61979,theme,19,Music
@@ -76495,9 +76005,6 @@
 62001,genre,2,Adventure
 62001,genre,37,Supernatural
 62001,demographic,27,Shounen
-62002,genre,10,Fantasy
-62002,genre,22,Romance
-62002,theme,83,Villainess
 62003,theme,19,Music
 62004,genre,2,Adventure
 62004,genre,4,Comedy
@@ -76519,10 +76026,6 @@
 62023,genre,24,Sci-Fi
 62023,genre,37,Supernatural
 62023,theme,18,Mecha
-62024,genre,1,Action
-62024,genre,24,Sci-Fi
-62024,theme,78,Time Travel
-62024,demographic,15,Kids
 62025,genre,4,Comedy
 62025,genre,10,Fantasy
 62026,genre,1,Action
@@ -76536,10 +76039,6 @@
 62027,genre,22,Romance
 62027,genre,37,Supernatural
 62027,theme,19,Music
-62028,genre,4,Comedy
-62028,genre,8,Drama
-62028,theme,66,Mahou Shoujo
-62028,demographic,25,Shoujo
 62029,genre,5,Avant Garde
 62029,theme,19,Music
 62030,genre,1,Action
@@ -76639,9 +76138,6 @@
 62079,demographic,27,Shounen
 62080,genre,10,Fantasy
 62080,genre,22,Romance
-62081,genre,1,Action
-62081,genre,2,Adventure
-62081,genre,10,Fantasy
 62082,genre,36,Slice of Life
 62082,theme,51,Anthropomorphic
 62082,demographic,15,Kids
@@ -76660,9 +76156,6 @@
 62097,theme,51,Anthropomorphic
 62097,theme,19,Music
 62098,genre,5,Avant Garde
-62100,genre,36,Slice of Life
-62100,theme,50,Adult Cast
-62100,demographic,42,Seinen
 62101,genre,36,Slice of Life
 62102,genre,4,Comedy
 62102,theme,13,Historical
@@ -76792,23 +76285,10 @@
 62183,genre,47,Gourmet
 62184,genre,4,Comedy
 62184,demographic,27,Shounen
-62187,genre,10,Fantasy
-62187,genre,22,Romance
-62187,theme,62,Isekai
-62187,theme,83,Villainess
-62188,genre,2,Adventure
-62188,genre,10,Fantasy
-62188,theme,72,Reincarnation
-62188,theme,32,Vampire
 62189,genre,4,Comedy
 62189,genre,47,Gourmet
 62190,theme,19,Music
 62193,theme,13,Historical
-62194,genre,8,Drama
-62194,genre,14,Horror
-62194,genre,37,Supernatural
-62194,theme,40,Psychological
-62194,demographic,42,Seinen
 62200,genre,10,Fantasy
 62200,genre,36,Slice of Life
 62200,demographic,15,Kids
@@ -76816,18 +76296,12 @@
 62201,theme,19,Music
 62201,theme,80,Visual Arts
 62203,theme,19,Music
-62206,genre,4,Comedy
-62206,genre,30,Sports
-62206,theme,54,Combat Sports
-62206,demographic,27,Shounen
 62209,genre,10,Fantasy
 62209,genre,36,Slice of Life
 62209,demographic,15,Kids
 62210,genre,24,Sci-Fi
 62210,theme,19,Music
 62210,theme,29,Space
-62211,genre,2,Adventure
-62211,genre,37,Supernatural
 62212,demographic,25,Shoujo
 62214,genre,4,Comedy
 62214,genre,22,Romance
@@ -76841,10 +76315,6 @@
 62218,genre,1,Action
 62218,genre,10,Fantasy
 62218,theme,82,Urban Fantasy
-62222,genre,1,Action
-62222,genre,4,Comedy
-62222,genre,24,Sci-Fi
-62222,theme,20,Parody
 62229,genre,5,Avant Garde
 62229,genre,41,Suspense
 62230,theme,19,Music
@@ -76869,8 +76339,6 @@
 62243,genre,1,Action
 62243,genre,2,Adventure
 62243,theme,50,Adult Cast
-62244,genre,1,Action
-62244,theme,79,Video Game
 62246,genre,1,Action
 62246,genre,37,Supernatural
 62246,theme,31,Super Power
@@ -76919,8 +76387,6 @@
 62272,theme,19,Music
 62273,theme,19,Music
 62273,theme,48,Workplace
-62274,genre,10,Fantasy
-62274,genre,47,Gourmet
 62275,theme,61,Idols (Male)
 62275,theme,19,Music
 62276,genre,1,Action
@@ -76937,9 +76403,6 @@
 62277,theme,20,Parody
 62277,theme,21,Samurai
 62277,demographic,27,Shounen
-62278,genre,1,Action
-62278,genre,2,Adventure
-62278,genre,10,Fantasy
 62279,genre,1,Action
 62279,genre,2,Adventure
 62279,genre,10,Fantasy
@@ -76978,8 +76441,6 @@
 62309,genre,10,Fantasy
 62309,genre,47,Gourmet
 62309,theme,82,Urban Fantasy
-62311,genre,22,Romance
-62311,genre,37,Supernatural
 62312,genre,1,Action
 62312,theme,13,Historical
 62312,theme,21,Samurai
@@ -77026,8 +76487,6 @@
 62335,theme,23,School
 62335,theme,31,Super Power
 62335,theme,78,Time Travel
-62338,genre,30,Sports
-62338,theme,77,Team Sports
 62339,genre,12,Hentai
 62340,genre,1,Action
 62340,genre,2,Adventure
@@ -77267,9 +76726,6 @@
 62467,theme,48,Workplace
 62468,genre,5,Avant Garde
 62468,genre,4,Comedy
-62469,genre,2,Adventure
-62469,genre,10,Fantasy
-62469,theme,62,Isekai
 62471,theme,19,Music
 62472,genre,1,Action
 62472,genre,2,Adventure
@@ -77293,9 +76749,6 @@
 62480,theme,17,Martial Arts
 62482,genre,5,Avant Garde
 62482,theme,23,School
-62483,genre,8,Drama
-62483,theme,13,Historical
-62483,theme,21,Samurai
 62484,genre,4,Comedy
 62484,genre,22,Romance
 62484,theme,35,Harem
@@ -77321,17 +76774,12 @@
 62500,genre,10,Fantasy
 62501,genre,10,Fantasy
 62501,demographic,15,Kids
-62503,genre,1,Action
-62503,genre,10,Fantasy
-62503,theme,62,Isekai
-62503,theme,72,Reincarnation
 62504,genre,36,Slice of Life
 62504,theme,51,Anthropomorphic
 62504,demographic,15,Kids
 62505,theme,60,Idols (Female)
 62505,theme,19,Music
 62506,theme,19,Music
-62507,theme,18,Mecha
 62508,genre,4,Comedy
 62508,genre,24,Sci-Fi
 62508,theme,51,Anthropomorphic
@@ -77347,16 +76795,11 @@
 62513,theme,23,School
 62514,theme,51,Anthropomorphic
 62515,genre,4,Comedy
-62516,genre,1,Action
-62516,genre,4,Comedy
-62516,genre,37,Supernatural
-62516,demographic,27,Shounen
 62517,theme,19,Music
 62518,genre,4,Comedy
 62518,genre,24,Sci-Fi
 62518,theme,29,Space
 62519,genre,36,Slice of Life
-62520,genre,22,Romance
 62521,genre,4,Comedy
 62521,genre,10,Fantasy
 62522,genre,4,Comedy
@@ -77430,22 +76873,11 @@
 62545,genre,36,Slice of Life
 62545,theme,50,Adult Cast
 62545,theme,48,Workplace
-62546,genre,1,Action
-62546,genre,37,Supernatural
-62546,theme,13,Historical
-62546,demographic,27,Shounen
-62547,genre,1,Action
-62547,genre,37,Supernatural
-62547,theme,13,Historical
-62547,demographic,27,Shounen
 62548,genre,22,Romance
 62548,theme,50,Adult Cast
 62548,theme,61,Idols (Male)
 62548,theme,48,Workplace
 62548,demographic,43,Josei
-62549,genre,24,Sci-Fi
-62550,genre,8,Drama
-62550,theme,19,Music
 62552,genre,1,Action
 62552,genre,24,Sci-Fi
 62555,genre,7,Mystery
@@ -77467,17 +76899,8 @@
 62561,genre,1,Action
 62561,genre,4,Comedy
 62561,theme,31,Super Power
-62564,genre,1,Action
-62564,genre,2,Adventure
-62564,genre,8,Drama
-62564,genre,10,Fantasy
-62564,theme,62,Isekai
 62565,theme,19,Music
 62566,theme,19,Music
-62567,genre,1,Action
-62567,genre,2,Adventure
-62567,genre,10,Fantasy
-62567,theme,62,Isekai
 62568,genre,2,Adventure
 62568,genre,4,Comedy
 62568,demographic,27,Shounen
@@ -77495,25 +76918,15 @@
 62579,genre,8,Drama
 62579,genre,24,Sci-Fi
 62579,theme,38,Military
-62580,genre,1,Action
-62580,genre,2,Adventure
-62580,theme,21,Samurai
-62580,demographic,27,Shounen
 62581,theme,19,Music
 62582,genre,8,Drama
 62582,genre,22,Romance
 62582,genre,37,Supernatural
 62582,theme,23,School
-62584,genre,14,Horror
-62584,genre,7,Mystery
-62584,genre,37,Supernatural
 62587,genre,1,Action
 62587,genre,10,Fantasy
 62587,theme,17,Martial Arts
 62587,theme,82,Urban Fantasy
-62589,genre,30,Sports
-62589,theme,77,Team Sports
-62589,demographic,27,Shounen
 62590,genre,1,Action
 62590,genre,8,Drama
 62590,theme,68,Organized Crime
@@ -77543,13 +76956,6 @@
 62604,theme,69,Otaku Culture
 62604,theme,23,School
 62604,demographic,42,Seinen
-62605,genre,8,Drama
-62605,genre,10,Fantasy
-62605,genre,22,Romance
-62605,theme,13,Historical
-62605,demographic,25,Shoujo
-62606,genre,10,Fantasy
-62606,theme,62,Isekai
 62607,theme,19,Music
 62607,demographic,15,Kids
 62608,theme,19,Music
@@ -77561,9 +76967,6 @@
 62611,genre,5,Avant Garde
 62611,theme,40,Psychological
 62612,theme,19,Music
-62613,genre,1,Action
-62613,genre,4,Comedy
-62613,demographic,27,Shounen
 62615,genre,36,Slice of Life
 62615,theme,50,Adult Cast
 62615,theme,52,CGDCT
@@ -77605,10 +77008,6 @@
 62648,demographic,15,Kids
 62649,genre,1,Action
 62649,theme,11,Strategy Game
-62650,genre,4,Comedy
-62650,genre,10,Fantasy
-62650,theme,82,Urban Fantasy
-62650,demographic,27,Shounen
 62651,genre,1,Action
 62651,genre,2,Adventure
 62651,genre,10,Fantasy
@@ -77664,11 +77063,6 @@
 62683,genre,4,Comedy
 62683,genre,37,Supernatural
 62684,theme,19,Music
-62685,genre,1,Action
-62685,genre,2,Adventure
-62685,genre,8,Drama
-62685,genre,10,Fantasy
-62685,theme,17,Martial Arts
 62686,genre,12,Hentai
 62689,genre,12,Hentai
 62689,theme,35,Harem
@@ -77682,22 +77076,11 @@
 62696,demographic,27,Shounen
 62698,theme,19,Music
 62699,theme,19,Music
-62702,genre,1,Action
-62702,genre,10,Fantasy
 62703,genre,1,Action
 62703,genre,2,Adventure
 62703,genre,10,Fantasy
 62703,theme,13,Historical
 62703,theme,17,Martial Arts
-62704,genre,1,Action
-62704,genre,2,Adventure
-62704,genre,24,Sci-Fi
-62705,genre,1,Action
-62705,genre,10,Fantasy
-62705,theme,17,Martial Arts
-62706,genre,1,Action
-62706,genre,10,Fantasy
-62706,genre,24,Sci-Fi
 62707,genre,1,Action
 62707,genre,10,Fantasy
 62707,theme,31,Super Power
@@ -77707,25 +77090,8 @@
 62708,genre,10,Fantasy
 62708,theme,13,Historical
 62708,theme,17,Martial Arts
-62709,genre,1,Action
-62709,genre,10,Fantasy
-62709,theme,17,Martial Arts
 62710,theme,19,Music
 62710,theme,23,School
-62714,genre,1,Action
-62714,genre,2,Adventure
-62714,genre,10,Fantasy
-62714,genre,24,Sci-Fi
-62715,genre,1,Action
-62715,genre,2,Adventure
-62715,genre,10,Fantasy
-62715,theme,13,Historical
-62715,theme,17,Martial Arts
-62717,genre,1,Action
-62717,genre,2,Adventure
-62717,genre,10,Fantasy
-62717,theme,13,Historical
-62717,theme,17,Martial Arts
 62718,genre,1,Action
 62718,genre,2,Adventure
 62718,genre,10,Fantasy
@@ -77736,17 +77102,6 @@
 62719,genre,2,Adventure
 62719,genre,10,Fantasy
 62719,theme,23,School
-62720,genre,1,Action
-62720,genre,10,Fantasy
-62720,theme,23,School
-62721,genre,1,Action
-62721,genre,2,Adventure
-62721,genre,10,Fantasy
-62721,theme,72,Reincarnation
-62721,theme,82,Urban Fantasy
-62722,genre,1,Action
-62722,genre,2,Adventure
-62722,genre,10,Fantasy
 62723,genre,1,Action
 62723,genre,2,Adventure
 62723,genre,10,Fantasy
@@ -77757,90 +77112,21 @@
 62726,genre,10,Fantasy
 62726,genre,24,Sci-Fi
 62726,theme,17,Martial Arts
-62727,genre,1,Action
-62727,genre,10,Fantasy
-62727,genre,41,Suspense
-62727,theme,40,Psychological
 62728,genre,1,Action
 62728,genre,2,Adventure
 62728,genre,10,Fantasy
 62728,theme,13,Historical
 62728,theme,17,Martial Arts
-62729,genre,1,Action
-62729,genre,2,Adventure
-62729,genre,10,Fantasy
-62729,theme,13,Historical
-62729,theme,17,Martial Arts
-62730,genre,1,Action
-62730,genre,2,Adventure
-62730,genre,10,Fantasy
-62730,theme,13,Historical
-62730,theme,17,Martial Arts
 62733,genre,5,Avant Garde
 62733,theme,19,Music
 62734,genre,1,Action
 62734,genre,2,Adventure
 62734,genre,37,Supernatural
-62736,genre,1,Action
-62736,genre,2,Adventure
-62736,genre,24,Sci-Fi
-62736,theme,17,Martial Arts
 62737,theme,19,Music
 62738,genre,1,Action
 62738,genre,2,Adventure
 62738,genre,10,Fantasy
 62738,theme,82,Urban Fantasy
-62739,genre,14,Horror
-62739,genre,37,Supernatural
-62740,genre,1,Action
-62740,genre,2,Adventure
-62740,theme,13,Historical
-62740,theme,17,Martial Arts
-62741,genre,1,Action
-62741,genre,2,Adventure
-62741,genre,10,Fantasy
-62742,genre,1,Action
-62742,genre,2,Adventure
-62742,genre,10,Fantasy
-62742,theme,13,Historical
-62742,theme,17,Martial Arts
-62743,genre,1,Action
-62743,genre,10,Fantasy
-62743,theme,62,Isekai
-62743,theme,72,Reincarnation
-62744,genre,1,Action
-62744,genre,2,Adventure
-62744,genre,10,Fantasy
-62744,theme,82,Urban Fantasy
-62745,genre,1,Action
-62745,genre,2,Adventure
-62745,genre,10,Fantasy
-62745,genre,24,Sci-Fi
-62746,genre,1,Action
-62746,genre,10,Fantasy
-62746,genre,41,Suspense
-62746,theme,82,Urban Fantasy
-62747,genre,1,Action
-62747,genre,2,Adventure
-62747,genre,10,Fantasy
-62748,genre,1,Action
-62748,genre,2,Adventure
-62748,genre,10,Fantasy
-62748,genre,7,Mystery
-62748,genre,41,Suspense
-62748,theme,82,Urban Fantasy
-62749,genre,1,Action
-62749,genre,2,Adventure
-62749,genre,10,Fantasy
-62749,theme,17,Martial Arts
-62750,genre,37,Supernatural
-62750,theme,23,School
-62751,genre,1,Action
-62751,genre,2,Adventure
-62751,genre,4,Comedy
-62751,genre,10,Fantasy
-62751,theme,62,Isekai
-62751,theme,17,Martial Arts
 62752,theme,19,Music
 62753,genre,22,Romance
 62753,theme,62,Isekai
@@ -77910,75 +77196,10 @@
 62776,demographic,15,Kids
 62777,genre,5,Avant Garde
 62778,genre,10,Fantasy
-62780,genre,1,Action
-62780,genre,10,Fantasy
-62780,theme,82,Urban Fantasy
-62781,genre,1,Action
-62781,genre,2,Adventure
-62781,genre,10,Fantasy
-62781,theme,82,Urban Fantasy
-62782,genre,1,Action
-62782,genre,10,Fantasy
-62782,theme,82,Urban Fantasy
-62783,genre,1,Action
-62783,genre,10,Fantasy
-62783,theme,17,Martial Arts
-62784,genre,1,Action
-62784,genre,10,Fantasy
-62785,genre,1,Action
-62785,genre,10,Fantasy
-62785,genre,24,Sci-Fi
-62785,theme,82,Urban Fantasy
-62786,genre,1,Action
-62786,genre,10,Fantasy
-62786,theme,17,Martial Arts
-62787,genre,1,Action
-62787,genre,10,Fantasy
-62787,theme,82,Urban Fantasy
-62788,genre,1,Action
-62788,genre,10,Fantasy
-62788,theme,13,Historical
-62788,theme,17,Martial Arts
 62789,genre,1,Action
 62789,genre,10,Fantasy
 62789,theme,13,Historical
 62789,theme,17,Martial Arts
-62790,genre,1,Action
-62790,genre,10,Fantasy
-62790,theme,82,Urban Fantasy
-62791,genre,1,Action
-62791,genre,10,Fantasy
-62791,genre,24,Sci-Fi
-62791,theme,82,Urban Fantasy
-62792,genre,1,Action
-62792,genre,10,Fantasy
-62792,theme,78,Time Travel
-62792,theme,82,Urban Fantasy
-62793,genre,1,Action
-62793,genre,10,Fantasy
-62794,genre,1,Action
-62794,genre,10,Fantasy
-62794,theme,23,School
-62794,theme,82,Urban Fantasy
-62795,genre,1,Action
-62795,genre,24,Sci-Fi
-62796,genre,1,Action
-62796,genre,10,Fantasy
-62796,theme,82,Urban Fantasy
-62797,genre,1,Action
-62797,genre,2,Adventure
-62797,genre,10,Fantasy
-62798,genre,1,Action
-62798,genre,2,Adventure
-62798,genre,10,Fantasy
-62798,theme,51,Anthropomorphic
-62799,genre,1,Action
-62799,genre,10,Fantasy
-62799,theme,82,Urban Fantasy
-62800,genre,1,Action
-62800,genre,24,Sci-Fi
-62801,genre,1,Action
-62801,theme,78,Time Travel
 62804,genre,4,Comedy
 62804,genre,22,Romance
 62804,theme,57,Gag Humor
@@ -77998,10 +77219,6 @@
 62807,genre,24,Sci-Fi
 62807,theme,79,Video Game
 62807,demographic,15,Kids
-62808,genre,4,Comedy
-62808,genre,22,Romance
-62808,theme,50,Adult Cast
-62808,demographic,27,Shounen
 62810,theme,66,Mahou Shoujo
 62810,theme,19,Music
 62811,genre,4,Comedy
@@ -78037,15 +77254,7 @@
 62837,genre,8,Drama
 62838,theme,19,Music
 62840,theme,19,Music
-62841,genre,8,Drama
-62841,genre,7,Mystery
-62841,theme,13,Historical
-62841,theme,67,Medical
 62843,genre,47,Gourmet
-62844,genre,8,Drama
-62844,genre,7,Mystery
-62844,theme,13,Historical
-62844,theme,67,Medical
 62845,theme,19,Music
 62846,genre,1,Action
 62846,genre,2,Adventure
@@ -78062,20 +77271,12 @@
 62852,theme,19,Music
 62856,genre,8,Drama
 62856,theme,13,Historical
-62857,genre,1,Action
-62857,genre,10,Fantasy
-62857,genre,22,Romance
-62857,theme,65,Magical Sex Shift
 62858,theme,19,Music
 62863,genre,2,Adventure
 62863,genre,36,Slice of Life
 62863,demographic,15,Kids
 62864,genre,4,Comedy
 62864,theme,23,School
-62865,genre,14,Horror
-62865,genre,37,Supernatural
-62865,theme,58,Gore
-62865,demographic,27,Shounen
 62872,genre,1,Action
 62872,genre,4,Comedy
 62872,theme,79,Video Game
@@ -78149,15 +77350,10 @@
 62922,genre,10,Fantasy
 62923,genre,5,Avant Garde
 62923,theme,19,Music
-62924,genre,1,Action
-62924,genre,10,Fantasy
 62925,theme,19,Music
 62926,theme,19,Music
 62927,genre,10,Fantasy
 62927,theme,62,Isekai
-62932,genre,8,Drama
-62932,theme,19,Music
-62932,theme,23,School
 62933,genre,4,Comedy
 62933,theme,71,Pets
 62933,demographic,42,Seinen
@@ -78172,39 +77368,15 @@
 62942,genre,2,Adventure
 62943,genre,5,Avant Garde
 62943,theme,19,Music
-62945,genre,1,Action
-62945,genre,2,Adventure
-62945,genre,10,Fantasy
-62945,genre,24,Sci-Fi
-62946,genre,1,Action
-62946,genre,2,Adventure
-62946,theme,13,Historical
-62946,theme,17,Martial Arts
 62947,genre,1,Action
 62947,theme,60,Idols (Female)
 62947,theme,66,Mahou Shoujo
 62947,theme,19,Music
 62948,genre,10,Fantasy
 62948,genre,24,Sci-Fi
-62949,genre,1,Action
-62949,genre,2,Adventure
-62949,genre,10,Fantasy
 62950,genre,1,Action
 62950,genre,2,Adventure
 62950,genre,10,Fantasy
-62951,genre,2,Adventure
-62951,genre,10,Fantasy
-62951,theme,13,Historical
-62952,genre,1,Action
-62952,genre,8,Drama
-62952,genre,10,Fantasy
-62952,genre,22,Romance
-62952,theme,13,Historical
-62952,theme,17,Martial Arts
-62953,genre,1,Action
-62953,genre,2,Adventure
-62953,genre,24,Sci-Fi
-62953,theme,62,Isekai
 62954,genre,1,Action
 62954,genre,2,Adventure
 62954,genre,10,Fantasy
@@ -78216,9 +77388,6 @@
 62957,genre,1,Action
 62957,genre,10,Fantasy
 62957,theme,58,Gore
-62958,genre,1,Action
-62958,genre,2,Adventure
-62958,genre,10,Fantasy
 62959,theme,60,Idols (Female)
 62959,theme,19,Music
 62960,genre,4,Comedy
@@ -78228,9 +77397,6 @@
 62964,genre,22,Romance
 62965,genre,24,Sci-Fi
 62965,theme,18,Mecha
-62967,genre,1,Action
-62967,genre,24,Sci-Fi
-62967,demographic,42,Seinen
 62969,genre,1,Action
 62969,genre,2,Adventure
 62969,genre,4,Comedy
@@ -78243,10 +77409,6 @@
 62976,theme,17,Martial Arts
 62976,theme,31,Super Power
 62977,theme,19,Music
-62978,genre,2,Adventure
-62978,genre,10,Fantasy
-62978,theme,62,Isekai
-62978,theme,72,Reincarnation
 62979,theme,19,Music
 62980,genre,8,Drama
 62980,genre,37,Supernatural
@@ -78267,25 +77429,11 @@
 62987,theme,57,Gag Humor
 62987,theme,20,Parody
 62988,theme,19,Music
-62989,genre,4,Comedy
-62989,genre,22,Romance
-62989,genre,9,Ecchi
-62989,theme,69,Otaku Culture
-62989,demographic,42,Seinen
 62990,genre,1,Action
 62990,genre,2,Adventure
 62990,genre,10,Fantasy
 62990,theme,13,Historical
 62990,theme,17,Martial Arts
-62991,genre,1,Action
-62991,genre,2,Adventure
-62991,genre,8,Drama
-62991,theme,13,Historical
-62991,theme,17,Martial Arts
-62992,genre,1,Action
-62992,genre,2,Adventure
-62992,theme,13,Historical
-62992,theme,17,Martial Arts
 62997,genre,10,Fantasy
 62998,genre,24,Sci-Fi
 62998,theme,19,Music
@@ -78308,7 +77456,6 @@
 63014,theme,69,Otaku Culture
 63014,demographic,25,Shoujo
 63015,theme,56,Educational
-63016,theme,60,Idols (Female)
 63018,genre,1,Action
 63018,genre,24,Sci-Fi
 63019,genre,8,Drama
@@ -78318,11 +77465,6 @@
 63019,theme,80,Visual Arts
 63020,genre,1,Action
 63020,genre,10,Fantasy
-63021,genre,10,Fantasy
-63021,genre,22,Romance
-63021,theme,62,Isekai
-63021,theme,68,Organized Crime
-63021,theme,72,Reincarnation
 63022,theme,19,Music
 63022,theme,40,Psychological
 63026,genre,12,Hentai
@@ -78334,12 +77476,6 @@
 63032,theme,79,Video Game
 63033,theme,60,Idols (Female)
 63033,theme,19,Music
-63034,genre,24,Sci-Fi
-63035,genre,4,Comedy
-63035,theme,50,Adult Cast
-63035,theme,57,Gag Humor
-63035,theme,48,Workplace
-63038,genre,36,Slice of Life
 63041,genre,10,Fantasy
 63041,theme,31,Super Power
 63042,genre,1,Action
@@ -78358,9 +77494,6 @@
 63047,genre,10,Fantasy
 63047,theme,21,Samurai
 63047,theme,82,Urban Fantasy
-63048,genre,1,Action
-63048,genre,24,Sci-Fi
-63048,demographic,27,Shounen
 63051,theme,19,Music
 63052,genre,24,Sci-Fi
 63052,theme,19,Music
@@ -78378,10 +77511,6 @@
 63062,theme,13,Historical
 63062,theme,17,Martial Arts
 63063,theme,19,Music
-63066,genre,8,Drama
-63066,genre,24,Sci-Fi
-63066,theme,18,Mecha
-63066,theme,31,Super Power
 63068,genre,4,Comedy
 63068,genre,24,Sci-Fi
 63070,theme,60,Idols (Female)
@@ -78390,17 +77519,9 @@
 63072,theme,19,Music
 63073,theme,19,Music
 63074,genre,12,Hentai
-63078,genre,2,Adventure
-63078,genre,10,Fantasy
-63078,theme,81,Crossdressing
-63078,theme,62,Isekai
-63078,theme,72,Reincarnation
 63079,genre,5,Avant Garde
 63079,theme,19,Music
 63080,genre,14,Horror
-63081,genre,1,Action
-63081,genre,2,Adventure
-63081,genre,10,Fantasy
 63082,genre,4,Comedy
 63082,genre,37,Supernatural
 63082,theme,6,Mythology
@@ -78455,56 +77576,18 @@
 63109,genre,47,Gourmet
 63109,theme,19,Music
 63109,theme,48,Workplace
-63120,genre,2,Adventure
-63120,genre,10,Fantasy
-63120,genre,22,Romance
-63120,demographic,25,Shoujo
-63121,genre,22,Romance
-63121,theme,23,School
-63121,demographic,25,Shoujo
 63122,theme,19,Music
 63123,theme,19,Music
 63125,genre,36,Slice of Life
 63125,theme,51,Anthropomorphic
-63127,genre,2,Adventure
-63127,genre,10,Fantasy
-63127,genre,24,Sci-Fi
-63128,genre,4,Comedy
-63128,demographic,25,Shoujo
-63129,genre,1,Action
-63129,genre,4,Comedy
-63129,genre,10,Fantasy
-63129,theme,62,Isekai
-63129,theme,72,Reincarnation
-63129,demographic,27,Shounen
 63130,genre,1,Action
 63130,theme,23,School
 63130,theme,31,Super Power
 63130,demographic,27,Shounen
 63133,theme,19,Music
-63134,genre,4,Comedy
-63134,theme,50,Adult Cast
-63134,theme,57,Gag Humor
-63134,demographic,27,Shounen
-63135,genre,1,Action
-63135,genre,2,Adventure
-63135,genre,4,Comedy
-63135,demographic,27,Shounen
-63136,genre,1,Action
-63136,genre,10,Fantasy
-63136,genre,24,Sci-Fi
-63136,theme,50,Adult Cast
-63136,theme,38,Military
-63136,theme,82,Urban Fantasy
-63136,demographic,27,Shounen
 63138,genre,24,Sci-Fi
 63138,theme,50,Adult Cast
 63138,demographic,27,Shounen
-63139,genre,1,Action
-63139,genre,4,Comedy
-63139,theme,50,Adult Cast
-63139,theme,68,Organized Crime
-63139,demographic,27,Shounen
 63140,genre,1,Action
 63140,genre,2,Adventure
 63140,genre,10,Fantasy
@@ -78512,19 +77595,6 @@
 63142,genre,1,Action
 63142,genre,24,Sci-Fi
 63142,demographic,15,Kids
-63143,genre,1,Action
-63143,genre,10,Fantasy
-63143,theme,58,Gore
-63143,theme,82,Urban Fantasy
-63143,demographic,27,Shounen
-63147,genre,1,Action
-63147,genre,10,Fantasy
-63147,demographic,27,Shounen
-63148,genre,1,Action
-63148,genre,2,Adventure
-63148,genre,10,Fantasy
-63148,theme,13,Historical
-63148,theme,17,Martial Arts
 63149,genre,1,Action
 63149,genre,2,Adventure
 63149,genre,10,Fantasy
@@ -78554,7 +77624,6 @@
 63164,genre,24,Sci-Fi
 63165,theme,19,Music
 63166,theme,19,Music
-63167,theme,66,Mahou Shoujo
 63168,theme,19,Music
 63169,theme,19,Music
 63169,theme,48,Workplace
@@ -78562,15 +77631,8 @@
 63171,theme,19,Music
 63172,theme,19,Music
 63173,genre,10,Fantasy
-63174,genre,4,Comedy
-63174,genre,22,Romance
-63174,theme,74,Love Status Quo
 63175,theme,19,Music
 63176,theme,19,Music
-63177,genre,1,Action
-63177,genre,4,Comedy
-63177,theme,31,Super Power
-63177,demographic,27,Shounen
 63178,genre,10,Fantasy
 63178,genre,22,Romance
 63178,theme,51,Anthropomorphic
@@ -78584,26 +77646,12 @@
 63181,demographic,27,Shounen
 63183,genre,36,Slice of Life
 63184,theme,19,Music
-63185,genre,1,Action
-63185,theme,13,Historical
-63185,theme,38,Military
-63185,demographic,42,Seinen
 63186,genre,2,Adventure
 63186,genre,10,Fantasy
-63188,genre,36,Slice of Life
-63188,genre,37,Supernatural
-63188,theme,23,School
-63188,demographic,27,Shounen
 63189,genre,37,Supernatural
 63189,theme,19,Music
 63190,theme,19,Music
 63191,theme,19,Music
-63193,genre,1,Action
-63193,genre,4,Comedy
-63193,theme,50,Adult Cast
-63193,theme,20,Parody
-63193,theme,31,Super Power
-63193,demographic,42,Seinen
 63194,genre,28,Boys Love
 63195,genre,5,Avant Garde
 63195,theme,19,Music
@@ -78631,22 +77679,11 @@
 63209,demographic,15,Kids
 63211,genre,4,Comedy
 63211,theme,51,Anthropomorphic
-63212,genre,4,Comedy
-63212,genre,22,Romance
-63212,theme,23,School
-63212,demographic,42,Seinen
-63215,genre,1,Action
-63215,genre,2,Adventure
-63215,theme,13,Historical
-63215,demographic,42,Seinen
 63216,genre,4,Comedy
 63216,theme,51,Anthropomorphic
 63217,theme,19,Music
 63219,genre,4,Comedy
 63219,demographic,15,Kids
-63221,genre,2,Adventure
-63221,genre,10,Fantasy
-63221,demographic,15,Kids
 63222,genre,36,Slice of Life
 63224,genre,2,Adventure
 63224,theme,19,Music
@@ -78659,9 +77696,6 @@
 63231,genre,14,Horror
 63231,theme,19,Music
 63232,genre,12,Hentai
-63235,genre,2,Adventure
-63235,genre,10,Fantasy
-63235,theme,31,Super Power
 63236,genre,28,Boys Love
 63236,genre,8,Drama
 63236,genre,49,Erotica
@@ -78691,13 +77725,7 @@
 63250,theme,19,Music
 63252,theme,3,Racing
 63252,demographic,42,Seinen
-63253,genre,2,Adventure
-63253,genre,10,Fantasy
-63254,genre,10,Fantasy
 63255,theme,19,Music
-63256,genre,1,Action
-63256,genre,2,Adventure
-63256,genre,10,Fantasy
 63257,theme,19,Music
 63260,theme,19,Music
 63260,theme,40,Psychological
@@ -78711,9 +77739,6 @@
 63266,demographic,25,Shoujo
 63267,theme,19,Music
 63267,theme,23,School
-63268,genre,8,Drama
-63268,genre,10,Fantasy
-63268,genre,22,Romance
 63270,genre,24,Sci-Fi
 63270,theme,19,Music
 63270,theme,29,Space
@@ -78749,9 +77774,6 @@
 63296,demographic,15,Kids
 63297,genre,10,Fantasy
 63297,theme,19,Music
-63298,genre,8,Drama
-63298,genre,10,Fantasy
-63298,theme,6,Mythology
 63299,genre,1,Action
 63299,genre,10,Fantasy
 63299,theme,13,Historical
@@ -78783,21 +77805,10 @@
 63319,theme,19,Music
 63321,theme,60,Idols (Female)
 63321,theme,19,Music
-63323,genre,8,Drama
-63323,genre,24,Sci-Fi
-63323,theme,18,Mecha
-63323,theme,38,Military
-63323,theme,29,Space
 63324,genre,37,Supernatural
 63324,theme,13,Historical
 63324,theme,38,Military
 63324,demographic,42,Seinen
-63325,genre,30,Sports
-63325,theme,77,Team Sports
-63326,genre,8,Drama
-63326,genre,30,Sports
-63326,theme,70,Performing Arts
-63326,demographic,42,Seinen
 63327,theme,19,Music
 63328,theme,19,Music
 63328,theme,23,School
@@ -78836,8 +77847,6 @@
 63349,theme,70,Performing Arts
 63349,theme,40,Psychological
 63349,theme,80,Visual Arts
-63350,genre,10,Fantasy
-63350,genre,49,Erotica
 63352,theme,60,Idols (Female)
 63352,theme,19,Music
 63355,theme,19,Music
@@ -78862,12 +77871,6 @@
 63367,genre,10,Fantasy
 63367,theme,17,Martial Arts
 63367,demographic,27,Shounen
-63368,genre,1,Action
-63368,genre,2,Adventure
-63368,genre,4,Comedy
-63368,genre,10,Fantasy
-63368,theme,17,Martial Arts
-63368,demographic,27,Shounen
 63373,genre,10,Fantasy
 63373,demographic,15,Kids
 63375,genre,8,Drama
@@ -78926,16 +77929,12 @@
 63418,genre,1,Action
 63418,genre,24,Sci-Fi
 63418,demographic,27,Shounen
-63419,genre,10,Fantasy
-63419,theme,68,Organized Crime
-63419,demographic,27,Shounen
 63420,theme,19,Music
 63421,theme,19,Music
 63422,theme,19,Music
 63423,genre,7,Mystery
 63423,genre,22,Romance
 63423,theme,23,School
-63424,genre,10,Fantasy
 63425,genre,2,Adventure
 63425,genre,4,Comedy
 63425,genre,10,Fantasy
@@ -78983,9 +77982,6 @@
 63441,genre,47,Gourmet
 63441,theme,51,Anthropomorphic
 63441,theme,19,Music
-63442,genre,1,Action
-63442,genre,2,Adventure
-63442,genre,10,Fantasy
 63445,genre,5,Avant Garde
 63445,theme,19,Music
 63445,theme,71,Pets
@@ -79022,16 +78018,8 @@
 63470,demographic,15,Kids
 63471,genre,5,Avant Garde
 63471,theme,19,Music
-63472,genre,22,Romance
-63472,theme,13,Historical
-63472,theme,78,Time Travel
-63472,demographic,43,Josei
 63474,theme,19,Music
 63475,theme,19,Music
-63476,genre,10,Fantasy
-63476,genre,22,Romance
-63476,theme,62,Isekai
-63476,theme,83,Villainess
 63484,theme,19,Music
 63485,genre,1,Action
 63485,genre,2,Adventure
@@ -79069,10 +78057,6 @@
 63497,theme,13,Historical
 63497,theme,20,Parody
 63499,genre,2,Adventure
-63500,genre,26,Girls Love
-63500,genre,36,Slice of Life
-63500,theme,52,CGDCT
-63500,theme,23,School
 63501,genre,4,Comedy
 63501,theme,51,Anthropomorphic
 63501,theme,19,Music
@@ -79104,11 +78088,6 @@
 63520,genre,12,Hentai
 63521,theme,50,Adult Cast
 63521,theme,19,Music
-63522,genre,1,Action
-63522,genre,2,Adventure
-63522,genre,36,Slice of Life
-63522,theme,62,Isekai
-63522,theme,79,Video Game
 63523,theme,19,Music
 63527,theme,19,Music
 63529,genre,5,Avant Garde
@@ -79118,14 +78097,6 @@
 63533,genre,36,Slice of Life
 63533,theme,52,CGDCT
 63533,theme,23,School
-63534,genre,5,Avant Garde
-63534,genre,8,Drama
-63534,genre,24,Sci-Fi
-63534,genre,41,Suspense
-63534,theme,18,Mecha
-63534,theme,40,Psychological
-63536,genre,36,Slice of Life
-63536,genre,37,Supernatural
 63537,genre,22,Romance
 63538,genre,8,Drama
 63538,genre,24,Sci-Fi
@@ -79142,10 +78113,6 @@
 63558,genre,14,Horror
 63558,genre,37,Supernatural
 63558,theme,32,Vampire
-63559,genre,10,Fantasy
-63559,genre,22,Romance
-63559,theme,62,Isekai
-63559,theme,72,Reincarnation
 63560,genre,47,Gourmet
 63561,theme,23,School
 63562,theme,19,Music
@@ -79167,9 +78134,6 @@
 63572,genre,4,Comedy
 63572,genre,37,Supernatural
 63572,demographic,27,Shounen
-63573,genre,36,Slice of Life
-63573,theme,48,Workplace
-63573,demographic,42,Seinen
 63574,theme,60,Idols (Female)
 63574,theme,19,Music
 63577,theme,19,Music
@@ -79207,12 +78171,6 @@
 63598,theme,23,School
 63598,demographic,42,Seinen
 63599,theme,19,Music
-63600,genre,1,Action
-63600,genre,24,Sci-Fi
-63600,demographic,27,Shounen
-63601,genre,2,Adventure
-63601,genre,10,Fantasy
-63601,theme,53,Childcare
 63602,theme,19,Music
 63604,theme,19,Music
 63605,theme,19,Music
@@ -79232,12 +78190,6 @@
 63629,theme,19,Music
 63631,theme,60,Idols (Female)
 63631,theme,19,Music
-63632,genre,1,Action
-63632,genre,10,Fantasy
-63632,genre,7,Mystery
-63632,genre,41,Suspense
-63632,theme,50,Adult Cast
-63632,theme,62,Isekai
 63633,theme,56,Educational
 63633,theme,19,Music
 63633,demographic,15,Kids
@@ -79259,9 +78211,6 @@
 63639,genre,22,Romance
 63639,theme,19,Music
 63639,theme,69,Otaku Culture
-63640,genre,8,Drama
-63640,theme,80,Visual Arts
-63640,demographic,27,Shounen
 63641,theme,56,Educational
 63641,demographic,15,Kids
 63642,genre,1,Action
@@ -79302,26 +78251,13 @@
 63696,genre,2,Adventure
 63696,genre,4,Comedy
 63696,demographic,15,Kids
-63697,genre,1,Action
-63697,genre,4,Comedy
-63697,demographic,42,Seinen
 63698,theme,19,Music
-63706,genre,1,Action
-63706,genre,10,Fantasy
-63706,theme,62,Isekai
-63706,theme,72,Reincarnation
 63710,theme,19,Music
 63711,theme,19,Music
 63712,genre,10,Fantasy
 63712,theme,62,Isekai
 63712,theme,72,Reincarnation
 63712,demographic,42,Seinen
-63713,genre,41,Suspense
-63713,theme,50,Adult Cast
-63713,theme,59,High Stakes Game
-63713,theme,40,Psychological
-63713,theme,11,Strategy Game
-63713,demographic,42,Seinen
 63717,genre,5,Avant Garde
 63717,genre,14,Horror
 63717,theme,19,Music
@@ -79337,18 +78273,10 @@
 63727,theme,61,Idols (Male)
 63729,theme,60,Idols (Female)
 63729,theme,19,Music
-63730,genre,1,Action
-63730,genre,10,Fantasy
-63730,theme,62,Isekai
-63730,theme,72,Reincarnation
 63733,theme,19,Music
 63734,theme,51,Anthropomorphic
 63734,theme,19,Music
 63734,theme,78,Time Travel
-63735,genre,4,Comedy
-63735,genre,22,Romance
-63735,theme,23,School
-63735,demographic,27,Shounen
 63736,genre,1,Action
 63736,genre,2,Adventure
 63736,genre,10,Fantasy
@@ -79392,8 +78320,6 @@
 63762,genre,7,Mystery
 63762,theme,39,Detective
 63762,demographic,15,Kids
-63763,genre,1,Action
-63763,genre,10,Fantasy
 63764,genre,1,Action
 63764,genre,24,Sci-Fi
 63765,genre,12,Hentai
@@ -79410,9 +78336,6 @@
 63775,genre,1,Action
 63775,genre,10,Fantasy
 63775,theme,19,Music
-63778,genre,1,Action
-63778,genre,2,Adventure
-63778,genre,10,Fantasy
 63780,genre,22,Romance
 63780,theme,81,Crossdressing
 63780,theme,64,Love Polygon
@@ -79429,17 +78352,8 @@
 63788,genre,4,Comedy
 63788,genre,37,Supernatural
 63788,theme,6,Mythology
-63789,genre,4,Comedy
-63789,genre,22,Romance
-63789,theme,35,Harem
-63789,theme,23,School
-63789,demographic,27,Shounen
 63791,theme,19,Music
 63793,theme,19,Music
-63794,genre,8,Drama
-63794,theme,72,Reincarnation
-63794,theme,75,Showbiz
-63794,demographic,42,Seinen
 63801,genre,1,Action
 63801,genre,4,Comedy
 63801,genre,22,Romance
@@ -79450,24 +78364,10 @@
 63801,demographic,27,Shounen
 63802,genre,1,Action
 63806,genre,4,Comedy
-63807,genre,8,Drama
-63807,theme,3,Racing
-63807,demographic,42,Seinen
 63810,genre,12,Hentai
-63811,genre,1,Action
-63811,genre,10,Fantasy
-63811,demographic,42,Seinen
 63812,theme,19,Music
-63813,genre,22,Romance
-63813,theme,73,Reverse Harem
-63813,theme,78,Time Travel
-63813,theme,83,Villainess
 63814,genre,10,Fantasy
 63814,theme,19,Music
-63816,genre,2,Adventure
-63816,genre,8,Drama
-63816,genre,10,Fantasy
-63816,demographic,27,Shounen
 63817,genre,1,Action
 63817,genre,2,Adventure
 63817,genre,10,Fantasy
@@ -79479,26 +78379,9 @@
 63819,genre,1,Action
 63819,genre,41,Suspense
 63819,theme,59,High Stakes Game
-63820,genre,1,Action
-63820,genre,2,Adventure
-63820,genre,10,Fantasy
-63822,genre,1,Action
-63822,genre,10,Fantasy
-63822,theme,62,Isekai
 63823,genre,10,Fantasy
 63823,genre,36,Slice of Life
 63823,demographic,15,Kids
-63824,genre,1,Action
-63824,genre,37,Supernatural
-63824,demographic,27,Shounen
-63825,genre,1,Action
-63825,genre,2,Adventure
-63825,genre,7,Mystery
-63825,genre,37,Supernatural
-63825,theme,13,Historical
-63825,theme,3,Racing
-63825,demographic,42,Seinen
-63825,demographic,27,Shounen
 63826,theme,19,Music
 63827,genre,46,Award Winning
 63828,theme,19,Music
@@ -79525,16 +78408,6 @@
 63845,theme,20,Parody
 63845,demographic,15,Kids
 63846,genre,12,Hentai
-63850,genre,1,Action
-63850,genre,2,Adventure
-63850,theme,50,Adult Cast
-63850,theme,13,Historical
-63850,theme,38,Military
-63850,demographic,42,Seinen
-63851,genre,36,Slice of Life
-63851,theme,60,Idols (Female)
-63851,theme,19,Music
-63851,theme,23,School
 63854,genre,1,Action
 63854,genre,10,Fantasy
 63855,genre,47,Gourmet
@@ -79561,11 +78434,6 @@
 63877,theme,19,Music
 63878,genre,10,Fantasy
 63878,genre,22,Romance
-63885,genre,4,Comedy
-63885,genre,41,Suspense
-63885,theme,50,Adult Cast
-63885,theme,68,Organized Crime
-63885,demographic,42,Seinen
 63887,theme,19,Music
 63890,theme,19,Music
 63892,theme,19,Music
@@ -79581,8 +78449,6 @@
 63899,genre,10,Fantasy
 63901,genre,4,Comedy
 63901,demographic,15,Kids
-63902,genre,26,Girls Love
-63902,genre,37,Supernatural
 63903,genre,1,Action
 63903,genre,7,Mystery
 63903,theme,39,Detective
@@ -79591,26 +78457,12 @@
 63909,theme,19,Music
 63911,genre,22,Romance
 63911,theme,19,Music
-63912,genre,1,Action
-63912,genre,4,Comedy
-63912,genre,10,Fantasy
-63912,genre,22,Romance
-63912,genre,9,Ecchi
-63912,theme,35,Harem
-63912,theme,62,Isekai
 63915,genre,28,Boys Love
 63915,theme,19,Music
 63915,theme,70,Performing Arts
 63933,genre,10,Fantasy
 63933,theme,51,Anthropomorphic
 63933,demographic,15,Kids
-63934,genre,1,Action
-63934,genre,10,Fantasy
-63934,genre,22,Romance
-63934,genre,24,Sci-Fi
-63934,theme,35,Harem
-63934,theme,23,School
-63934,theme,82,Urban Fantasy
 63935,genre,10,Fantasy
 63935,genre,24,Sci-Fi
 63935,theme,19,Music
@@ -79634,18 +78486,7 @@
 63950,demographic,15,Kids
 63953,theme,66,Mahou Shoujo
 63953,theme,19,Music
-63956,genre,4,Comedy
-63956,genre,37,Supernatural
-63956,demographic,15,Kids
 63957,genre,36,Slice of Life
-63958,genre,1,Action
-63958,genre,10,Fantasy
-63960,genre,1,Action
-63960,genre,4,Comedy
-63960,genre,22,Romance
-63960,genre,9,Ecchi
-63960,theme,35,Harem
-63960,theme,23,School
 63961,theme,60,Idols (Female)
 63961,theme,19,Music
 63964,genre,22,Romance
@@ -79654,10 +78495,6 @@
 63967,genre,1,Action
 63967,genre,2,Adventure
 63967,genre,10,Fantasy
-63970,genre,4,Comedy
-63970,genre,7,Mystery
-63970,theme,39,Detective
-63970,demographic,42,Seinen
 63972,theme,60,Idols (Female)
 63972,theme,19,Music
 63973,genre,8,Drama
@@ -79677,51 +78514,11 @@
 63982,theme,54,Combat Sports
 63982,theme,19,Music
 63982,demographic,15,Kids
-63984,genre,1,Action
-63984,genre,2,Adventure
-63984,genre,10,Fantasy
-63984,theme,40,Psychological
-63984,theme,82,Urban Fantasy
-63985,genre,1,Action
-63985,genre,10,Fantasy
-63985,theme,40,Psychological
-63985,theme,82,Urban Fantasy
 63986,theme,60,Idols (Female)
 63986,theme,19,Music
 63987,genre,1,Action
 63987,genre,2,Adventure
 63987,genre,10,Fantasy
-63989,genre,1,Action
-63989,genre,2,Adventure
-63989,genre,10,Fantasy
-63989,theme,13,Historical
-63989,theme,17,Martial Arts
-63992,genre,1,Action
-63992,genre,2,Adventure
-63992,genre,10,Fantasy
-63992,theme,40,Psychological
-63993,genre,1,Action
-63993,genre,10,Fantasy
-63993,theme,82,Urban Fantasy
-63994,genre,1,Action
-63994,theme,79,Video Game
-63995,genre,1,Action
-63995,genre,2,Adventure
-63995,genre,10,Fantasy
-63995,theme,13,Historical
-63995,theme,17,Martial Arts
-63996,genre,1,Action
-63996,genre,2,Adventure
-63996,genre,10,Fantasy
-63996,theme,13,Historical
-63996,theme,17,Martial Arts
-63997,genre,8,Drama
-63997,genre,7,Mystery
-63998,genre,1,Action
-63998,genre,2,Adventure
-63998,genre,10,Fantasy
-63998,theme,62,Isekai
-63998,theme,72,Reincarnation
 63999,genre,8,Drama
 63999,genre,24,Sci-Fi
 63999,theme,29,Space
@@ -79731,10 +78528,6 @@
 64004,demographic,15,Kids
 64005,theme,19,Music
 64005,demographic,15,Kids
-64006,genre,4,Comedy
-64006,genre,22,Romance
-64006,theme,23,School
-64006,demographic,25,Shoujo
 64008,genre,4,Comedy
 64008,theme,50,Adult Cast
 64008,theme,51,Anthropomorphic
@@ -79787,14 +78580,6 @@
 64055,demographic,15,Kids
 64056,genre,47,Gourmet
 64057,theme,19,Music
-64058,genre,1,Action
-64058,genre,10,Fantasy
-64058,theme,58,Gore
-64058,theme,82,Urban Fantasy
-64058,demographic,27,Shounen
-64059,genre,1,Action
-64059,genre,2,Adventure
-64059,genre,10,Fantasy
 64060,genre,36,Slice of Life
 64060,theme,19,Music
 64063,genre,2,Adventure
@@ -79802,12 +78587,6 @@
 64063,genre,10,Fantasy
 64063,genre,37,Supernatural
 64063,demographic,15,Kids
-64064,genre,8,Drama
-64064,genre,7,Mystery
-64064,genre,37,Supernatural
-64064,genre,41,Suspense
-64064,theme,39,Detective
-64064,demographic,42,Seinen
 64065,genre,10,Fantasy
 64065,demographic,15,Kids
 64067,theme,19,Music
@@ -79837,10 +78616,6 @@
 64085,theme,19,Music
 64086,theme,19,Music
 64088,theme,19,Music
-64091,genre,10,Fantasy
-64091,genre,47,Gourmet
-64091,genre,22,Romance
-64091,theme,72,Reincarnation
 64093,theme,60,Idols (Female)
 64093,theme,19,Music
 64094,theme,19,Music
@@ -79849,15 +78624,6 @@
 64100,theme,29,Space
 64100,demographic,15,Kids
 64102,genre,8,Drama
-64104,genre,4,Comedy
-64104,genre,22,Romance
-64104,theme,35,Harem
-64104,theme,23,School
-64105,genre,4,Comedy
-64105,genre,22,Romance
-64105,theme,35,Harem
-64105,theme,23,School
-64105,demographic,27,Shounen
 64106,genre,4,Comedy
 64106,genre,10,Fantasy
 64106,genre,22,Romance
@@ -79905,8 +78671,6 @@
 64149,genre,5,Avant Garde
 64149,theme,19,Music
 64151,genre,8,Drama
-64154,genre,36,Slice of Life
-64154,demographic,25,Shoujo
 64164,genre,4,Comedy
 64164,theme,51,Anthropomorphic
 64164,demographic,15,Kids
@@ -79955,11 +78719,6 @@
 64210,genre,4,Comedy
 64210,genre,47,Gourmet
 64210,theme,51,Anthropomorphic
-64211,theme,63,Iyashikei
-64213,genre,8,Drama
-64213,genre,22,Romance
-64213,genre,24,Sci-Fi
-64213,demographic,42,Seinen
 64216,genre,4,Comedy
 64216,genre,24,Sci-Fi
 64217,genre,4,Comedy
@@ -79971,10 +78730,7 @@
 64225,genre,46,Award Winning
 64229,genre,1,Action
 64229,genre,24,Sci-Fi
-64230,genre,4,Comedy
 64231,genre,10,Fantasy
-64235,genre,8,Drama
-64235,genre,37,Supernatural
 64236,genre,24,Sci-Fi
 64238,theme,56,Educational
 64240,theme,56,Educational
@@ -79990,11 +78746,6 @@
 64250,genre,12,Hentai
 64251,genre,4,Comedy
 64251,genre,10,Fantasy
-64253,genre,10,Fantasy
-64253,genre,22,Romance
-64253,theme,13,Historical
-64253,theme,67,Medical
-64253,demographic,25,Shoujo
 64254,genre,1,Action
 64254,genre,10,Fantasy
 64254,theme,23,School
@@ -80007,11 +78758,6 @@
 64264,genre,10,Fantasy
 64264,theme,19,Music
 64265,theme,19,Music
-64266,genre,8,Drama
-64266,genre,24,Sci-Fi
-64266,theme,40,Psychological
-64266,theme,78,Time Travel
-64266,demographic,27,Shounen
 64267,genre,36,Slice of Life
 64267,theme,56,Educational
 64267,theme,13,Historical
@@ -80035,13 +78781,6 @@
 64289,theme,17,Martial Arts
 64289,theme,31,Super Power
 64289,theme,79,Video Game
-64290,genre,1,Action
-64290,genre,4,Comedy
-64290,genre,10,Fantasy
-64290,genre,14,Horror
-64290,theme,50,Adult Cast
-64290,theme,58,Gore
-64290,demographic,42,Seinen
 64291,genre,12,Hentai
 64292,genre,12,Hentai
 64295,theme,60,Idols (Female)
@@ -80067,9 +78806,6 @@
 64316,theme,60,Idols (Female)
 64316,theme,19,Music
 64316,theme,79,Video Game
-64317,genre,8,Drama
-64317,genre,24,Sci-Fi
-64317,theme,19,Music
 64318,genre,24,Sci-Fi
 64319,genre,4,Comedy
 64319,theme,50,Adult Cast
@@ -80104,21 +78840,8 @@
 64340,genre,1,Action
 64340,genre,10,Fantasy
 64340,theme,79,Video Game
-64341,genre,4,Comedy
-64341,theme,50,Adult Cast
-64341,theme,48,Workplace
 64344,theme,18,Mecha
 64345,theme,19,Music
-64348,genre,7,Mystery
-64348,theme,39,Detective
-64348,theme,31,Super Power
-64348,demographic,25,Shoujo
-64350,genre,1,Action
-64350,genre,10,Fantasy
-64350,genre,22,Romance
-64350,genre,24,Sci-Fi
-64350,theme,23,School
-64350,theme,82,Urban Fantasy
 64352,theme,19,Music
 64353,genre,24,Sci-Fi
 64353,theme,19,Music
@@ -80140,10 +78863,6 @@
 64372,genre,8,Drama
 64372,theme,56,Educational
 64373,genre,12,Hentai
-64374,genre,4,Comedy
-64374,genre,8,Drama
-64374,genre,22,Romance
-64374,demographic,25,Shoujo
 64375,genre,1,Action
 64375,genre,37,Supernatural
 64376,genre,4,Comedy
@@ -80153,12 +78872,6 @@
 64378,genre,4,Comedy
 64378,theme,57,Gag Humor
 64378,theme,20,Parody
-64379,genre,1,Action
-64379,genre,10,Fantasy
-64380,genre,4,Comedy
-64380,genre,22,Romance
-64380,theme,23,School
-64380,demographic,25,Shoujo
 64381,genre,4,Comedy
 64381,theme,50,Adult Cast
 64381,theme,57,Gag Humor
@@ -80177,14 +78890,6 @@
 64384,genre,10,Fantasy
 64384,theme,62,Isekai
 64384,theme,17,Martial Arts
-64386,genre,28,Boys Love
-64386,genre,4,Comedy
-64386,genre,49,Erotica
-64387,genre,1,Action
-64387,genre,2,Adventure
-64387,genre,10,Fantasy
-64387,theme,13,Historical
-64387,theme,17,Martial Arts
 64388,genre,1,Action
 64388,genre,2,Adventure
 64388,genre,10,Fantasy
@@ -80216,21 +78921,9 @@
 64412,theme,19,Music
 64416,genre,36,Slice of Life
 64416,demographic,15,Kids
-64419,genre,8,Drama
-64419,genre,10,Fantasy
-64419,genre,22,Romance
-64419,theme,62,Isekai
 64422,genre,26,Girls Love
 64422,theme,23,School
-64424,genre,37,Supernatural
-64424,theme,13,Historical
 64425,theme,19,Music
-64427,theme,19,Music
-64427,theme,69,Otaku Culture
-64427,demographic,27,Shounen
-64428,genre,4,Comedy
-64428,theme,57,Gag Humor
-64428,theme,68,Organized Crime
 64429,theme,19,Music
 64429,theme,69,Otaku Culture
 64430,demographic,15,Kids
@@ -80240,73 +78933,20 @@
 64435,genre,5,Avant Garde
 64435,genre,14,Horror
 64435,genre,37,Supernatural
-64439,genre,8,Drama
-64439,theme,70,Performing Arts
-64439,demographic,27,Shounen
 64440,genre,5,Avant Garde
 64440,theme,19,Music
-64441,genre,4,Comedy
-64441,genre,22,Romance
-64441,genre,37,Supernatural
-64441,genre,9,Ecchi
-64441,theme,23,School
-64441,demographic,27,Shounen
 64442,theme,58,Gore
 64442,theme,19,Music
-64444,genre,1,Action
-64444,genre,2,Adventure
-64444,genre,10,Fantasy
-64444,theme,13,Historical
-64444,theme,17,Martial Arts
 64445,genre,1,Action
 64445,genre,2,Adventure
 64445,genre,10,Fantasy
 64445,theme,13,Historical
 64445,theme,17,Martial Arts
-64446,genre,1,Action
-64446,genre,2,Adventure
-64446,genre,14,Horror
-64446,genre,7,Mystery
-64446,genre,37,Supernatural
-64446,theme,40,Psychological
-64446,theme,11,Strategy Game
-64446,theme,76,Survival
-64447,genre,1,Action
-64447,genre,2,Adventure
-64447,genre,14,Horror
-64447,genre,7,Mystery
-64447,genre,37,Supernatural
-64447,genre,41,Suspense
-64447,theme,40,Psychological
-64448,genre,1,Action
-64448,genre,2,Adventure
-64448,genre,10,Fantasy
-64448,theme,13,Historical
-64448,theme,17,Martial Arts
-64449,genre,14,Horror
-64449,genre,7,Mystery
-64449,genre,41,Suspense
-64449,theme,58,Gore
-64449,theme,40,Psychological
-64450,genre,1,Action
-64450,genre,2,Adventure
-64450,genre,10,Fantasy
-64450,theme,13,Historical
-64450,theme,17,Martial Arts
 64451,genre,1,Action
 64451,genre,2,Adventure
 64451,genre,10,Fantasy
 64451,theme,13,Historical
 64451,theme,17,Martial Arts
-64452,genre,28,Boys Love
-64452,genre,4,Comedy
-64452,theme,81,Crossdressing
-64452,theme,23,School
-64454,genre,1,Action
-64454,genre,2,Adventure
-64454,genre,10,Fantasy
-64454,theme,13,Historical
-64454,theme,17,Martial Arts
 64455,genre,1,Action
 64455,genre,2,Adventure
 64455,genre,4,Comedy
@@ -80314,45 +78954,8 @@
 64455,genre,22,Romance
 64455,theme,13,Historical
 64455,theme,17,Martial Arts
-64456,genre,1,Action
-64456,genre,4,Comedy
-64456,genre,14,Horror
-64456,genre,7,Mystery
-64456,genre,37,Supernatural
-64457,genre,1,Action
-64457,genre,2,Adventure
-64457,genre,10,Fantasy
-64457,theme,13,Historical
-64457,theme,17,Martial Arts
-64458,genre,1,Action
-64458,genre,2,Adventure
-64458,genre,10,Fantasy
-64458,genre,24,Sci-Fi
-64458,theme,17,Martial Arts
-64459,genre,8,Drama
-64459,genre,24,Sci-Fi
-64459,demographic,42,Seinen
-64460,genre,1,Action
-64460,genre,2,Adventure
-64460,genre,10,Fantasy
 64461,genre,4,Comedy
 64461,genre,10,Fantasy
-64462,genre,24,Sci-Fi
-64463,genre,8,Drama
-64463,genre,41,Suspense
-64463,theme,40,Psychological
-64463,theme,23,School
-64466,genre,47,Gourmet
-64466,genre,36,Slice of Life
-64466,theme,50,Adult Cast
-64467,genre,1,Action
-64467,genre,2,Adventure
-64467,genre,4,Comedy
-64467,genre,10,Fantasy
-64467,demographic,27,Shounen
-64468,genre,4,Comedy
-64468,theme,23,School
-64468,theme,11,Strategy Game
 64469,theme,50,Adult Cast
 64469,theme,19,Music
 64470,theme,19,Music
@@ -80363,45 +78966,15 @@
 64477,theme,19,Music
 64478,genre,30,Sports
 64478,theme,19,Music
-64481,genre,1,Action
-64481,genre,8,Drama
-64481,genre,10,Fantasy
-64481,theme,58,Gore
-64481,theme,6,Mythology
-64481,demographic,42,Seinen
-64482,genre,2,Adventure
-64482,genre,24,Sci-Fi
-64482,theme,18,Mecha
-64482,demographic,42,Seinen
 64483,genre,8,Drama
 64483,genre,14,Horror
 64483,genre,41,Suspense
 64483,theme,59,High Stakes Game
 64483,theme,19,Music
 64483,theme,40,Psychological
-64484,genre,4,Comedy
-64484,genre,22,Romance
-64484,theme,50,Adult Cast
-64484,theme,35,Harem
-64484,demographic,27,Shounen
-64487,genre,1,Action
-64487,genre,8,Drama
-64487,genre,24,Sci-Fi
-64487,theme,58,Gore
-64487,theme,17,Martial Arts
-64487,demographic,27,Shounen
 64488,theme,19,Music
 64490,theme,19,Music
 64491,theme,19,Music
-64495,genre,1,Action
-64495,genre,4,Comedy
-64495,theme,23,School
-64495,demographic,27,Shounen
-64500,genre,1,Action
-64500,genre,10,Fantasy
-64500,theme,23,School
-64500,demographic,27,Shounen
-64501,genre,24,Sci-Fi
 64502,genre,10,Fantasy
 64502,demographic,15,Kids
 64503,genre,1,Action
@@ -80423,29 +78996,15 @@
 64511,theme,19,Music
 64513,genre,46,Award Winning
 64513,theme,19,Music
-64516,genre,10,Fantasy
-64516,demographic,42,Seinen
 64517,theme,19,Music
 64519,genre,36,Slice of Life
 64519,theme,51,Anthropomorphic
 64519,theme,62,Isekai
 64519,demographic,15,Kids
-64520,genre,1,Action
-64520,genre,10,Fantasy
-64520,theme,38,Military
-64520,demographic,27,Shounen
 64521,genre,24,Sci-Fi
 64521,theme,18,Mecha
 64521,demographic,15,Kids
 64522,genre,10,Fantasy
-64524,genre,1,Action
-64524,genre,4,Comedy
-64524,theme,50,Adult Cast
-64524,demographic,27,Shounen
-64527,genre,2,Adventure
-64527,genre,10,Fantasy
-64527,demographic,27,Shounen
-64528,genre,10,Fantasy
 64529,genre,10,Fantasy
 64529,genre,12,Hentai
 64530,genre,12,Hentai
@@ -80453,9 +79012,6 @@
 64534,genre,8,Drama
 64534,genre,22,Romance
 64534,theme,23,School
-64535,genre,8,Drama
-64535,genre,22,Romance
-64535,theme,50,Adult Cast
 64536,genre,2,Adventure
 64536,genre,10,Fantasy
 64536,genre,22,Romance
@@ -80463,70 +79019,16 @@
 64537,demographic,15,Kids
 64538,genre,36,Slice of Life
 64538,demographic,15,Kids
-64539,genre,8,Drama
-64539,genre,24,Sci-Fi
-64539,genre,41,Suspense
-64539,theme,59,High Stakes Game
-64539,theme,19,Music
-64539,theme,40,Psychological
-64540,genre,2,Adventure
-64540,genre,10,Fantasy
-64541,theme,60,Idols (Female)
-64541,theme,19,Music
 64542,genre,12,Hentai
 64543,genre,4,Comedy
 64543,genre,37,Supernatural
-64544,genre,28,Boys Love
-64544,genre,8,Drama
-64544,theme,50,Adult Cast
-64546,genre,1,Action
-64546,genre,2,Adventure
-64546,genre,10,Fantasy
-64546,theme,50,Adult Cast
-64546,theme,82,Urban Fantasy
-64551,genre,1,Action
-64551,genre,2,Adventure
-64551,genre,10,Fantasy
-64551,theme,62,Isekai
-64552,genre,2,Adventure
-64552,genre,10,Fantasy
-64553,genre,2,Adventure
-64553,genre,10,Fantasy
-64553,genre,22,Romance
-64553,theme,62,Isekai
-64554,genre,4,Comedy
-64554,genre,24,Sci-Fi
-64554,theme,29,Space
-64555,genre,1,Action
-64555,genre,26,Girls Love
-64555,theme,58,Gore
-64555,demographic,42,Seinen
 64558,theme,19,Music
-64560,genre,1,Action
-64560,genre,2,Adventure
-64560,genre,8,Drama
-64560,theme,51,Anthropomorphic
-64560,theme,71,Pets
-64560,theme,76,Survival
-64562,genre,14,Horror
-64562,genre,7,Mystery
-64562,genre,37,Supernatural
-64562,genre,41,Suspense
 64564,theme,60,Idols (Female)
 64564,theme,19,Music
-64569,genre,10,Fantasy
-64569,genre,22,Romance
-64569,theme,35,Harem
-64569,demographic,42,Seinen
 64570,genre,5,Avant Garde
 64571,genre,2,Adventure
 64571,genre,10,Fantasy
 64571,theme,80,Visual Arts
-64573,genre,4,Comedy
-64573,genre,8,Drama
-64573,genre,22,Romance
-64573,theme,60,Idols (Female)
-64573,demographic,27,Shounen
 64574,genre,10,Fantasy
 64575,genre,10,Fantasy
 64575,theme,76,Survival
@@ -80542,19 +79044,6 @@
 64579,genre,4,Comedy
 64580,genre,36,Slice of Life
 64580,demographic,42,Seinen
-64583,genre,1,Action
-64583,genre,2,Adventure
-64583,genre,4,Comedy
-64583,genre,7,Mystery
-64583,genre,22,Romance
-64583,theme,17,Martial Arts
-64583,theme,31,Super Power
-64584,genre,1,Action
-64584,genre,2,Adventure
-64584,genre,4,Comedy
-64584,genre,10,Fantasy
-64584,theme,17,Martial Arts
-64584,theme,31,Super Power
 64585,theme,19,Music
 64589,theme,61,Idols (Male)
 64589,theme,19,Music
@@ -80578,20 +79067,12 @@
 64597,genre,4,Comedy
 64598,genre,8,Drama
 64598,genre,24,Sci-Fi
-64599,genre,4,Comedy
-64599,theme,50,Adult Cast
-64599,theme,48,Workplace
-64599,demographic,42,Seinen
-64600,genre,4,Comedy
-64600,genre,22,Romance
-64600,theme,68,Organized Crime
 64601,genre,36,Slice of Life
 64603,theme,18,Mecha
 64604,theme,19,Music
 64607,genre,28,Boys Love
 64607,genre,10,Fantasy
 64607,theme,62,Isekai
-64608,genre,1,Action
 64611,theme,56,Educational
 64614,genre,1,Action
 64614,theme,17,Martial Arts
@@ -80607,55 +79088,28 @@
 64623,genre,37,Supernatural
 64623,theme,19,Music
 64623,theme,80,Visual Arts
-64624,genre,1,Action
-64624,genre,4,Comedy
-64624,genre,10,Fantasy
 64625,theme,19,Music
 64627,theme,19,Music
 64629,genre,24,Sci-Fi
 64629,theme,19,Music
 64630,genre,1,Action
 64630,theme,13,Historical
-64632,genre,10,Fantasy
 64638,genre,24,Sci-Fi
-64640,genre,4,Comedy
-64640,genre,22,Romance
-64640,theme,81,Crossdressing
 64641,genre,4,Comedy
 64641,demographic,15,Kids
 64642,theme,19,Music
-64643,genre,4,Comedy
-64643,genre,22,Romance
-64643,genre,37,Supernatural
-64643,theme,23,School
-64643,demographic,25,Shoujo
 64645,theme,60,Idols (Female)
 64645,theme,19,Music
 64650,genre,10,Fantasy
 64650,demographic,15,Kids
 64652,theme,19,Music
-64653,genre,30,Sports
-64653,theme,23,School
 64654,genre,47,Gourmet
 64657,theme,19,Music
-64658,genre,8,Drama
-64658,genre,22,Romance
-64658,theme,19,Music
 64659,theme,60,Idols (Female)
 64659,theme,19,Music
 64663,genre,5,Avant Garde
 64663,theme,19,Music
-64664,genre,22,Romance
-64664,theme,23,School
-64665,genre,4,Comedy
-64665,genre,10,Fantasy
-64665,genre,22,Romance
 64666,theme,19,Music
-64667,genre,8,Drama
-64667,genre,24,Sci-Fi
-64667,theme,18,Mecha
-64667,theme,38,Military
-64667,theme,29,Space
 64668,genre,1,Action
 64668,genre,37,Supernatural
 64668,theme,6,Mythology
@@ -80702,9 +79156,6 @@
 64684,genre,4,Comedy
 64684,genre,10,Fantasy
 64684,theme,62,Isekai
-64685,genre,8,Drama
-64685,genre,41,Suspense
-64685,theme,50,Adult Cast
 64686,genre,24,Sci-Fi
 64686,theme,18,Mecha
 64687,theme,60,Idols (Female)
@@ -80712,16 +79163,6 @@
 64688,theme,19,Music
 64689,theme,19,Music
 64690,theme,19,Music
-64693,genre,2,Adventure
-64693,genre,8,Drama
-64693,genre,24,Sci-Fi
-64693,theme,29,Space
-64693,demographic,27,Shounen
-64694,genre,22,Romance
-64695,genre,1,Action
-64695,genre,4,Comedy
-64695,genre,37,Supernatural
-64695,demographic,42,Seinen
 64696,theme,71,Pets
 64705,theme,19,Music
 64705,demographic,15,Kids
@@ -80739,8 +79180,6 @@
 64710,theme,13,Historical
 64710,theme,17,Martial Arts
 64711,theme,19,Music
-64712,genre,2,Adventure
-64712,genre,10,Fantasy
 64713,genre,8,Drama
 64713,genre,10,Fantasy
 64713,genre,7,Mystery
@@ -80762,17 +79201,10 @@
 64724,genre,4,Comedy
 64724,theme,78,Time Travel
 64725,genre,4,Comedy
-64726,genre,1,Action
-64726,genre,10,Fantasy
-64726,genre,9,Ecchi
-64726,theme,35,Harem
-64726,demographic,27,Shounen
 64727,genre,1,Action
 64727,genre,24,Sci-Fi
 64727,theme,50,Adult Cast
 64729,genre,12,Hentai
-64731,genre,1,Action
-64731,genre,10,Fantasy
 64732,genre,24,Sci-Fi
 64732,theme,19,Music
 64732,theme,29,Space
@@ -80782,11 +79214,6 @@
 64735,genre,4,Comedy
 64735,genre,30,Sports
 64735,theme,23,School
-64737,genre,4,Comedy
-64737,genre,47,Gourmet
-64737,theme,50,Adult Cast
-64737,theme,48,Workplace
-64737,demographic,42,Seinen
 64738,genre,2,Adventure
 64738,genre,4,Comedy
 64738,genre,22,Romance
@@ -80802,21 +79229,12 @@
 64743,genre,8,Drama
 64743,theme,13,Historical
 64743,theme,38,Military
-64744,genre,36,Slice of Life
-64744,theme,51,Anthropomorphic
 64745,genre,4,Comedy
-64746,genre,4,Comedy
-64746,theme,29,Space
 64747,genre,4,Comedy
 64747,genre,10,Fantasy
 64747,theme,62,Isekai
 64748,theme,61,Idols (Male)
 64748,theme,19,Music
-64751,genre,2,Adventure
-64751,genre,10,Fantasy
-64751,theme,65,Magical Sex Shift
-64751,theme,32,Vampire
-64751,theme,79,Video Game
 64753,genre,4,Comedy
 64753,theme,19,Music
 64754,genre,10,Fantasy
@@ -80835,11 +79253,6 @@
 64765,theme,13,Historical
 64765,demographic,15,Kids
 64766,theme,19,Music
-64768,genre,8,Drama
-64768,genre,10,Fantasy
-64768,genre,22,Romance
-64768,theme,73,Reverse Harem
-64768,theme,83,Villainess
 64769,theme,19,Music
 64770,theme,19,Music
 64771,theme,19,Music
@@ -80852,13 +79265,7 @@
 64779,genre,28,Boys Love
 64779,theme,23,School
 64780,demographic,15,Kids
-64782,genre,4,Comedy
-64782,genre,10,Fantasy
-64782,genre,7,Mystery
 64783,theme,19,Music
-64785,genre,4,Comedy
-64785,theme,51,Anthropomorphic
-64785,demographic,15,Kids
 64786,theme,60,Idols (Female)
 64786,theme,19,Music
 64788,genre,24,Sci-Fi
@@ -80872,10 +79279,6 @@
 64796,genre,5,Avant Garde
 64798,genre,4,Comedy
 64798,demographic,15,Kids
-64799,genre,1,Action
-64799,genre,2,Adventure
-64799,genre,10,Fantasy
-64799,theme,38,Military
 64802,genre,1,Action
 64802,genre,10,Fantasy
 64803,theme,19,Music
@@ -80894,7 +79297,6 @@
 64813,theme,51,Anthropomorphic
 64816,theme,18,Mecha
 64816,demographic,15,Kids
-64823,genre,12,Hentai
 64825,genre,24,Sci-Fi
 64825,theme,29,Space
 64825,demographic,15,Kids
@@ -80907,8 +79309,6 @@
 64833,demographic,15,Kids
 64834,genre,28,Boys Love
 64834,theme,75,Showbiz
-64835,genre,28,Boys Love
-64835,genre,49,Erotica
 64836,genre,5,Avant Garde
 64836,theme,40,Psychological
 64837,genre,8,Drama
@@ -80921,24 +79321,11 @@
 64842,theme,56,Educational
 64842,theme,19,Music
 64842,demographic,15,Kids
-64844,genre,1,Action
-64844,genre,10,Fantasy
-64847,genre,1,Action
-64847,genre,10,Fantasy
-64847,theme,82,Urban Fantasy
 64848,genre,1,Action
 64848,genre,37,Supernatural
 64848,theme,11,Strategy Game
 64850,theme,19,Music
 64852,theme,19,Music
-64858,genre,1,Action
-64858,genre,2,Adventure
-64858,genre,10,Fantasy
-64858,demographic,27,Shounen
-64859,genre,1,Action
-64859,genre,2,Adventure
-64859,genre,10,Fantasy
-64859,demographic,27,Shounen
 64861,genre,4,Comedy
 64861,theme,51,Anthropomorphic
 64861,theme,13,Historical
@@ -80961,11 +79348,6 @@
 64876,theme,17,Martial Arts
 64876,theme,31,Super Power
 64876,theme,79,Video Game
-64877,genre,4,Comedy
-64877,genre,22,Romance
-64877,theme,64,Love Polygon
-64877,theme,23,School
-64877,demographic,42,Seinen
 64878,theme,19,Music
 64878,demographic,15,Kids
 64879,theme,51,Anthropomorphic
@@ -80975,7 +79357,6 @@
 64880,theme,19,Music
 64881,theme,19,Music
 64882,theme,19,Music
-64884,genre,12,Hentai
 64885,theme,19,Music
 64887,genre,4,Comedy
 64887,genre,24,Sci-Fi
@@ -80983,27 +79364,12 @@
 64888,theme,19,Music
 64891,genre,10,Fantasy
 64891,theme,19,Music
-64892,genre,4,Comedy
-64892,genre,22,Romance
-64892,genre,24,Sci-Fi
-64892,theme,78,Time Travel
-64892,demographic,42,Seinen
-64893,genre,1,Action
-64893,genre,2,Adventure
-64893,genre,10,Fantasy
-64893,theme,62,Isekai
-64893,theme,17,Martial Arts
-64893,demographic,27,Shounen
-64895,theme,11,Strategy Game
 64896,genre,1,Action
 64896,theme,19,Music
 64897,genre,7,Mystery
 64897,genre,37,Supernatural
 64897,genre,41,Suspense
 64897,theme,23,School
-64898,genre,22,Romance
-64898,theme,53,Childcare
-64899,genre,12,Hentai
 64900,genre,36,Slice of Life
 64900,theme,51,Anthropomorphic
 64900,theme,56,Educational
@@ -81014,10 +79380,6 @@
 64903,genre,8,Drama
 64904,genre,1,Action
 64904,genre,24,Sci-Fi
-64905,genre,8,Drama
-64905,theme,38,Military
-64906,genre,28,Boys Love
-64906,theme,50,Adult Cast
 64907,genre,5,Avant Garde
 64907,theme,19,Music
 64913,genre,2,Adventure
@@ -81031,17 +79393,8 @@
 64918,genre,10,Fantasy
 64919,theme,51,Anthropomorphic
 64919,theme,19,Music
-64920,genre,4,Comedy
-64920,genre,24,Sci-Fi
-64920,theme,51,Anthropomorphic
-64920,demographic,15,Kids
-64920,demographic,27,Shounen
 64921,genre,4,Comedy
 64921,theme,51,Anthropomorphic
-64922,genre,41,Suspense
-64922,demographic,27,Shounen
-64923,genre,1,Action
-64923,theme,38,Military
 64924,genre,5,Avant Garde
 64924,theme,19,Music
 64927,genre,36,Slice of Life
@@ -81054,7 +79407,6 @@
 64930,theme,19,Music
 64931,theme,19,Music
 64932,theme,19,Music
-64933,theme,68,Organized Crime
 64934,genre,5,Avant Garde
 64934,theme,19,Music
 64935,theme,19,Music
@@ -81071,20 +79423,11 @@
 64943,theme,19,Music
 64944,theme,19,Music
 64944,theme,40,Psychological
-64950,genre,1,Action
-64950,genre,2,Adventure
-64950,genre,10,Fantasy
-64950,theme,78,Time Travel
 64953,genre,1,Action
 64953,genre,10,Fantasy
 64954,theme,19,Music
 64959,genre,10,Fantasy
 64959,theme,19,Music
-64960,genre,1,Action
-64960,genre,2,Adventure
-64960,genre,24,Sci-Fi
-64960,theme,31,Super Power
-64960,demographic,27,Shounen
 64964,theme,19,Music
 64965,genre,10,Fantasy
 64965,genre,36,Slice of Life
@@ -81106,8 +79449,6 @@
 64977,genre,37,Supernatural
 64977,theme,11,Strategy Game
 64977,demographic,27,Shounen
-64978,genre,7,Mystery
-64978,demographic,42,Seinen
 64979,genre,1,Action
 64979,genre,10,Fantasy
 64979,genre,24,Sci-Fi
@@ -81144,34 +79485,17 @@
 65007,theme,51,Anthropomorphic
 65007,theme,23,School
 65009,genre,10,Fantasy
-65013,theme,61,Idols (Male)
-65013,theme,19,Music
 65014,genre,10,Fantasy
 65014,theme,82,Urban Fantasy
-65015,genre,10,Fantasy
-65015,theme,23,School
-65015,theme,82,Urban Fantasy
-65015,demographic,25,Shoujo
-65016,genre,46,Award Winning
 65018,genre,1,Action
 65018,genre,10,Fantasy
 65018,genre,47,Gourmet
 65019,genre,10,Fantasy
 65019,genre,47,Gourmet
-65020,genre,12,Hentai
 65021,genre,5,Avant Garde
 65021,theme,19,Music
 65022,genre,10,Fantasy
 65022,theme,19,Music
-65023,genre,1,Action
-65023,genre,10,Fantasy
-65023,theme,6,Mythology
-65023,demographic,27,Shounen
-65024,genre,1,Action
-65024,genre,2,Adventure
-65024,genre,37,Supernatural
-65024,demographic,27,Shounen
-65025,genre,10,Fantasy
 65027,genre,36,Slice of Life
 65027,theme,19,Music
 65028,genre,1,Action
@@ -81188,117 +79512,43 @@
 65031,genre,10,Fantasy
 65031,theme,19,Music
 65031,theme,82,Urban Fantasy
-65032,genre,10,Fantasy
-65032,genre,22,Romance
-65032,theme,13,Historical
-65032,theme,83,Villainess
 65033,genre,24,Sci-Fi
 65033,theme,29,Space
 65034,genre,47,Gourmet
 65034,theme,19,Music
-65035,genre,12,Hentai
-65037,genre,4,Comedy
-65037,theme,50,Adult Cast
-65037,theme,57,Gag Humor
-65037,demographic,42,Seinen
-65038,genre,12,Hentai
 65043,genre,1,Action
 65044,genre,1,Action
 65044,genre,22,Romance
 65044,theme,13,Historical
 65044,theme,19,Music
 65045,theme,19,Music
-65047,genre,1,Action
-65047,genre,10,Fantasy
-65047,theme,50,Adult Cast
 65048,theme,19,Music
 65049,genre,5,Avant Garde
 65049,theme,19,Music
-65050,genre,36,Slice of Life
-65051,genre,4,Comedy
-65051,theme,51,Anthropomorphic
-65052,genre,4,Comedy
-65052,genre,37,Supernatural
-65052,theme,23,School
-65052,demographic,27,Shounen
-65053,genre,8,Drama
-65053,genre,47,Gourmet
-65053,demographic,42,Seinen
 65054,genre,1,Action
 65054,theme,17,Martial Arts
 65054,theme,31,Super Power
 65054,theme,79,Video Game
 65056,theme,19,Music
-65064,genre,1,Action
-65064,theme,13,Historical
-65064,theme,21,Samurai
-65066,genre,1,Action
-65066,theme,13,Historical
-65066,theme,21,Samurai
 65067,genre,1,Action
 65067,genre,10,Fantasy
 65067,genre,24,Sci-Fi
 65067,theme,82,Urban Fantasy
-65069,genre,4,Comedy
-65069,genre,9,Ecchi
-65069,theme,23,School
-65070,genre,10,Fantasy
-65070,theme,72,Reincarnation
-65070,demographic,27,Shounen
-65071,genre,4,Comedy
-65071,theme,52,CGDCT
-65071,theme,69,Otaku Culture
-65071,demographic,27,Shounen
 65072,genre,4,Comedy
 65072,genre,37,Supernatural
-65073,genre,1,Action
-65073,genre,2,Adventure
-65073,genre,10,Fantasy
-65073,theme,62,Isekai
-65073,theme,72,Reincarnation
-65076,genre,4,Comedy
-65076,genre,10,Fantasy
-65076,theme,23,School
-65076,demographic,27,Shounen
-65077,genre,2,Adventure
-65077,genre,8,Drama
-65077,genre,10,Fantasy
-65077,theme,62,Isekai
-65077,theme,72,Reincarnation
-65077,theme,23,School
-65078,genre,10,Fantasy
 65079,genre,36,Slice of Life
 65079,theme,51,Anthropomorphic
 65079,demographic,15,Kids
-65080,genre,22,Romance
-65080,theme,23,School
-65083,genre,8,Drama
-65083,genre,41,Suspense
-65083,theme,59,High Stakes Game
-65083,theme,40,Psychological
-65083,theme,11,Strategy Game
-65083,demographic,42,Seinen
 65084,genre,41,Suspense
 65084,theme,40,Psychological
-65087,genre,1,Action
-65087,genre,2,Adventure
-65087,genre,10,Fantasy
-65087,theme,35,Harem
-65087,theme,62,Isekai
-65087,theme,72,Reincarnation
 65088,theme,60,Idols (Female)
 65088,theme,19,Music
 65089,theme,19,Music
 65090,theme,19,Music
 65091,genre,5,Avant Garde
-65092,genre,1,Action
-65092,genre,24,Sci-Fi
-65092,demographic,27,Shounen
 65093,genre,4,Comedy
 65093,genre,22,Romance
 65093,demographic,25,Shoujo
-65094,genre,2,Adventure
-65094,genre,10,Fantasy
 65095,genre,36,Slice of Life
 65095,theme,66,Mahou Shoujo
 65095,theme,71,Pets
@@ -81313,24 +79563,6 @@
 65100,theme,79,Video Game
 65101,theme,19,Music
 65102,genre,12,Hentai
-65103,genre,10,Fantasy
-65103,theme,62,Isekai
-65103,theme,72,Reincarnation
-65104,genre,4,Comedy
-65104,genre,10,Fantasy
-65104,theme,35,Harem
-65104,theme,62,Isekai
-65104,theme,72,Reincarnation
-65105,genre,22,Romance
-65105,genre,37,Supernatural
-65105,theme,74,Love Status Quo
-65106,genre,7,Mystery
-65106,theme,23,School
-65107,genre,1,Action
-65107,genre,10,Fantasy
-65107,genre,22,Romance
-65107,genre,24,Sci-Fi
-65107,theme,82,Urban Fantasy
 65108,genre,28,Boys Love
 65108,genre,49,Erotica
 65108,theme,68,Organized Crime
@@ -81346,26 +79578,10 @@
 65114,genre,1,Action
 65114,genre,10,Fantasy
 65114,theme,11,Strategy Game
-65115,genre,1,Action
-65115,theme,13,Historical
-65115,demographic,42,Seinen
-65116,genre,10,Fantasy
-65116,genre,12,Hentai
-65117,genre,12,Hentai
-65118,genre,37,Supernatural
-65118,theme,32,Vampire
-65118,demographic,27,Shounen
 65119,genre,4,Comedy
 65119,genre,7,Mystery
 65119,theme,13,Historical
 65119,theme,67,Medical
-65124,genre,1,Action
-65124,genre,2,Adventure
-65124,genre,8,Drama
-65124,genre,24,Sci-Fi
-65124,theme,50,Adult Cast
-65124,theme,38,Military
-65124,theme,29,Space
 65125,genre,1,Action
 65125,theme,79,Video Game
 65126,theme,51,Anthropomorphic
@@ -81390,17 +79606,9 @@
 65141,genre,10,Fantasy
 65141,theme,13,Historical
 65141,theme,17,Martial Arts
-65144,genre,8,Drama
-65144,genre,30,Sports
-65144,theme,54,Combat Sports
-65145,genre,8,Drama
-65145,genre,10,Fantasy
-65145,genre,22,Romance
 65146,genre,24,Sci-Fi
 65146,theme,56,Educational
 65146,theme,29,Space
-65147,genre,2,Adventure
-65147,genre,10,Fantasy
 65148,genre,37,Supernatural
 65148,theme,19,Music
 65149,theme,19,Music
@@ -81412,8 +79620,6 @@
 65153,theme,19,Music
 65154,theme,19,Music
 65154,demographic,15,Kids
-65155,genre,2,Adventure
-65155,genre,10,Fantasy
 65157,genre,10,Fantasy
 65157,theme,19,Music
 65158,theme,19,Music
@@ -81421,9 +79627,6 @@
 65160,genre,4,Comedy
 65160,theme,79,Video Game
 65160,demographic,15,Kids
-65161,genre,2,Adventure
-65161,genre,4,Comedy
-65161,demographic,27,Shounen
 65162,genre,8,Drama
 65162,theme,13,Historical
 65163,genre,8,Drama
@@ -81433,8 +79636,6 @@
 65167,genre,4,Comedy
 65169,genre,4,Comedy
 65169,genre,10,Fantasy
-65170,genre,37,Supernatural
-65170,theme,32,Vampire
 65173,genre,5,Avant Garde
 65173,theme,51,Anthropomorphic
 65174,theme,19,Music
@@ -81445,10 +79646,6 @@
 65178,demographic,15,Kids
 65179,genre,10,Fantasy
 65179,demographic,15,Kids
-65180,genre,1,Action
-65180,genre,37,Supernatural
-65180,theme,23,School
-65180,demographic,27,Shounen
 65182,genre,24,Sci-Fi
 65182,theme,51,Anthropomorphic
 65182,theme,29,Space
@@ -81457,11 +79654,6 @@
 65184,theme,13,Historical
 65185,theme,60,Idols (Female)
 65185,theme,19,Music
-65188,genre,4,Comedy
-65188,genre,22,Romance
-65188,genre,24,Sci-Fi
-65188,genre,9,Ecchi
-65188,demographic,27,Shounen
 65189,theme,19,Music
 65190,theme,19,Music
 65193,genre,28,Boys Love
@@ -81494,8 +79686,6 @@
 65203,theme,29,Space
 65203,demographic,15,Kids
 65204,theme,19,Music
-65205,genre,4,Comedy
-65205,theme,50,Adult Cast
 65209,genre,4,Comedy
 65209,genre,10,Fantasy
 65209,theme,6,Mythology
@@ -81503,9 +79693,6 @@
 65211,genre,2,Adventure
 65211,theme,56,Educational
 65211,demographic,15,Kids
-65214,genre,4,Comedy
-65214,genre,24,Sci-Fi
-65214,theme,23,School
 65216,genre,4,Comedy
 65216,genre,24,Sci-Fi
 65216,theme,18,Mecha
@@ -81518,8 +79705,6 @@
 65221,demographic,15,Kids
 65222,theme,56,Educational
 65222,demographic,15,Kids
-65223,genre,36,Slice of Life
-65223,theme,53,Childcare
 65224,theme,19,Music
 65225,genre,10,Fantasy
 65225,theme,56,Educational
@@ -81546,36 +79731,13 @@
 65232,theme,31,Super Power
 65232,theme,79,Video Game
 65233,theme,19,Music
-65234,genre,12,Hentai
-65246,genre,24,Sci-Fi
-65246,theme,3,Racing
-65247,genre,24,Sci-Fi
-65247,theme,3,Racing
-65248,genre,2,Adventure
-65248,genre,8,Drama
-65248,genre,10,Fantasy
-65248,genre,7,Mystery
-65248,genre,24,Sci-Fi
-65248,theme,58,Gore
 65249,genre,5,Avant Garde
 65249,theme,19,Music
-65252,genre,1,Action
-65252,genre,7,Mystery
-65252,genre,24,Sci-Fi
-65252,genre,41,Suspense
-65252,theme,50,Adult Cast
-65252,theme,39,Detective
-65252,theme,40,Psychological
-65252,demographic,42,Seinen
 65254,theme,19,Music
 65256,genre,4,Comedy
 65256,theme,23,School
 65256,demographic,15,Kids
 65257,theme,19,Music
-65259,genre,1,Action
-65259,genre,10,Fantasy
-65259,genre,22,Romance
-65259,theme,38,Military
 65261,genre,4,Comedy
 65261,theme,23,School
 65264,genre,10,Fantasy
@@ -81593,16 +79755,10 @@
 65268,theme,50,Adult Cast
 65268,theme,38,Military
 65268,theme,29,Space
-65269,genre,12,Hentai
-65270,genre,10,Fantasy
-65270,genre,12,Hentai
-65274,genre,1,Action
-65274,theme,66,Mahou Shoujo
 65277,theme,19,Music
 65278,theme,60,Idols (Female)
 65278,theme,19,Music
 65280,genre,2,Adventure
-65281,genre,12,Hentai
 65282,genre,10,Fantasy
 65282,theme,19,Music
 65284,genre,24,Sci-Fi
@@ -81612,11 +79768,6 @@
 65286,theme,71,Pets
 65287,genre,1,Action
 65287,theme,19,Music
-65288,genre,4,Comedy
-65288,genre,22,Romance
-65288,genre,37,Supernatural
-65288,theme,32,Vampire
-65288,demographic,27,Shounen
 65291,genre,10,Fantasy
 65292,theme,13,Historical
 65292,demographic,15,Kids
@@ -81627,19 +79778,9 @@
 65295,genre,10,Fantasy
 65295,theme,6,Mythology
 65296,theme,19,Music
-65298,genre,1,Action
-65298,genre,10,Fantasy
-65298,theme,38,Military
 65299,genre,4,Comedy
-65300,genre,4,Comedy
-65300,genre,37,Supernatural
-65300,theme,71,Pets
-65300,demographic,27,Shounen
 65301,genre,10,Fantasy
 65301,demographic,15,Kids
-65302,genre,4,Comedy
-65302,theme,52,CGDCT
-65302,theme,19,Music
 65305,genre,1,Action
 65305,theme,79,Video Game
 65306,genre,36,Slice of Life
@@ -81652,14 +79793,1916 @@
 65314,theme,19,Music
 65316,theme,61,Idols (Male)
 65316,theme,19,Music
+65321,genre,5,Avant Garde
+65322,theme,19,Music
+65333,theme,19,Music
+65334,genre,5,Avant Garde
+65334,genre,22,Romance
+65337,genre,5,Avant Garde
+65338,genre,10,Fantasy
+65339,genre,8,Drama
+65339,genre,24,Sci-Fi
+65340,genre,4,Comedy
+65341,genre,4,Comedy
+65342,genre,5,Avant Garde
+65343,genre,4,Comedy
+65343,theme,51,Anthropomorphic
+65343,theme,19,Music
+65344,genre,4,Comedy
+65345,genre,4,Comedy
+65346,genre,4,Comedy
+65347,genre,4,Comedy
+65347,genre,37,Supernatural
+65347,theme,51,Anthropomorphic
+65348,genre,1,Action
+65353,genre,10,Fantasy
+65354,theme,60,Idols (Female)
+65354,theme,19,Music
+65357,genre,24,Sci-Fi
+65357,theme,60,Idols (Female)
+65357,theme,19,Music
+65358,genre,1,Action
+65358,genre,24,Sci-Fi
+65358,theme,60,Idols (Female)
+65358,theme,18,Mecha
+65358,theme,19,Music
+65358,theme,29,Space
+65359,theme,19,Music
+65360,genre,10,Fantasy
+65360,theme,51,Anthropomorphic
+65360,theme,23,School
+65360,demographic,25,Shoujo
+65361,genre,28,Boys Love
+65361,genre,49,Erotica
+65362,genre,1,Action
+65362,genre,2,Adventure
+65362,genre,10,Fantasy
+65362,theme,62,Isekai
+10639,genre,1,Action
+10639,genre,10,Fantasy
+36419,genre,1,Action
+36419,genre,10,Fantasy
+36419,theme,51,Anthropomorphic
+36419,theme,21,Samurai
+38717,genre,8,Drama
+38717,genre,24,Sci-Fi
+38717,theme,18,Mecha
+38717,theme,38,Military
+38717,theme,29,Space
+39169,theme,52,CGDCT
+39169,theme,38,Military
+39169,theme,23,School
+40242,genre,2,Adventure
+40242,genre,10,Fantasy
+41289,genre,28,Boys Love
+41289,genre,8,Drama
+41289,genre,49,Erotica
+41289,theme,68,Organized Crime
+41919,genre,8,Drama
+41919,genre,7,Mystery
+43434,genre,1,Action
+43434,genre,2,Adventure
+43434,theme,13,Historical
+43629,genre,8,Drama
+43629,genre,37,Supernatural
+43629,demographic,25,Shoujo
+44060,genre,1,Action
+44060,genre,10,Fantasy
+44060,genre,22,Romance
+46808,genre,4,Comedy
+46808,theme,66,Mahou Shoujo
+48502,genre,8,Drama
+48502,genre,10,Fantasy
+48536,genre,4,Comedy
+48536,genre,30,Sports
+48536,theme,23,School
+48536,theme,77,Team Sports
+49125,genre,4,Comedy
+49125,genre,10,Fantasy
+49703,genre,1,Action
+49703,theme,66,Mahou Shoujo
+50234,genre,10,Fantasy
+50235,genre,10,Fantasy
+50405,genre,1,Action
+50405,genre,2,Adventure
+50405,genre,4,Comedy
+50405,genre,10,Fantasy
+50405,genre,7,Mystery
+50405,theme,13,Historical
+50405,theme,6,Mythology
+50440,genre,1,Action
+50668,genre,7,Mystery
+50668,genre,37,Supernatural
+51387,genre,1,Action
+51387,genre,2,Adventure
+51387,genre,4,Comedy
+51387,genre,10,Fantasy
+51389,genre,1,Action
+51389,genre,24,Sci-Fi
+51903,genre,1,Action
+51903,genre,2,Adventure
+51903,genre,24,Sci-Fi
+51974,genre,30,Sports
+51974,theme,77,Team Sports
+52750,genre,30,Sports
+52750,theme,3,Racing
+53130,genre,10,Fantasy
+53130,theme,38,Military
+53529,genre,1,Action
+53529,genre,2,Adventure
+53529,genre,10,Fantasy
+53529,genre,22,Romance
+53529,theme,79,Video Game
+53646,genre,1,Action
+53646,genre,24,Sci-Fi
+53646,theme,60,Idols (Female)
+53646,theme,19,Music
+54440,genre,1,Action
+54687,genre,1,Action
+54687,genre,2,Adventure
+54687,genre,10,Fantasy
+54687,theme,17,Martial Arts
+54687,demographic,27,Shounen
+54688,genre,1,Action
+54688,genre,2,Adventure
+54688,genre,10,Fantasy
+54688,theme,17,Martial Arts
+54688,demographic,27,Shounen
+54833,genre,7,Mystery
+54833,genre,24,Sci-Fi
+54833,theme,39,Detective
+54916,genre,2,Adventure
+54916,genre,4,Comedy
+54916,genre,22,Romance
+54916,theme,66,Mahou Shoujo
+54916,demographic,25,Shoujo
+55034,genre,1,Action
+55034,genre,2,Adventure
+55034,theme,13,Historical
+55034,theme,17,Martial Arts
+55075,demographic,42,Seinen
+55143,genre,1,Action
+55143,theme,13,Historical
+55143,theme,21,Samurai
+55359,theme,13,Historical
+55566,genre,47,Gourmet
+55571,genre,22,Romance
+55571,genre,24,Sci-Fi
+55571,theme,18,Mecha
+55571,theme,38,Military
+55571,theme,19,Music
+55571,theme,29,Space
+55744,genre,2,Adventure
+55744,genre,10,Fantasy
+55843,genre,1,Action
+55843,genre,24,Sci-Fi
+56008,genre,1,Action
+56008,genre,2,Adventure
+56008,genre,10,Fantasy
+56008,genre,24,Sci-Fi
+56729,genre,2,Adventure
+56729,theme,51,Anthropomorphic
+56732,genre,1,Action
+56732,genre,8,Drama
+56732,genre,10,Fantasy
+56732,genre,7,Mystery
+56732,genre,22,Romance
+56732,theme,62,Isekai
+56732,theme,72,Reincarnation
+56836,genre,1,Action
+56836,genre,24,Sci-Fi
+56836,theme,58,Gore
+56836,theme,31,Super Power
+56836,demographic,42,Seinen
+56837,genre,1,Action
+56837,genre,24,Sci-Fi
+56929,genre,2,Adventure
+56929,genre,22,Romance
+56929,genre,24,Sci-Fi
+57005,genre,10,Fantasy
+57005,theme,72,Reincarnation
+57071,genre,8,Drama
+57071,genre,24,Sci-Fi
+57071,theme,50,Adult Cast
+57071,theme,38,Military
+57071,theme,29,Space
+57094,genre,1,Action
+57094,genre,7,Mystery
+57094,theme,13,Historical
+57095,genre,1,Action
+57095,genre,7,Mystery
+57095,theme,13,Historical
+57150,genre,2,Adventure
+57150,theme,18,Mecha
+57150,demographic,15,Kids
+57303,genre,1,Action
+57303,genre,24,Sci-Fi
+57303,theme,31,Super Power
+57528,genre,8,Drama
+57528,genre,10,Fantasy
+57528,genre,22,Romance
+57528,theme,62,Isekai
+57557,genre,1,Action
+57557,genre,2,Adventure
+57557,genre,10,Fantasy
+57557,demographic,27,Shounen
+57584,genre,1,Action
+57584,genre,4,Comedy
+57584,genre,10,Fantasy
+57584,theme,62,Isekai
+57584,theme,72,Reincarnation
+57797,genre,14,Horror
+57821,genre,4,Comedy
+57821,theme,51,Anthropomorphic
+57821,theme,13,Historical
+57961,genre,24,Sci-Fi
+57961,theme,18,Mecha
+57990,genre,14,Horror
+57990,genre,49,Erotica
+57990,demographic,42,Seinen
+58230,genre,8,Drama
+58756,genre,1,Action
+58756,genre,10,Fantasy
+58756,theme,82,Urban Fantasy
+58849,genre,1,Action
+58934,genre,1,Action
+58934,genre,4,Comedy
+58934,genre,10,Fantasy
+58934,theme,57,Gag Humor
+58934,theme,20,Parody
+58934,theme,23,School
+58934,demographic,27,Shounen
+58967,genre,30,Sports
+58967,theme,23,School
+58967,theme,77,Team Sports
+58967,demographic,27,Shounen
+59068,genre,2,Adventure
+59068,genre,4,Comedy
+59068,genre,10,Fantasy
+59068,genre,47,Gourmet
+59068,demographic,42,Seinen
+59139,genre,1,Action
+59139,genre,2,Adventure
+59139,genre,4,Comedy
+59139,genre,10,Fantasy
+59139,theme,62,Isekai
+59230,genre,1,Action
+59230,genre,2,Adventure
+59230,genre,10,Fantasy
+59230,theme,82,Urban Fantasy
+59235,genre,4,Comedy
+59235,theme,52,CGDCT
+59235,theme,23,School
+59235,demographic,42,Seinen
+59266,genre,2,Adventure
+59266,genre,36,Slice of Life
+59266,theme,50,Adult Cast
+59420,genre,8,Drama
+59420,genre,14,Horror
+59420,demographic,42,Seinen
+59467,genre,1,Action
+59467,genre,2,Adventure
+59467,genre,10,Fantasy
+59467,theme,62,Isekai
+59631,genre,1,Action
+59631,genre,10,Fantasy
+59637,genre,1,Action
+59637,genre,2,Adventure
+59637,genre,10,Fantasy
+59637,genre,14,Horror
+59873,genre,4,Comedy
+59873,genre,22,Romance
+59873,theme,23,School
+59895,genre,2,Adventure
+59895,genre,10,Fantasy
+59895,demographic,15,Kids
+59928,genre,2,Adventure
+59928,genre,8,Drama
+59928,genre,22,Romance
+59928,genre,37,Supernatural
+59928,theme,50,Adult Cast
+59940,genre,24,Sci-Fi
+60046,genre,1,Action
+60046,genre,4,Comedy
+60046,genre,26,Girls Love
+60046,genre,9,Ecchi
+60046,theme,66,Mahou Shoujo
+60152,genre,1,Action
+60152,genre,2,Adventure
+60152,genre,10,Fantasy
+60160,genre,36,Slice of Life
+60160,theme,60,Idols (Female)
+60160,theme,19,Music
+60160,theme,23,School
+60164,genre,2,Adventure
+60186,genre,30,Sports
+60186,theme,79,Video Game
+60214,genre,1,Action
+60214,genre,2,Adventure
+60214,genre,10,Fantasy
+60214,theme,62,Isekai
+60230,genre,8,Drama
+60230,genre,24,Sci-Fi
+60230,theme,18,Mecha
+60230,theme,38,Military
+60230,theme,29,Space
+60253,genre,1,Action
+60253,genre,2,Adventure
+60253,genre,10,Fantasy
+60253,theme,62,Isekai
+60253,theme,72,Reincarnation
+60267,genre,36,Slice of Life
+60267,theme,52,CGDCT
+60267,theme,63,Iyashikei
+60275,genre,4,Comedy
+60275,genre,30,Sports
+60275,theme,23,School
+60275,theme,77,Team Sports
+60275,demographic,27,Shounen
+60301,genre,8,Drama
+60301,genre,26,Girls Love
+60301,theme,23,School
+60348,genre,10,Fantasy
+60348,theme,62,Isekai
+60348,theme,23,School
+60348,demographic,27,Shounen
+60349,genre,10,Fantasy
+60349,theme,62,Isekai
+60349,theme,23,School
+60349,demographic,27,Shounen
+60411,genre,4,Comedy
+60411,theme,51,Anthropomorphic
+60411,demographic,15,Kids
+60510,genre,4,Comedy
+60510,genre,9,Ecchi
+60510,theme,35,Harem
+60510,theme,69,Otaku Culture
+60510,theme,23,School
+60510,demographic,27,Shounen
+60525,genre,1,Action
+60525,genre,2,Adventure
+60525,genre,10,Fantasy
+60548,genre,8,Drama
+60548,theme,23,School
+60548,demographic,42,Seinen
+60555,genre,4,Comedy
+60555,theme,51,Anthropomorphic
+60555,theme,48,Workplace
+60555,demographic,27,Shounen
+60563,genre,1,Action
+60563,genre,2,Adventure
+60563,genre,7,Mystery
+60563,genre,24,Sci-Fi
+60563,theme,62,Isekai
+60566,genre,22,Romance
+60566,theme,50,Adult Cast
+60578,genre,41,Suspense
+60684,genre,4,Comedy
+60684,genre,8,Drama
+60684,genre,22,Romance
+60684,theme,64,Love Polygon
+60714,genre,1,Action
+60714,theme,13,Historical
+60714,theme,21,Samurai
+60739,genre,1,Action
+60739,genre,2,Adventure
+60739,genre,10,Fantasy
+60829,genre,8,Drama
+60829,theme,61,Idols (Male)
+60829,theme,19,Music
+60830,theme,61,Idols (Male)
+60830,theme,19,Music
+60917,genre,10,Fantasy
+60917,genre,14,Horror
+60917,genre,41,Suspense
+61006,genre,4,Comedy
+61006,theme,52,CGDCT
+61006,theme,19,Music
+61012,genre,1,Action
+61012,genre,10,Fantasy
+61012,genre,24,Sci-Fi
+61012,theme,31,Super Power
+61012,theme,82,Urban Fantasy
+61015,genre,1,Action
+61015,genre,2,Adventure
+61015,genre,10,Fantasy
+61035,genre,26,Girls Love
+61035,theme,19,Music
+61073,theme,19,Music
+61115,genre,36,Slice of Life
+61115,theme,52,CGDCT
+61115,theme,63,Iyashikei
+61115,theme,48,Workplace
+61125,genre,30,Sports
+61125,theme,23,School
+61125,theme,77,Team Sports
+61125,demographic,27,Shounen
+61135,genre,1,Action
+61135,genre,4,Comedy
+61135,genre,9,Ecchi
+61199,genre,22,Romance
+61199,theme,74,Love Status Quo
+61199,theme,23,School
+61199,demographic,42,Seinen
+61203,genre,2,Adventure
+61203,genre,4,Comedy
+61203,genre,10,Fantasy
+61203,theme,62,Isekai
+61203,theme,20,Parody
+61282,genre,28,Boys Love
+61292,genre,1,Action
+61292,theme,13,Historical
+61292,theme,21,Samurai
+61292,demographic,27,Shounen
+61301,genre,4,Comedy
+61301,genre,10,Fantasy
+61301,genre,9,Ecchi
+61301,theme,57,Gag Humor
+61301,theme,48,Workplace
+61304,genre,4,Comedy
+61304,genre,22,Romance
+61304,theme,74,Love Status Quo
+61304,theme,23,School
+61304,demographic,27,Shounen
+61324,genre,8,Drama
+61324,theme,19,Music
+61338,genre,1,Action
+61338,genre,2,Adventure
+61338,genre,10,Fantasy
+61338,theme,79,Video Game
+61338,demographic,27,Shounen
+61398,genre,4,Comedy
+61398,genre,22,Romance
+61398,theme,23,School
+61461,genre,1,Action
+61461,theme,13,Historical
+61461,theme,17,Martial Arts
+61461,theme,21,Samurai
+61461,demographic,42,Seinen
+61535,genre,8,Drama
+61535,demographic,42,Seinen
+61563,genre,1,Action
+61563,genre,2,Adventure
+61563,genre,10,Fantasy
+61568,genre,1,Action
+61568,genre,10,Fantasy
+61568,theme,82,Urban Fantasy
+61610,genre,1,Action
+61610,genre,2,Adventure
+61610,genre,10,Fantasy
+61610,theme,13,Historical
+61610,theme,17,Martial Arts
+61611,genre,1,Action
+61611,genre,2,Adventure
+61611,genre,10,Fantasy
+61612,genre,1,Action
+61612,genre,2,Adventure
+61612,genre,10,Fantasy
+61613,genre,1,Action
+61613,genre,2,Adventure
+61613,genre,10,Fantasy
+61613,theme,13,Historical
+61613,theme,17,Martial Arts
+61615,genre,1,Action
+61615,genre,2,Adventure
+61615,genre,24,Sci-Fi
+61635,genre,1,Action
+61635,genre,24,Sci-Fi
+61643,genre,1,Action
+61643,genre,10,Fantasy
+61643,theme,13,Historical
+61644,genre,1,Action
+61644,genre,10,Fantasy
+61644,theme,13,Historical
+61645,genre,10,Fantasy
+61645,genre,47,Gourmet
+61646,genre,1,Action
+61646,genre,10,Fantasy
+61646,theme,50,Adult Cast
+61650,genre,1,Action
+61650,genre,2,Adventure
+61650,genre,10,Fantasy
+61651,genre,24,Sci-Fi
+61651,theme,18,Mecha
+61652,genre,2,Adventure
+61652,genre,7,Mystery
+61652,genre,37,Supernatural
+61653,genre,1,Action
+61653,genre,2,Adventure
+61653,genre,10,Fantasy
+61653,theme,13,Historical
+61653,theme,17,Martial Arts
+61658,genre,1,Action
+61658,genre,2,Adventure
+61658,genre,10,Fantasy
+61659,genre,1,Action
+61659,genre,10,Fantasy
+61659,genre,24,Sci-Fi
+61754,genre,2,Adventure
+61754,genre,10,Fantasy
+61756,genre,1,Action
+61756,genre,2,Adventure
+61756,genre,10,Fantasy
+61756,theme,62,Isekai
+61758,genre,10,Fantasy
+61758,theme,83,Villainess
+61872,genre,1,Action
+61872,theme,23,School
+61925,genre,1,Action
+61925,genre,2,Adventure
+61925,genre,10,Fantasy
+61925,genre,22,Romance
+61925,theme,35,Harem
+61944,genre,1,Action
+61944,theme,31,Super Power
+61966,genre,8,Drama
+61966,genre,22,Romance
+61966,theme,64,Love Polygon
+61966,theme,23,School
+61968,genre,4,Comedy
+61968,genre,7,Mystery
+61968,genre,37,Supernatural
+61968,theme,32,Vampire
+61973,genre,1,Action
+61973,genre,2,Adventure
+61973,genre,10,Fantasy
+61973,theme,62,Isekai
+61973,theme,38,Military
+62002,genre,10,Fantasy
+62002,genre,22,Romance
+62002,theme,83,Villainess
+62024,genre,1,Action
+62024,genre,24,Sci-Fi
+62024,theme,78,Time Travel
+62024,demographic,15,Kids
+62028,genre,4,Comedy
+62028,genre,8,Drama
+62028,theme,66,Mahou Shoujo
+62028,demographic,25,Shoujo
+62081,genre,1,Action
+62081,genre,2,Adventure
+62081,genre,10,Fantasy
+62100,genre,36,Slice of Life
+62100,theme,50,Adult Cast
+62100,demographic,42,Seinen
+62187,genre,10,Fantasy
+62187,genre,22,Romance
+62187,theme,62,Isekai
+62187,theme,83,Villainess
+62188,genre,2,Adventure
+62188,genre,10,Fantasy
+62188,theme,72,Reincarnation
+62188,theme,32,Vampire
+62194,genre,8,Drama
+62194,genre,14,Horror
+62194,genre,37,Supernatural
+62194,theme,40,Psychological
+62194,demographic,42,Seinen
+62206,genre,4,Comedy
+62206,genre,30,Sports
+62206,theme,54,Combat Sports
+62206,demographic,27,Shounen
+62211,genre,2,Adventure
+62211,genre,37,Supernatural
+62222,genre,1,Action
+62222,genre,4,Comedy
+62222,genre,24,Sci-Fi
+62222,theme,20,Parody
+62244,genre,1,Action
+62244,theme,79,Video Game
+62274,genre,10,Fantasy
+62274,genre,47,Gourmet
+62278,genre,1,Action
+62278,genre,2,Adventure
+62278,genre,10,Fantasy
+62311,genre,22,Romance
+62311,genre,37,Supernatural
+62338,genre,30,Sports
+62338,theme,77,Team Sports
+62469,genre,2,Adventure
+62469,genre,10,Fantasy
+62469,theme,62,Isekai
+62483,genre,8,Drama
+62483,theme,13,Historical
+62483,theme,21,Samurai
+62503,genre,1,Action
+62503,genre,10,Fantasy
+62503,theme,62,Isekai
+62503,theme,72,Reincarnation
+62507,theme,18,Mecha
+62516,genre,1,Action
+62516,genre,4,Comedy
+62516,genre,37,Supernatural
+62516,demographic,27,Shounen
+62520,genre,22,Romance
+62546,genre,1,Action
+62546,genre,37,Supernatural
+62546,theme,13,Historical
+62546,demographic,27,Shounen
+62547,genre,1,Action
+62547,genre,37,Supernatural
+62547,theme,13,Historical
+62547,demographic,27,Shounen
+62549,genre,24,Sci-Fi
+62550,genre,8,Drama
+62550,theme,19,Music
+62564,genre,1,Action
+62564,genre,2,Adventure
+62564,genre,8,Drama
+62564,genre,10,Fantasy
+62564,theme,62,Isekai
+62567,genre,1,Action
+62567,genre,2,Adventure
+62567,genre,10,Fantasy
+62567,theme,62,Isekai
+62580,genre,1,Action
+62580,genre,2,Adventure
+62580,theme,21,Samurai
+62580,demographic,27,Shounen
+62584,genre,14,Horror
+62584,genre,7,Mystery
+62584,genre,37,Supernatural
+62589,genre,30,Sports
+62589,theme,77,Team Sports
+62589,demographic,27,Shounen
+62605,genre,8,Drama
+62605,genre,10,Fantasy
+62605,genre,22,Romance
+62605,theme,13,Historical
+62605,demographic,25,Shoujo
+62606,genre,10,Fantasy
+62606,theme,62,Isekai
+62613,genre,1,Action
+62613,genre,4,Comedy
+62613,demographic,27,Shounen
+62650,genre,4,Comedy
+62650,genre,10,Fantasy
+62650,theme,82,Urban Fantasy
+62650,demographic,27,Shounen
+62685,genre,1,Action
+62685,genre,2,Adventure
+62685,genre,8,Drama
+62685,genre,10,Fantasy
+62685,theme,17,Martial Arts
+62702,genre,1,Action
+62702,genre,10,Fantasy
+62704,genre,1,Action
+62704,genre,2,Adventure
+62704,genre,24,Sci-Fi
+62705,genre,1,Action
+62705,genre,10,Fantasy
+62705,theme,17,Martial Arts
+62706,genre,1,Action
+62706,genre,10,Fantasy
+62706,genre,24,Sci-Fi
+62709,genre,1,Action
+62709,genre,10,Fantasy
+62709,theme,17,Martial Arts
+62714,genre,1,Action
+62714,genre,2,Adventure
+62714,genre,10,Fantasy
+62714,genre,24,Sci-Fi
+62715,genre,1,Action
+62715,genre,2,Adventure
+62715,genre,10,Fantasy
+62715,theme,13,Historical
+62715,theme,17,Martial Arts
+62717,genre,1,Action
+62717,genre,2,Adventure
+62717,genre,10,Fantasy
+62717,theme,13,Historical
+62717,theme,17,Martial Arts
+62720,genre,1,Action
+62720,genre,10,Fantasy
+62720,theme,23,School
+62721,genre,1,Action
+62721,genre,2,Adventure
+62721,genre,10,Fantasy
+62721,theme,72,Reincarnation
+62721,theme,82,Urban Fantasy
+62722,genre,1,Action
+62722,genre,2,Adventure
+62722,genre,10,Fantasy
+62727,genre,1,Action
+62727,genre,10,Fantasy
+62727,genre,41,Suspense
+62727,theme,40,Psychological
+62729,genre,1,Action
+62729,genre,2,Adventure
+62729,genre,10,Fantasy
+62729,theme,13,Historical
+62729,theme,17,Martial Arts
+62730,genre,1,Action
+62730,genre,2,Adventure
+62730,genre,10,Fantasy
+62730,theme,13,Historical
+62730,theme,17,Martial Arts
+62736,genre,1,Action
+62736,genre,2,Adventure
+62736,genre,24,Sci-Fi
+62736,theme,17,Martial Arts
+62739,genre,14,Horror
+62739,genre,37,Supernatural
+62740,genre,1,Action
+62740,genre,2,Adventure
+62740,theme,13,Historical
+62740,theme,17,Martial Arts
+62741,genre,1,Action
+62741,genre,2,Adventure
+62741,genre,10,Fantasy
+62742,genre,1,Action
+62742,genre,2,Adventure
+62742,genre,10,Fantasy
+62742,theme,13,Historical
+62742,theme,17,Martial Arts
+62743,genre,1,Action
+62743,genre,10,Fantasy
+62743,theme,62,Isekai
+62743,theme,72,Reincarnation
+62744,genre,1,Action
+62744,genre,2,Adventure
+62744,genre,10,Fantasy
+62744,theme,82,Urban Fantasy
+62745,genre,1,Action
+62745,genre,2,Adventure
+62745,genre,10,Fantasy
+62745,genre,24,Sci-Fi
+62746,genre,1,Action
+62746,genre,10,Fantasy
+62746,genre,41,Suspense
+62746,theme,82,Urban Fantasy
+62747,genre,1,Action
+62747,genre,2,Adventure
+62747,genre,10,Fantasy
+62748,genre,1,Action
+62748,genre,2,Adventure
+62748,genre,10,Fantasy
+62748,genre,7,Mystery
+62748,genre,41,Suspense
+62748,theme,82,Urban Fantasy
+62749,genre,1,Action
+62749,genre,2,Adventure
+62749,genre,10,Fantasy
+62749,theme,17,Martial Arts
+62750,genre,37,Supernatural
+62750,theme,23,School
+62751,genre,1,Action
+62751,genre,2,Adventure
+62751,genre,4,Comedy
+62751,genre,10,Fantasy
+62751,theme,62,Isekai
+62751,theme,17,Martial Arts
+62780,genre,1,Action
+62780,genre,10,Fantasy
+62780,theme,82,Urban Fantasy
+62781,genre,1,Action
+62781,genre,2,Adventure
+62781,genre,10,Fantasy
+62781,theme,82,Urban Fantasy
+62782,genre,1,Action
+62782,genre,10,Fantasy
+62782,theme,82,Urban Fantasy
+62783,genre,1,Action
+62783,genre,10,Fantasy
+62783,theme,17,Martial Arts
+62784,genre,1,Action
+62784,genre,10,Fantasy
+62785,genre,1,Action
+62785,genre,10,Fantasy
+62785,genre,24,Sci-Fi
+62785,theme,82,Urban Fantasy
+62786,genre,1,Action
+62786,genre,10,Fantasy
+62786,theme,17,Martial Arts
+62787,genre,1,Action
+62787,genre,10,Fantasy
+62787,theme,82,Urban Fantasy
+62788,genre,1,Action
+62788,genre,10,Fantasy
+62788,theme,13,Historical
+62788,theme,17,Martial Arts
+62790,genre,1,Action
+62790,genre,10,Fantasy
+62790,theme,82,Urban Fantasy
+62791,genre,1,Action
+62791,genre,10,Fantasy
+62791,genre,24,Sci-Fi
+62791,theme,82,Urban Fantasy
+62792,genre,1,Action
+62792,genre,10,Fantasy
+62792,theme,78,Time Travel
+62792,theme,82,Urban Fantasy
+62793,genre,1,Action
+62793,genre,10,Fantasy
+62794,genre,1,Action
+62794,genre,10,Fantasy
+62794,theme,23,School
+62794,theme,82,Urban Fantasy
+62795,genre,1,Action
+62795,genre,24,Sci-Fi
+62796,genre,1,Action
+62796,genre,10,Fantasy
+62796,theme,82,Urban Fantasy
+62797,genre,1,Action
+62797,genre,2,Adventure
+62797,genre,10,Fantasy
+62798,genre,1,Action
+62798,genre,2,Adventure
+62798,genre,10,Fantasy
+62798,theme,51,Anthropomorphic
+62799,genre,1,Action
+62799,genre,10,Fantasy
+62799,theme,82,Urban Fantasy
+62800,genre,1,Action
+62800,genre,24,Sci-Fi
+62801,genre,1,Action
+62801,theme,78,Time Travel
+62808,genre,4,Comedy
+62808,genre,22,Romance
+62808,theme,50,Adult Cast
+62808,demographic,27,Shounen
+62841,genre,8,Drama
+62841,genre,7,Mystery
+62841,theme,13,Historical
+62841,theme,67,Medical
+62844,genre,8,Drama
+62844,genre,7,Mystery
+62844,theme,13,Historical
+62844,theme,67,Medical
+62857,genre,1,Action
+62857,genre,10,Fantasy
+62857,genre,22,Romance
+62857,theme,65,Magical Sex Shift
+62865,genre,14,Horror
+62865,genre,37,Supernatural
+62865,theme,58,Gore
+62865,demographic,27,Shounen
+62924,genre,1,Action
+62924,genre,10,Fantasy
+62932,genre,8,Drama
+62932,theme,19,Music
+62932,theme,23,School
+62945,genre,1,Action
+62945,genre,2,Adventure
+62945,genre,10,Fantasy
+62945,genre,24,Sci-Fi
+62946,genre,1,Action
+62946,genre,2,Adventure
+62946,theme,13,Historical
+62946,theme,17,Martial Arts
+62949,genre,1,Action
+62949,genre,2,Adventure
+62949,genre,10,Fantasy
+62951,genre,2,Adventure
+62951,genre,10,Fantasy
+62951,theme,13,Historical
+62952,genre,1,Action
+62952,genre,8,Drama
+62952,genre,10,Fantasy
+62952,genre,22,Romance
+62952,theme,13,Historical
+62952,theme,17,Martial Arts
+62953,genre,1,Action
+62953,genre,2,Adventure
+62953,genre,24,Sci-Fi
+62953,theme,62,Isekai
+62958,genre,1,Action
+62958,genre,2,Adventure
+62958,genre,10,Fantasy
+62967,genre,1,Action
+62967,genre,24,Sci-Fi
+62967,demographic,42,Seinen
+62978,genre,2,Adventure
+62978,genre,10,Fantasy
+62978,theme,62,Isekai
+62978,theme,72,Reincarnation
+62989,genre,4,Comedy
+62989,genre,22,Romance
+62989,genre,9,Ecchi
+62989,theme,69,Otaku Culture
+62989,demographic,42,Seinen
+62991,genre,1,Action
+62991,genre,2,Adventure
+62991,genre,8,Drama
+62991,theme,13,Historical
+62991,theme,17,Martial Arts
+62992,genre,1,Action
+62992,genre,2,Adventure
+62992,theme,13,Historical
+62992,theme,17,Martial Arts
+63016,theme,60,Idols (Female)
+63021,genre,10,Fantasy
+63021,genre,22,Romance
+63021,theme,62,Isekai
+63021,theme,68,Organized Crime
+63021,theme,72,Reincarnation
+63034,genre,24,Sci-Fi
+63035,genre,4,Comedy
+63035,theme,50,Adult Cast
+63035,theme,57,Gag Humor
+63035,theme,48,Workplace
+63038,genre,36,Slice of Life
+63048,genre,1,Action
+63048,genre,24,Sci-Fi
+63048,demographic,27,Shounen
+63066,genre,8,Drama
+63066,genre,24,Sci-Fi
+63066,theme,18,Mecha
+63066,theme,31,Super Power
+63078,genre,2,Adventure
+63078,genre,10,Fantasy
+63078,theme,81,Crossdressing
+63078,theme,62,Isekai
+63078,theme,72,Reincarnation
+63081,genre,1,Action
+63081,genre,2,Adventure
+63081,genre,10,Fantasy
+63120,genre,2,Adventure
+63120,genre,10,Fantasy
+63120,genre,22,Romance
+63120,demographic,25,Shoujo
+63121,genre,22,Romance
+63121,theme,23,School
+63121,demographic,25,Shoujo
+63127,genre,2,Adventure
+63127,genre,10,Fantasy
+63127,genre,24,Sci-Fi
+63128,genre,4,Comedy
+63128,demographic,25,Shoujo
+63129,genre,1,Action
+63129,genre,4,Comedy
+63129,genre,10,Fantasy
+63129,theme,62,Isekai
+63129,theme,72,Reincarnation
+63129,demographic,27,Shounen
+63134,genre,4,Comedy
+63134,theme,50,Adult Cast
+63134,theme,57,Gag Humor
+63134,demographic,27,Shounen
+63135,genre,1,Action
+63135,genre,2,Adventure
+63135,genre,4,Comedy
+63135,demographic,27,Shounen
+63136,genre,1,Action
+63136,genre,10,Fantasy
+63136,genre,24,Sci-Fi
+63136,theme,50,Adult Cast
+63136,theme,38,Military
+63136,theme,82,Urban Fantasy
+63136,demographic,27,Shounen
+63139,genre,1,Action
+63139,genre,4,Comedy
+63139,theme,50,Adult Cast
+63139,theme,68,Organized Crime
+63139,demographic,27,Shounen
+63143,genre,1,Action
+63143,genre,10,Fantasy
+63143,theme,58,Gore
+63143,theme,82,Urban Fantasy
+63143,demographic,27,Shounen
+63147,genre,1,Action
+63147,genre,10,Fantasy
+63147,demographic,27,Shounen
+63148,genre,1,Action
+63148,genre,2,Adventure
+63148,genre,10,Fantasy
+63148,theme,13,Historical
+63148,theme,17,Martial Arts
+63167,theme,66,Mahou Shoujo
+63174,genre,4,Comedy
+63174,genre,22,Romance
+63174,theme,74,Love Status Quo
+63177,genre,1,Action
+63177,genre,4,Comedy
+63177,theme,31,Super Power
+63177,demographic,27,Shounen
+63185,genre,1,Action
+63185,theme,13,Historical
+63185,theme,38,Military
+63185,demographic,42,Seinen
+63188,genre,36,Slice of Life
+63188,genre,37,Supernatural
+63188,theme,23,School
+63188,demographic,27,Shounen
+63193,genre,1,Action
+63193,genre,4,Comedy
+63193,theme,50,Adult Cast
+63193,theme,20,Parody
+63193,theme,31,Super Power
+63193,demographic,42,Seinen
+63212,genre,4,Comedy
+63212,genre,22,Romance
+63212,theme,23,School
+63212,demographic,42,Seinen
+63215,genre,1,Action
+63215,genre,2,Adventure
+63215,theme,13,Historical
+63215,demographic,42,Seinen
+63221,genre,2,Adventure
+63221,genre,10,Fantasy
+63221,demographic,15,Kids
+63235,genre,2,Adventure
+63235,genre,10,Fantasy
+63235,theme,31,Super Power
+63253,genre,2,Adventure
+63253,genre,10,Fantasy
+63254,genre,10,Fantasy
+63256,genre,1,Action
+63256,genre,2,Adventure
+63256,genre,10,Fantasy
+63268,genre,8,Drama
+63268,genre,10,Fantasy
+63268,genre,22,Romance
+63298,genre,8,Drama
+63298,genre,10,Fantasy
+63298,theme,6,Mythology
+63323,genre,8,Drama
+63323,genre,24,Sci-Fi
+63323,theme,18,Mecha
+63323,theme,38,Military
+63323,theme,29,Space
+63325,genre,30,Sports
+63325,theme,77,Team Sports
+63326,genre,8,Drama
+63326,genre,30,Sports
+63326,theme,70,Performing Arts
+63326,demographic,42,Seinen
+63350,genre,10,Fantasy
+63350,genre,49,Erotica
+63368,genre,1,Action
+63368,genre,2,Adventure
+63368,genre,4,Comedy
+63368,genre,10,Fantasy
+63368,theme,17,Martial Arts
+63368,demographic,27,Shounen
+63419,genre,10,Fantasy
+63419,theme,68,Organized Crime
+63419,demographic,27,Shounen
+63424,genre,10,Fantasy
+63442,genre,1,Action
+63442,genre,2,Adventure
+63442,genre,10,Fantasy
+63472,genre,22,Romance
+63472,theme,13,Historical
+63472,theme,78,Time Travel
+63472,demographic,43,Josei
+63476,genre,10,Fantasy
+63476,genre,22,Romance
+63476,theme,62,Isekai
+63476,theme,83,Villainess
+63500,genre,26,Girls Love
+63500,genre,36,Slice of Life
+63500,theme,52,CGDCT
+63500,theme,23,School
+63522,genre,1,Action
+63522,genre,2,Adventure
+63522,genre,36,Slice of Life
+63522,theme,62,Isekai
+63522,theme,79,Video Game
+63534,genre,5,Avant Garde
+63534,genre,8,Drama
+63534,genre,24,Sci-Fi
+63534,genre,41,Suspense
+63534,theme,18,Mecha
+63534,theme,40,Psychological
+63536,genre,36,Slice of Life
+63536,genre,37,Supernatural
+63559,genre,10,Fantasy
+63559,genre,22,Romance
+63559,theme,62,Isekai
+63559,theme,72,Reincarnation
+63573,genre,36,Slice of Life
+63573,theme,48,Workplace
+63573,demographic,42,Seinen
+63600,genre,1,Action
+63600,genre,24,Sci-Fi
+63600,demographic,27,Shounen
+63601,genre,2,Adventure
+63601,genre,10,Fantasy
+63601,theme,53,Childcare
+63632,genre,1,Action
+63632,genre,10,Fantasy
+63632,genre,7,Mystery
+63632,genre,41,Suspense
+63632,theme,50,Adult Cast
+63632,theme,62,Isekai
+63640,genre,8,Drama
+63640,theme,80,Visual Arts
+63640,demographic,27,Shounen
+63697,genre,1,Action
+63697,genre,4,Comedy
+63697,demographic,42,Seinen
+63706,genre,1,Action
+63706,genre,10,Fantasy
+63706,theme,62,Isekai
+63706,theme,72,Reincarnation
+63713,genre,41,Suspense
+63713,theme,50,Adult Cast
+63713,theme,59,High Stakes Game
+63713,theme,40,Psychological
+63713,theme,11,Strategy Game
+63713,demographic,42,Seinen
+63730,genre,1,Action
+63730,genre,10,Fantasy
+63730,theme,62,Isekai
+63730,theme,72,Reincarnation
+63735,genre,4,Comedy
+63735,genre,22,Romance
+63735,theme,23,School
+63735,demographic,27,Shounen
+63763,genre,1,Action
+63763,genre,10,Fantasy
+63778,genre,1,Action
+63778,genre,2,Adventure
+63778,genre,10,Fantasy
+63789,genre,4,Comedy
+63789,genre,22,Romance
+63789,theme,35,Harem
+63789,theme,23,School
+63789,demographic,27,Shounen
+63794,genre,8,Drama
+63794,theme,72,Reincarnation
+63794,theme,75,Showbiz
+63794,demographic,42,Seinen
+63807,genre,8,Drama
+63807,theme,3,Racing
+63807,demographic,42,Seinen
+63811,genre,1,Action
+63811,genre,10,Fantasy
+63811,demographic,42,Seinen
+63813,genre,22,Romance
+63813,theme,73,Reverse Harem
+63813,theme,78,Time Travel
+63813,theme,83,Villainess
+63816,genre,2,Adventure
+63816,genre,8,Drama
+63816,genre,10,Fantasy
+63816,demographic,27,Shounen
+63820,genre,1,Action
+63820,genre,2,Adventure
+63820,genre,10,Fantasy
+63822,genre,1,Action
+63822,genre,10,Fantasy
+63822,theme,62,Isekai
+63824,genre,1,Action
+63824,genre,37,Supernatural
+63824,demographic,27,Shounen
+63825,genre,1,Action
+63825,genre,2,Adventure
+63825,genre,7,Mystery
+63825,genre,37,Supernatural
+63825,theme,13,Historical
+63825,theme,3,Racing
+63825,demographic,42,Seinen
+63825,demographic,27,Shounen
+63850,genre,1,Action
+63850,genre,2,Adventure
+63850,theme,50,Adult Cast
+63850,theme,13,Historical
+63850,theme,38,Military
+63850,demographic,42,Seinen
+63851,genre,36,Slice of Life
+63851,theme,60,Idols (Female)
+63851,theme,19,Music
+63851,theme,23,School
+63885,genre,4,Comedy
+63885,genre,41,Suspense
+63885,theme,50,Adult Cast
+63885,theme,68,Organized Crime
+63885,demographic,42,Seinen
+63902,genre,26,Girls Love
+63902,genre,37,Supernatural
+63912,genre,1,Action
+63912,genre,4,Comedy
+63912,genre,10,Fantasy
+63912,genre,22,Romance
+63912,genre,9,Ecchi
+63912,theme,35,Harem
+63912,theme,62,Isekai
+63934,genre,1,Action
+63934,genre,10,Fantasy
+63934,genre,22,Romance
+63934,genre,24,Sci-Fi
+63934,theme,35,Harem
+63934,theme,23,School
+63934,theme,82,Urban Fantasy
+63956,genre,4,Comedy
+63956,genre,37,Supernatural
+63956,demographic,15,Kids
+63958,genre,1,Action
+63958,genre,10,Fantasy
+63960,genre,1,Action
+63960,genre,4,Comedy
+63960,genre,22,Romance
+63960,genre,9,Ecchi
+63960,theme,35,Harem
+63960,theme,23,School
+63970,genre,4,Comedy
+63970,genre,7,Mystery
+63970,theme,39,Detective
+63970,demographic,42,Seinen
+63984,genre,1,Action
+63984,genre,2,Adventure
+63984,genre,10,Fantasy
+63984,theme,40,Psychological
+63984,theme,82,Urban Fantasy
+63985,genre,1,Action
+63985,genre,10,Fantasy
+63985,theme,40,Psychological
+63985,theme,82,Urban Fantasy
+63989,genre,1,Action
+63989,genre,2,Adventure
+63989,genre,10,Fantasy
+63989,theme,13,Historical
+63989,theme,17,Martial Arts
+63992,genre,1,Action
+63992,genre,2,Adventure
+63992,genre,10,Fantasy
+63992,theme,40,Psychological
+63993,genre,1,Action
+63993,genre,10,Fantasy
+63993,theme,82,Urban Fantasy
+63994,genre,1,Action
+63994,theme,79,Video Game
+63995,genre,1,Action
+63995,genre,2,Adventure
+63995,genre,10,Fantasy
+63995,theme,13,Historical
+63995,theme,17,Martial Arts
+63996,genre,1,Action
+63996,genre,2,Adventure
+63996,genre,10,Fantasy
+63996,theme,13,Historical
+63996,theme,17,Martial Arts
+63997,genre,8,Drama
+63997,genre,7,Mystery
+63998,genre,1,Action
+63998,genre,2,Adventure
+63998,genre,10,Fantasy
+63998,theme,62,Isekai
+63998,theme,72,Reincarnation
+64006,genre,4,Comedy
+64006,genre,22,Romance
+64006,theme,23,School
+64006,demographic,25,Shoujo
+64058,genre,1,Action
+64058,genre,10,Fantasy
+64058,theme,58,Gore
+64058,theme,82,Urban Fantasy
+64058,demographic,27,Shounen
+64059,genre,1,Action
+64059,genre,2,Adventure
+64059,genre,10,Fantasy
+64064,genre,8,Drama
+64064,genre,7,Mystery
+64064,genre,37,Supernatural
+64064,genre,41,Suspense
+64064,theme,39,Detective
+64064,demographic,42,Seinen
+64091,genre,10,Fantasy
+64091,genre,47,Gourmet
+64091,genre,22,Romance
+64091,theme,72,Reincarnation
+64104,genre,4,Comedy
+64104,genre,22,Romance
+64104,theme,35,Harem
+64104,theme,23,School
+64105,genre,4,Comedy
+64105,genre,22,Romance
+64105,theme,35,Harem
+64105,theme,23,School
+64105,demographic,27,Shounen
+64154,genre,36,Slice of Life
+64154,demographic,25,Shoujo
+64211,theme,63,Iyashikei
+64213,genre,8,Drama
+64213,genre,22,Romance
+64213,genre,24,Sci-Fi
+64213,demographic,42,Seinen
+64230,genre,4,Comedy
+64235,genre,8,Drama
+64235,genre,37,Supernatural
+64253,genre,10,Fantasy
+64253,genre,22,Romance
+64253,theme,13,Historical
+64253,theme,67,Medical
+64253,demographic,25,Shoujo
+64266,genre,8,Drama
+64266,genre,24,Sci-Fi
+64266,theme,40,Psychological
+64266,theme,78,Time Travel
+64266,demographic,27,Shounen
+64290,genre,1,Action
+64290,genre,4,Comedy
+64290,genre,10,Fantasy
+64290,genre,14,Horror
+64290,theme,50,Adult Cast
+64290,theme,58,Gore
+64290,demographic,42,Seinen
+64317,genre,8,Drama
+64317,genre,24,Sci-Fi
+64317,theme,19,Music
+64341,genre,4,Comedy
+64341,theme,50,Adult Cast
+64341,theme,48,Workplace
+64348,genre,7,Mystery
+64348,theme,39,Detective
+64348,theme,31,Super Power
+64348,demographic,25,Shoujo
+64350,genre,1,Action
+64350,genre,10,Fantasy
+64350,genre,22,Romance
+64350,genre,24,Sci-Fi
+64350,theme,23,School
+64350,theme,82,Urban Fantasy
+64374,genre,4,Comedy
+64374,genre,8,Drama
+64374,genre,22,Romance
+64374,demographic,25,Shoujo
+64379,genre,1,Action
+64379,genre,10,Fantasy
+64380,genre,4,Comedy
+64380,genre,22,Romance
+64380,theme,23,School
+64380,demographic,25,Shoujo
+64386,genre,28,Boys Love
+64386,genre,4,Comedy
+64386,genre,49,Erotica
+64387,genre,1,Action
+64387,genre,2,Adventure
+64387,genre,10,Fantasy
+64387,theme,13,Historical
+64387,theme,17,Martial Arts
+64419,genre,8,Drama
+64419,genre,10,Fantasy
+64419,genre,22,Romance
+64419,theme,62,Isekai
+64424,genre,37,Supernatural
+64424,theme,13,Historical
+64427,theme,19,Music
+64427,theme,69,Otaku Culture
+64427,demographic,27,Shounen
+64428,genre,4,Comedy
+64428,theme,57,Gag Humor
+64428,theme,68,Organized Crime
+64439,genre,8,Drama
+64439,theme,70,Performing Arts
+64439,demographic,27,Shounen
+64441,genre,4,Comedy
+64441,genre,22,Romance
+64441,genre,37,Supernatural
+64441,genre,9,Ecchi
+64441,theme,23,School
+64441,demographic,27,Shounen
+64444,genre,1,Action
+64444,genre,2,Adventure
+64444,genre,10,Fantasy
+64444,theme,13,Historical
+64444,theme,17,Martial Arts
+64446,genre,1,Action
+64446,genre,2,Adventure
+64446,genre,14,Horror
+64446,genre,7,Mystery
+64446,genre,37,Supernatural
+64446,theme,40,Psychological
+64446,theme,11,Strategy Game
+64446,theme,76,Survival
+64447,genre,1,Action
+64447,genre,2,Adventure
+64447,genre,14,Horror
+64447,genre,7,Mystery
+64447,genre,37,Supernatural
+64447,genre,41,Suspense
+64447,theme,40,Psychological
+64448,genre,1,Action
+64448,genre,2,Adventure
+64448,genre,10,Fantasy
+64448,theme,13,Historical
+64448,theme,17,Martial Arts
+64449,genre,14,Horror
+64449,genre,7,Mystery
+64449,genre,41,Suspense
+64449,theme,58,Gore
+64449,theme,40,Psychological
+64450,genre,1,Action
+64450,genre,2,Adventure
+64450,genre,10,Fantasy
+64450,theme,13,Historical
+64450,theme,17,Martial Arts
+64452,genre,28,Boys Love
+64452,genre,4,Comedy
+64452,theme,81,Crossdressing
+64452,theme,23,School
+64454,genre,1,Action
+64454,genre,2,Adventure
+64454,genre,10,Fantasy
+64454,theme,13,Historical
+64454,theme,17,Martial Arts
+64456,genre,1,Action
+64456,genre,4,Comedy
+64456,genre,14,Horror
+64456,genre,7,Mystery
+64456,genre,37,Supernatural
+64457,genre,1,Action
+64457,genre,2,Adventure
+64457,genre,10,Fantasy
+64457,theme,13,Historical
+64457,theme,17,Martial Arts
+64458,genre,1,Action
+64458,genre,2,Adventure
+64458,genre,10,Fantasy
+64458,genre,24,Sci-Fi
+64458,theme,17,Martial Arts
+64459,genre,8,Drama
+64459,genre,24,Sci-Fi
+64459,demographic,42,Seinen
+64460,genre,1,Action
+64460,genre,2,Adventure
+64460,genre,10,Fantasy
+64462,genre,24,Sci-Fi
+64463,genre,8,Drama
+64463,genre,41,Suspense
+64463,theme,40,Psychological
+64463,theme,23,School
+64466,genre,47,Gourmet
+64466,genre,36,Slice of Life
+64466,theme,50,Adult Cast
+64467,genre,1,Action
+64467,genre,2,Adventure
+64467,genre,4,Comedy
+64467,genre,10,Fantasy
+64467,demographic,27,Shounen
+64468,genre,4,Comedy
+64468,theme,23,School
+64468,theme,11,Strategy Game
+64481,genre,1,Action
+64481,genre,8,Drama
+64481,genre,10,Fantasy
+64481,theme,58,Gore
+64481,theme,6,Mythology
+64481,demographic,42,Seinen
+64482,genre,2,Adventure
+64482,genre,24,Sci-Fi
+64482,theme,18,Mecha
+64482,demographic,42,Seinen
+64484,genre,4,Comedy
+64484,genre,22,Romance
+64484,theme,50,Adult Cast
+64484,theme,35,Harem
+64484,demographic,27,Shounen
+64487,genre,1,Action
+64487,genre,8,Drama
+64487,genre,24,Sci-Fi
+64487,theme,58,Gore
+64487,theme,17,Martial Arts
+64487,demographic,27,Shounen
+64495,genre,1,Action
+64495,genre,4,Comedy
+64495,theme,23,School
+64495,demographic,27,Shounen
+64500,genre,1,Action
+64500,genre,10,Fantasy
+64500,theme,23,School
+64500,demographic,27,Shounen
+64501,genre,24,Sci-Fi
+64516,genre,10,Fantasy
+64516,demographic,42,Seinen
+64520,genre,1,Action
+64520,genre,10,Fantasy
+64520,theme,38,Military
+64520,demographic,27,Shounen
+64524,genre,1,Action
+64524,genre,4,Comedy
+64524,theme,50,Adult Cast
+64524,demographic,27,Shounen
+64527,genre,2,Adventure
+64527,genre,10,Fantasy
+64527,demographic,27,Shounen
+64528,genre,10,Fantasy
+64535,genre,8,Drama
+64535,genre,22,Romance
+64535,theme,50,Adult Cast
+64539,genre,8,Drama
+64539,genre,24,Sci-Fi
+64539,genre,41,Suspense
+64539,theme,59,High Stakes Game
+64539,theme,19,Music
+64539,theme,40,Psychological
+64540,genre,2,Adventure
+64540,genre,10,Fantasy
+64541,theme,60,Idols (Female)
+64541,theme,19,Music
+64544,genre,28,Boys Love
+64544,genre,8,Drama
+64544,theme,50,Adult Cast
+64546,genre,1,Action
+64546,genre,2,Adventure
+64546,genre,10,Fantasy
+64546,theme,50,Adult Cast
+64546,theme,82,Urban Fantasy
+64551,genre,1,Action
+64551,genre,2,Adventure
+64551,genre,10,Fantasy
+64551,theme,62,Isekai
+64552,genre,2,Adventure
+64552,genre,10,Fantasy
+64553,genre,2,Adventure
+64553,genre,10,Fantasy
+64553,genre,22,Romance
+64553,theme,62,Isekai
+64554,genre,4,Comedy
+64554,genre,24,Sci-Fi
+64554,theme,29,Space
+64555,genre,1,Action
+64555,genre,26,Girls Love
+64555,theme,58,Gore
+64555,demographic,42,Seinen
+64560,genre,1,Action
+64560,genre,2,Adventure
+64560,genre,8,Drama
+64560,theme,51,Anthropomorphic
+64560,theme,71,Pets
+64560,theme,76,Survival
+64562,genre,14,Horror
+64562,genre,7,Mystery
+64562,genre,37,Supernatural
+64562,genre,41,Suspense
+64569,genre,10,Fantasy
+64569,genre,22,Romance
+64569,theme,35,Harem
+64569,demographic,42,Seinen
+64573,genre,4,Comedy
+64573,genre,8,Drama
+64573,genre,22,Romance
+64573,theme,60,Idols (Female)
+64573,demographic,27,Shounen
+64583,genre,1,Action
+64583,genre,2,Adventure
+64583,genre,4,Comedy
+64583,genre,7,Mystery
+64583,genre,22,Romance
+64583,theme,17,Martial Arts
+64583,theme,31,Super Power
+64584,genre,1,Action
+64584,genre,2,Adventure
+64584,genre,4,Comedy
+64584,genre,10,Fantasy
+64584,theme,17,Martial Arts
+64584,theme,31,Super Power
+64599,genre,4,Comedy
+64599,theme,50,Adult Cast
+64599,theme,48,Workplace
+64599,demographic,42,Seinen
+64600,genre,4,Comedy
+64600,genre,22,Romance
+64600,theme,68,Organized Crime
+64608,genre,1,Action
+64624,genre,1,Action
+64624,genre,4,Comedy
+64624,genre,10,Fantasy
+64632,genre,10,Fantasy
+64640,genre,4,Comedy
+64640,genre,22,Romance
+64640,theme,81,Crossdressing
+64643,genre,4,Comedy
+64643,genre,22,Romance
+64643,genre,37,Supernatural
+64643,theme,23,School
+64643,demographic,25,Shoujo
+64653,genre,30,Sports
+64653,theme,23,School
+64658,genre,8,Drama
+64658,genre,22,Romance
+64658,theme,19,Music
+64664,genre,22,Romance
+64664,theme,23,School
+64665,genre,4,Comedy
+64665,genre,10,Fantasy
+64665,genre,22,Romance
+64667,genre,8,Drama
+64667,genre,24,Sci-Fi
+64667,theme,18,Mecha
+64667,theme,38,Military
+64667,theme,29,Space
+64685,genre,8,Drama
+64685,genre,41,Suspense
+64685,theme,50,Adult Cast
+64693,genre,2,Adventure
+64693,genre,8,Drama
+64693,genre,24,Sci-Fi
+64693,theme,29,Space
+64693,demographic,27,Shounen
+64694,genre,22,Romance
+64695,genre,1,Action
+64695,genre,4,Comedy
+64695,genre,37,Supernatural
+64695,demographic,42,Seinen
+64712,genre,2,Adventure
+64712,genre,10,Fantasy
+64726,genre,1,Action
+64726,genre,10,Fantasy
+64726,genre,9,Ecchi
+64726,theme,35,Harem
+64726,demographic,27,Shounen
+64731,genre,1,Action
+64731,genre,10,Fantasy
+64737,genre,4,Comedy
+64737,genre,47,Gourmet
+64737,theme,50,Adult Cast
+64737,theme,48,Workplace
+64737,demographic,42,Seinen
+64744,genre,36,Slice of Life
+64744,theme,51,Anthropomorphic
+64746,genre,4,Comedy
+64746,theme,29,Space
+64751,genre,2,Adventure
+64751,genre,10,Fantasy
+64751,theme,65,Magical Sex Shift
+64751,theme,32,Vampire
+64751,theme,79,Video Game
+64768,genre,8,Drama
+64768,genre,10,Fantasy
+64768,genre,22,Romance
+64768,theme,73,Reverse Harem
+64768,theme,83,Villainess
+64782,genre,4,Comedy
+64782,genre,10,Fantasy
+64782,genre,7,Mystery
+64785,genre,4,Comedy
+64785,theme,51,Anthropomorphic
+64785,demographic,15,Kids
+64799,genre,1,Action
+64799,genre,2,Adventure
+64799,genre,10,Fantasy
+64799,theme,38,Military
+64823,genre,12,Hentai
+64835,genre,28,Boys Love
+64835,genre,49,Erotica
+64844,genre,1,Action
+64844,genre,10,Fantasy
+64847,genre,1,Action
+64847,genre,10,Fantasy
+64847,theme,82,Urban Fantasy
+64858,genre,1,Action
+64858,genre,2,Adventure
+64858,genre,10,Fantasy
+64858,demographic,27,Shounen
+64859,genre,1,Action
+64859,genre,2,Adventure
+64859,genre,10,Fantasy
+64859,demographic,27,Shounen
+64877,genre,4,Comedy
+64877,genre,22,Romance
+64877,theme,64,Love Polygon
+64877,theme,23,School
+64877,demographic,42,Seinen
+64884,genre,12,Hentai
+64892,genre,4,Comedy
+64892,genre,22,Romance
+64892,genre,24,Sci-Fi
+64892,theme,78,Time Travel
+64892,demographic,42,Seinen
+64893,genre,1,Action
+64893,genre,2,Adventure
+64893,genre,10,Fantasy
+64893,theme,62,Isekai
+64893,theme,17,Martial Arts
+64893,demographic,27,Shounen
+64895,theme,11,Strategy Game
+64898,genre,22,Romance
+64898,theme,53,Childcare
+64899,genre,12,Hentai
+64905,genre,8,Drama
+64905,theme,38,Military
+64906,genre,28,Boys Love
+64906,theme,50,Adult Cast
+64920,genre,4,Comedy
+64920,genre,24,Sci-Fi
+64920,theme,51,Anthropomorphic
+64920,demographic,15,Kids
+64920,demographic,27,Shounen
+64922,genre,41,Suspense
+64922,demographic,27,Shounen
+64923,genre,1,Action
+64923,theme,38,Military
+64933,theme,68,Organized Crime
+64950,genre,1,Action
+64950,genre,2,Adventure
+64950,genre,10,Fantasy
+64950,theme,78,Time Travel
+64960,genre,1,Action
+64960,genre,2,Adventure
+64960,genre,24,Sci-Fi
+64960,theme,31,Super Power
+64960,demographic,27,Shounen
+64978,genre,7,Mystery
+64978,demographic,42,Seinen
+65013,theme,61,Idols (Male)
+65013,theme,19,Music
+65015,genre,10,Fantasy
+65015,theme,23,School
+65015,theme,82,Urban Fantasy
+65015,demographic,25,Shoujo
+65016,genre,46,Award Winning
+65020,genre,12,Hentai
+65023,genre,1,Action
+65023,genre,10,Fantasy
+65023,theme,6,Mythology
+65023,demographic,27,Shounen
+65024,genre,1,Action
+65024,genre,2,Adventure
+65024,genre,37,Supernatural
+65024,demographic,27,Shounen
+65025,genre,10,Fantasy
+65032,genre,10,Fantasy
+65032,genre,22,Romance
+65032,theme,13,Historical
+65032,theme,83,Villainess
+65035,genre,12,Hentai
+65037,genre,4,Comedy
+65037,theme,50,Adult Cast
+65037,theme,57,Gag Humor
+65037,demographic,42,Seinen
+65038,genre,12,Hentai
+65047,genre,1,Action
+65047,genre,10,Fantasy
+65047,theme,50,Adult Cast
+65050,genre,36,Slice of Life
+65051,genre,4,Comedy
+65051,theme,51,Anthropomorphic
+65052,genre,4,Comedy
+65052,genre,37,Supernatural
+65052,theme,23,School
+65052,demographic,27,Shounen
+65053,genre,8,Drama
+65053,genre,47,Gourmet
+65053,demographic,42,Seinen
+65064,genre,1,Action
+65064,theme,13,Historical
+65064,theme,21,Samurai
+65066,genre,1,Action
+65066,theme,13,Historical
+65066,theme,21,Samurai
+65069,genre,4,Comedy
+65069,genre,9,Ecchi
+65069,theme,23,School
+65070,genre,10,Fantasy
+65070,theme,72,Reincarnation
+65070,demographic,27,Shounen
+65071,genre,4,Comedy
+65071,theme,52,CGDCT
+65071,theme,69,Otaku Culture
+65071,demographic,27,Shounen
+65073,genre,1,Action
+65073,genre,2,Adventure
+65073,genre,10,Fantasy
+65073,theme,62,Isekai
+65073,theme,72,Reincarnation
+65076,genre,4,Comedy
+65076,genre,10,Fantasy
+65076,theme,23,School
+65076,demographic,27,Shounen
+65077,genre,2,Adventure
+65077,genre,8,Drama
+65077,genre,10,Fantasy
+65077,theme,62,Isekai
+65077,theme,72,Reincarnation
+65077,theme,23,School
+65078,genre,10,Fantasy
+65080,genre,22,Romance
+65080,theme,23,School
+65083,genre,8,Drama
+65083,genre,41,Suspense
+65083,theme,59,High Stakes Game
+65083,theme,40,Psychological
+65083,theme,11,Strategy Game
+65083,demographic,42,Seinen
+65087,genre,1,Action
+65087,genre,2,Adventure
+65087,genre,10,Fantasy
+65087,theme,35,Harem
+65087,theme,62,Isekai
+65087,theme,72,Reincarnation
+65092,genre,1,Action
+65092,genre,24,Sci-Fi
+65092,demographic,27,Shounen
+65094,genre,2,Adventure
+65094,genre,10,Fantasy
+65103,genre,10,Fantasy
+65103,theme,62,Isekai
+65103,theme,72,Reincarnation
+65104,genre,4,Comedy
+65104,genre,10,Fantasy
+65104,theme,35,Harem
+65104,theme,62,Isekai
+65104,theme,72,Reincarnation
+65105,genre,22,Romance
+65105,genre,37,Supernatural
+65105,theme,74,Love Status Quo
+65106,genre,7,Mystery
+65106,theme,23,School
+65107,genre,1,Action
+65107,genre,10,Fantasy
+65107,genre,22,Romance
+65107,genre,24,Sci-Fi
+65107,theme,82,Urban Fantasy
+65115,genre,1,Action
+65115,theme,13,Historical
+65115,demographic,42,Seinen
+65116,genre,10,Fantasy
+65116,genre,12,Hentai
+65117,genre,12,Hentai
+65118,genre,37,Supernatural
+65118,theme,32,Vampire
+65118,demographic,27,Shounen
+65124,genre,1,Action
+65124,genre,2,Adventure
+65124,genre,8,Drama
+65124,genre,24,Sci-Fi
+65124,theme,50,Adult Cast
+65124,theme,38,Military
+65124,theme,29,Space
+65144,genre,8,Drama
+65144,genre,30,Sports
+65144,theme,54,Combat Sports
+65145,genre,8,Drama
+65145,genre,10,Fantasy
+65145,genre,22,Romance
+65147,genre,2,Adventure
+65147,genre,10,Fantasy
+65155,genre,2,Adventure
+65155,genre,10,Fantasy
+65161,genre,2,Adventure
+65161,genre,4,Comedy
+65161,demographic,27,Shounen
+65170,genre,37,Supernatural
+65170,theme,32,Vampire
+65180,genre,1,Action
+65180,genre,37,Supernatural
+65180,theme,23,School
+65180,demographic,27,Shounen
+65188,genre,4,Comedy
+65188,genre,22,Romance
+65188,genre,24,Sci-Fi
+65188,genre,9,Ecchi
+65188,demographic,27,Shounen
+65205,genre,4,Comedy
+65205,theme,50,Adult Cast
+65214,genre,4,Comedy
+65214,genre,24,Sci-Fi
+65214,theme,23,School
+65223,genre,36,Slice of Life
+65223,theme,53,Childcare
+65234,genre,12,Hentai
+65246,genre,24,Sci-Fi
+65246,theme,3,Racing
+65247,genre,24,Sci-Fi
+65247,theme,3,Racing
+65248,genre,2,Adventure
+65248,genre,8,Drama
+65248,genre,10,Fantasy
+65248,genre,7,Mystery
+65248,genre,24,Sci-Fi
+65248,theme,58,Gore
+65252,genre,1,Action
+65252,genre,7,Mystery
+65252,genre,24,Sci-Fi
+65252,genre,41,Suspense
+65252,theme,50,Adult Cast
+65252,theme,39,Detective
+65252,theme,40,Psychological
+65252,demographic,42,Seinen
+65259,genre,1,Action
+65259,genre,10,Fantasy
+65259,genre,22,Romance
+65259,theme,38,Military
+65269,genre,12,Hentai
+65270,genre,10,Fantasy
+65270,genre,12,Hentai
+65274,genre,1,Action
+65274,theme,66,Mahou Shoujo
+65281,genre,12,Hentai
+65288,genre,4,Comedy
+65288,genre,22,Romance
+65288,genre,37,Supernatural
+65288,theme,32,Vampire
+65288,demographic,27,Shounen
+65298,genre,1,Action
+65298,genre,10,Fantasy
+65298,theme,38,Military
+65300,genre,4,Comedy
+65300,genre,37,Supernatural
+65300,theme,71,Pets
+65300,demographic,27,Shounen
+65302,genre,4,Comedy
+65302,theme,52,CGDCT
+65302,theme,19,Music
 65318,genre,4,Comedy
 65318,genre,22,Romance
 65318,theme,50,Adult Cast
 65318,theme,69,Otaku Culture
 65318,theme,32,Vampire
 65318,demographic,25,Shoujo
-65321,genre,5,Avant Garde
-65322,theme,19,Music
 65323,genre,1,Action
 65323,genre,2,Adventure
 65323,genre,4,Comedy
@@ -81678,31 +81721,11 @@
 65326,theme,17,Martial Arts
 65326,demographic,42,Seinen
 65332,theme,50,Adult Cast
-65333,theme,19,Music
-65334,genre,5,Avant Garde
-65334,genre,22,Romance
 65335,genre,4,Comedy
 65335,genre,10,Fantasy
 65335,genre,22,Romance
 65335,theme,62,Isekai
 65335,theme,72,Reincarnation
-65337,genre,5,Avant Garde
-65338,genre,10,Fantasy
-65339,genre,8,Drama
-65339,genre,24,Sci-Fi
-65340,genre,4,Comedy
-65341,genre,4,Comedy
-65342,genre,5,Avant Garde
-65343,genre,4,Comedy
-65343,theme,51,Anthropomorphic
-65343,theme,19,Music
-65344,genre,4,Comedy
-65345,genre,4,Comedy
-65346,genre,4,Comedy
-65347,genre,4,Comedy
-65347,genre,37,Supernatural
-65347,theme,51,Anthropomorphic
-65348,genre,1,Action
 65350,genre,1,Action
 65350,genre,4,Comedy
 65350,theme,53,Childcare
